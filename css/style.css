@@ -1,0 +1,329 @@
+/* General CSS */
+
+
+/* Variable */
+:root {
+    /* Colors */
+    --cl-primary-400: #9D5F3B;
+
+    --cl-secondary-400: #3D405B;
+    --cl-seondary-200: #515368;
+
+    --cl-white-400: #ffffff;
+    --cl-white-300: #f6f5f6;
+    --cl-white-200: #ededf2;
+    --cl-white-400-1: #ffffff94;
+
+    --cl-grey-400-1: #ffffff94;
+    --cl-grey-300: #bdbdbd;
+    --cl-grey-200: #726f7c;
+
+    --cl-black-400: #000000;
+    --cl-black-300: #242424;
+    --cl-black-200: #0e071d94;
+
+
+    /* Sizes */
+    --size-5: 0.5rem;
+    --size-10: 1rem;
+    --size-14: 1.4rem;
+    --size-15: 1.5rem;
+    --size-16: 1.6rem;
+    --size-20: 2rem;
+    --size-24: 2.4rem;
+    --size-25: 2.5rem;
+    --size-30: 3rem;
+    --size-32: 3.2rem;
+    --size-34: 3.4rem;
+    --size-35: 3.5rem;
+    --size-36: 3.6rem;
+    --size-38: 3.8rem;
+    --size-40: 4rem;
+    --size-42: 4.2rem;
+    --size-45: 4.5rem;
+    --size-46: 4.6rem;
+    --size-48: 4.8rem;
+    --size-49: 4.9rem;
+    --size-50: 5rem;
+    --size-52: 5.2rem;
+    --size-54: 5.4rem;
+    --size-55: 5.5rem;
+    --size-56: 5.6rem;
+    --size-58: 5.8rem;
+    --size-60: 6rem;
+    --size-62: 6.2rem;
+    --size-64: 6.4rem;
+    --size-65: 6.5rem;
+    --size-66: 6.6rem;
+    --size-70: 7rem;
+}
+
+/* Utils Class */
+.bg--secondary-400{
+    background-color: var(--cl-secondary-400);
+}
+
+.bg--black-400{
+  background-color: var(--cl-black-400);
+}
+
+.bg--white-400{
+  background-color: var(--cl-white-400);
+}
+
+.container {
+  padding: var(--size-60) var(--space-60);
+}
+
+.color--primary{
+    color: var(--cl-primary-400);
+}
+
+.color--secondary{
+    color: var(--cl-secondary-400);
+}
+
+.color--white-400{
+    color: var(--cl-white-400);
+}
+
+.color--black-400{
+  color: var(--cl-black-400);
+}
+
+.color--black-300 {
+  color: var(--cl-black-300);
+}
+
+.color--black-200 {
+  color: var(--cl-black-200);
+}
+
+.color--grey-400-1{
+  color: var(--cl-grey-400-1);
+}
+
+.color--white-400-1{
+  color: var(--cl-white-400-1);
+}
+
+.container-full-width {
+  padding: var(--size-60) 0;
+}
+
+/*  */
+a {
+  font-size: var(--size-16);
+  line-height: var(--size-24);
+  color: var(--cl-white-200);
+}
+
+p {
+  font-size: var(--size-14);
+  line-height: var(--size-24);
+}
+
+.heading--h1{
+  font-size: var(--size-40);
+  line-height: var(--size-49);
+}
+
+.heading--h2{
+  font-size: var(--fs-64);
+  line-height: var(--fw-61);
+}
+
+.heading--h3{
+  font-size: var(--fs-48);
+  line-height: var(--fw-46);
+}
+
+.heading--h4{
+  font-size: var(--size-20);
+  line-height: var(--size-32);
+}
+
+.heading--h5{
+  font-size: var(--fs-24);
+  line-height: var(--fw-27);
+}
+
+.heading--h6{
+  font-size: var(--fs-14);
+  line-height: var(--fw-14);
+}
+
+.paragraph--sm {
+  font-size: var(--size-24);
+}
+
+
+/* Buttons */
+.button {
+  text-decoration: none;
+  font-size: var(--fs-16);
+  line-height: var(--fw-16);
+  padding: var(--space-15) var(--space-25);
+  border-radius: var(--space-50);
+  box-sizing: border-box;
+}
+
+.button-round {
+  padding: var(--space-15) var(--space-15);
+  border-radius: 50%;
+  border: 1px solid var(--cl-white-400);
+}
+
+.button--black {
+  background: linear-gradient(to right, var(--cl-black-400) 50%, var(--cl-white-400) 50%);
+  background-size: 200% 100%;
+  border: 1px solid rgb(86, 85, 85);
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out, transform .5s;
+}
+
+.button--bg--trans:hover {
+  background-position: -100%;
+  transform: scale(1.05, 1.12);
+  background-color: var(--cl-white-400);
+  color: var(--cl-black-400);
+}
+
+.button--white {
+  background-color: var(--cl-white-400);
+  color: var(--cl-black-400);
+  box-sizing: border-box;
+  transition: transform .5s;
+}
+
+.button--hover--scale:hover {
+  transform: scale(1.1, 1.18);
+}
+
+.cta-group, .btn-single {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cta-group a, .btn-single a{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button--transparent-trans-black{
+  background: linear-gradient(90deg, #000 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border: 0.4px solid var(--cl-grey-300);
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out, transform .5s;
+}
+
+.button--transparent-trans-white{
+  background: linear-gradient(90deg, #fff 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border: 0.4px solid var(--cl-grey-300);
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out, transform .5s;
+}
+
+.button--transparent-trans:hover{
+  background-position: left bottom;
+  border: none;
+}
+
+.button--transparent-trans-white:hover{
+  color: var(--cl-black-400);
+}
+
+.button--transparent-trans-back:hover{
+  color: var(--cl-white-400);
+}
+
+/* Icons */
+.material-symbols-outlined {
+  font-size: var(--fs-18) !important;
+  font-weight: 300 !important;
+}
+
+/* Spacing */
+.padding--inline-10 {
+  padding-inline: var(--space-100);
+}
+
+.padding--top-52 {
+  padding-top: 5.2rem;
+}
+
+.padding--bottom-62 {
+  padding-bottom: 6.2rem;
+}
+
+.padding--top-bottom-15 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.padding--top-bottom-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.padding--top-bottom-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.padding--top-bottom-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.margin--bm-1 {
+  margin-bottom: 1rem;
+}
+
+.margin--bm-2 {
+  margin-bottom: 2rem;
+}
+
+.margin--bm-3 {
+  margin-bottom: 3rem;
+}
+
+.margin--bm-4 {
+  margin-bottom: 4rem;
+}
+
+.margin--bm-6 {
+  margin-bottom: 6rem;
+}
+
+
+.margin--bm-8 {
+  margin-bottom: 8rem;
+}
+
+.gap--05 {
+  gap: 0.5rem;
+}
+
+.gap--1 {
+  gap: 1rem;
+}
+
+.gap--15 {
+  gap: 1.5rem;
+}
+
+.gap--2 {
+  gap: 2rem;
+}
+
+.gap--4 {
+  gap: 4rem;
+}
+
+.hr {
+  border: 0.1px solid var(--cl-hr-400);
+}
