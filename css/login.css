@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 72.4vh;
+  width: 75rem;
+  margin: auto;
+  background: #3d405b;
+  top: 100px;
+  border-radius: 10px;
+}
+.hero1 {
+  height: 72.4vh;
+  width: 37.5rem;
+}
+.hero1 img {
+  width: 100%;
+  height: 72.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+.hero2 {
+  width: 31.8rem;
+  height: 62vh;
+  color: #ffffff;
+  font-weight: 500;
+}
+.hero2 h1 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 23.2px;
+  margin-left: 4rem;
+}
+.hero2 h2 {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #a6a6a6;
+  left: 30px;
+  display: inline;
+  margin-left: 6rem;
+  text-align: center;
+}
+.c {
+  display: inline-block;
+  font-size: 0.8rem;
+  border: none;
+  color: #ffffff;
+  line-height: 17px;
+}
+.d {
+  display: inline-block;
+  font-size: 0.7rem;
+  border: none;
+  color: #b9b9b999;
+  line-height: 5px;
+  text-align: center;
+}
+h4 {
+  overflow: hidden;
+  text-align: center;
+  color: #919191;
+  font-size: 0.7rem;
+}
+
+h4::before,
+h4::after {
+  background-color: #919191;
+  color: #919191;
+  content: "";
+  display: inline-block;
+  height: 0.1px;
+  position: relative;
+  vertical-align: middle;
+  width: 93.35px;
+  border: 0.1px #919191;
+}
+
+h4::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h4::after {
+  left: 0.5em;
+  margin-right: -30%;
+}
+.hero2 a {
+  font-size: 0.9rem;
+  color: #919191;
+  text-decoration: none;
+  line-height: 19px;
+}
+
+button {
+  width: 265px;
+  height: 37px;
+  padding: 6px 2px 6px 2px;
+  gap: 10px;
+  border-radius: 3px 3px 3px 3px;
+  opacity: 0px;
+  border: 1px solid gray;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+  background-color: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+button img {
+  width: 25px;
+  vertical-align: middle;
+  align-items: center;
+  margin-left: 10rem;
+}

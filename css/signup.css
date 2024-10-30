@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 72.4vh;
+  width: 75rem;
+  margin: auto;
+  background: #3d405b;
+  top: 100px;
+  border-radius: 10px;
+}
+.intro-img {
+  height: 72.4vh;
+  width: 37.5rem;
+}
+.intro-img img {
+  width: 100%;
+  height: 72.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+.intro-text {
+  width: 31.8rem;
+  height: 65vh;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.intro-text h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 43.2px;
+  margin-left: 2rem;
+}
+
+.intro-text p {
+  display: inline;
+}
+.intro-text a {
+  color: #aa5e31;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.intro-text h2 {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #a6a6a6;
+  left: 30px;
+  display: inline;
+  margin-left: 2rem;
+}
+.a {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border: none;
+  color: #ffffff;
+  line-height: 16px;
+  margin-bottom: 1rem;
+}
+.b {
+  display: inline-block;
+  color: #b9b9b999;
+  font-size: 0.8rem;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 16px;
+}
+.p1 {
+  font-weight: 300;
+  font-size: 0.7rem;
+  display: inline;
+  vertical-align: middle;
+  line-height: 3px;
+}
+.p2 {
+  color: #aa5e31;
+  font-weight: 300;
+  font-size: 0.7rem;
+  display: inline;
+  vertical-align: middle;
+  line-height: 3px;
+}
