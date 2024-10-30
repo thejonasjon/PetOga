@@ -7,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: inherit;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -98,4 +98,56 @@ body {
   display: inline;
   vertical-align: middle;
   line-height: 3px;
+}
+#username {
+  width: 130px;
+  height: Fixed (61px);
+  padding: 12px 2px 12px 2px;
+  gap: 20px;
+  border-radius: 3px 3px 3px 3px;
+  opacity: 0px;
+  background-color: #686b8c;
+  border: none;
+  color: #b9b9b999;
+  text-align: left;
+  font-size: 1rem;
+}
+#email {
+  width: 265px;
+  height: Fixed (65px) px;
+  padding: 12px 2px 12px 2px;
+  gap: 10px;
+  border-radius: 3px 3px 3px 3px;
+  opacity: 0px;
+  background-color: #686b8c;
+  border: none;
+  color: #b9b9b999;
+  text-align: left;
+  font-size: 1rem;
+}
+#password {
+  width: 265px;
+  height: Fixed (65px) px;
+  padding: 12px 2px 12px 2px;
+  gap: 10px;
+  border-radius: 3px 3px 3px 3px;
+  opacity: 0px;
+  background-color: #686b8c;
+  border: none;
+  color: #b9b9b999;
+  text-align: left;
+  font-size: 1rem;
+}
+#submit {
+  width: 265px;
+  height: Fixed (65px) px;
+  padding: 12px 2px 12px 2px;
+  gap: 10px;
+  border-radius: 3px 3px 3px 3px;
+  opacity: 0px;
+  background-color: #f3f3f3;
+  border: none;
+  color: #3d405b;
+  text-align: center;
+  font-size: 1rem;
 }
