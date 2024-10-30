@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_arrow_down" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -18,59 +20,60 @@
 <body>
     <!-- Landing section -->
     <section>
-        <div class="container--full-width">
-            <header>
-                <div class="main-nav">
+        <div class="container--full-width bg--secondary-400">
+            <div class="header-hero">
+                <header class="padding--top-52 margin--bm-10">
+                    <div class="main-nav padding--inline-100 flex-display justify-content--space_between align-items--center">
+                        <div class="nabar--brand">
+                            <a href="#">PetOga</a>
+                        </div>
+                        <nav>
+                            <ul role='list' class="flex-display gap--4">
+                                <li><a class="flex-display justify-content--space_between align-items--center gap--05" href="#"> <span>Features</span><span class="material-symbols-outlined nav--dropdown-icon">keyboard_arrow_down</span></a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </nav>
 
-                    <div class="nabar--brand">
-                        <a href="#">PetOga</a>
+                        <div class="btn-container flex-display gap--1">
+                            <a class="button button-round--3 border--primary" href="#">Log in</a>
+                            <a class="button button-round--3 button--bg-primary" href="#">Sign up</a>
+                        </div>
+
                     </div>
-                    <nav>
-                        <ul>
-                            <li><a href="#"> <span>Features</span><span class="material-symbols-outlined">keyboard_arrow_down</span></a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-                    </nav>
+                </header>
 
-                    <div class="btn-container">
-                        <a href="#">Log in</a>
-                        <a href="#">Sign up</a>
+                <div class="hero">
+                    <div class="text-block text-align--center color--white-400">
+                        <h1 class="heading--h1">Find your perfect pet and manage <br>their wellbeing with ease</h1>
+                        <p class="paragraph--sm padding--block-25">Explore a variety of pets, easily book services, and manage your pet's needs <br> —all in one convenient platform!</p>
+                    </div>
+
+                    <div class="btn-container text-align--center margin--top-10">
+                        <a class="button button--bg-white" href="#">Explore Services</a>
+                    </div>
+
+                    <div class="image-block">
+                        <img src="#" alt="Hero Cat and Dog Image">
                     </div>
 
                 </div>
-            </header>
-
-            <div class="hero">
-                <div class="text-block">
-                    <h1>Find your perfect pet and manage their wellbeing with ease</h1>
-                    <p>Explore a variety of pets, easily book services, and manage your pet's needs —all in one convenient platform!</p>
-                </div>
-
-                <div class="btn-container">
-                    <a href="#">Explore Services</a>
-                </div>
-
-                <div class="image-block">
-                    <img src="#" alt="Hero Cat and Dog Image">
-                </div>
-
             </div>
 
-            <div class="statistics">
-                <div class="content">
-                    <div class="content-block">
-                        <h3>10K+</h3>
+            <div class="statistics bg--white-400 margin--block-50">
+                <div class="content flex-display justify-content--space_between">
+                    <div class="content-block text-align--center">
+                        <h3 class="heading--h3">10K+</h3>
                         <p>Adopted pets</p>
                     </div>
 
-                    <div class="content-block">
-                        <h3>200M+</h3>
+                    <div class="content-block text-align--center">
+                        <h3 class="heading--h3">200M+</h3>
                         <p>Pet Posts</p>
                     </div>
 
-                    <div class="content-block">
-                        <h3>10K+</h3>
+                    <div class="content-block text-align--center">
+                        <h3 class="heading--h3 ">10K+</h3>
                         <p>Registered seasoned Vet</p>
                     </div>
                 </div>
@@ -81,22 +84,22 @@
     <!-- Main -->
     <main>
         <!-- Service Overview -->
-        <section>
+        <section class="service padding--block-100">
             <div class="container">
                 <div class="content">
                     <div class="heading">
-                        <div class="heading-text">
-                            <h2>Service Overview</h2>
-                            <p>A closer look at expert PetOga services</p>
+                        <div class="heading-text text-align--center padding--block-25">
+                            <h2 class="heading--h2">Service Overview</h2>
+                            <p class="paragraph--md padding--block-12">A closer look at expert PetOga services</p>
                         </div>
                     </div>
 
-                    <div>
-                        <div class="text-block">
-                            <h4>Get access to Varieties of pets of your choice</h4>
-                            <p>Explore a diverse selection of pets to find the perfect companion that matches your lifestyle. From popular breeds to unique choices, discover pets suited to your preferences—all in one place.</p>
-                            <div class="btn-container">
-                                <a href="#">Get Started</a>
+                    <div class="grid-2-column gap--4">
+                        <div class="text-block ">
+                            <h4 class="heading--h4">Get access to Varieties of pets of your choice</h4>
+                            <p class="margin--block-20">Explore a diverse selection of pets to find the perfect companion that matches your lifestyle. From popular breeds to unique choices, discover pets suited to your preferences—all in one place.</p>
+                            <div class="btn-container margin--top-10">
+                                <a class="button button--bg-primary" href="#">Get Started</a>
                             </div>
                         </div>
 
@@ -119,19 +122,19 @@
         </section>
 
         <!-- Vet Appointment -->
-        <section>
-            <div class="container--full-width">
-                <div class="content">
+        <section class="appointment padding--block-100">
+            <div class="container--full-width bg--secondary-400 color--white-400 padding--inline-120 padding--top-52">
+                <div class="content grid-2-column gap--4">
                     <div class="image-block">
                         <img src="#" alt="Image Vet Doctor">
                         <img src="#" alt="Image Love">
                     </div>
 
                     <div class="text-block">
-                        <h4>Vet Appointment Made Easy</h4>
-                        <p>Booking a vet appointment has never been easier. Schedule check-ups, vaccinations, and more with trusted vets, all in just a few clicks!</p>
-                        <div class="btn-container">
-                            <a href="#">Book Now</a>
+                        <h4 class="heading--h4">Vet Appointment Made Easy</h4>
+                        <p class="margin--block-20">Booking a vet appointment has never been easier. Schedule check-ups, vaccinations, and more with trusted vets, all in just a few clicks!</p>
+                        <div class="btn-container margin--top-10">
+                            <a class="button button--bg-primary" href="#">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -139,25 +142,25 @@
         </section>
 
         <!-- Connect Pet Vendors -->
-        <section>
+        <section class="connect padding--block-100">
             <div class="container">
                 <div class="content">
                     <div class="heading">
-                        <div class="heading-text">
-                            <h2>Easily Connect With Pet Vendors</h2>
+                        <div class="heading-text text-align--center padding--block-25">
+                            <h2 class="heading--h2">Easily Connect With Pet Vendors</h2>
                         </div>
                     </div>
 
-                    <div>
-                        <div class="text-block">
+                    <div class="grid-2-column gap--4">
+                        <div class="text-block text-align--center">
                             <p>Effortlessly connect with trusted pet vendors for all your pet needs. From supplies to services, find reliable vendors just a tap away!</p>
-                            <div>
+                            <div class="profile margin--block-20">
                                 <img src="#" alt="Profile Photo">
                                 <span>Jonas Williams</span>
                                 <p>Pet Seller</p>
                             </div>
-                            <div class="btn-container">
-                                <a href="#">Connect Now</a>
+                            <div class="btn-container margin--top-10">
+                                <a class="button button--bg-primary" href="#">Connect Now</a>
                             </div>
                         </div>
 
@@ -184,16 +187,16 @@
         </section>
 
         <!-- Secure Transaction -->
-        <section>
+        <section class="transaction padding--block-100">
             <div class="container">
-                <div class="content">
+                <div class="content grid-2-column gap--4">
                     <div class="image-block">
                         <img src="#" alt="Transaction Image">
                     </div>
 
                     <div class="text-block">
-                        <h4>Trusted and Secure Transactions</h4>
-                        <p>Experience peace of mind with trusted, secure transactions for every pet purchase and service booking. Your safety and satisfaction come first!</p>
+                        <h4 class="heading--h4">Trusted and Secure Transactions</h4>
+                        <p class="margin--block-20">Experience peace of mind with trusted, secure transactions for every pet purchase and service booking. Your safety and satisfaction come first!</p>
                         <div class="sub-block">
                             <div>
                                 <span></span><p>Get in touch directly with the Seller.</p>
@@ -209,17 +212,17 @@
         </section>
 
         <!-- How it Works -->
-        <section>
+        <section class="how-it-work padding--block-100">
             <div class="container--full-width">
                 <div class="content">
                     <div class="heading">
-                        <div class="heading-text">
-                            <h2>How does PetOga work?</h2>
-                            <p>PetOga works in 4 easy steps.</p>
+                        <div class="heading-text text-align--center">
+                            <h2 class="heading--h2">How does PetOga work?</h2>
+                            <p class="paragraph--md margin--block-20">PetOga works in 4 easy steps.</p>
                         </div>
                     </div>
 
-                    <div class="content-block">
+                    <div class="content-block flex-display gap--2 padding--inline-120">
                         <div class="block-card">
                             <div class="card-image-block">
                                 <img src="#" alt="Sign up Image">
@@ -261,25 +264,25 @@
                         </div>
                     </div>
 
-                    <div class="btn-container">
-                        <a href="#"> Get Started</a>
+                    <div class="btn-container margin--top-10">
+                        <a class="button button--bg-primary" href="#"> Get Started</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Blog Resources -->
-        <section>
+        <section class="blog padding--block-100">
             <div class="container--full-width">
                 <div class="content">
                     <div class="heading">
-                        <div class="heading-text">
-                            <h2>Blog Resources</h2>
-                            <p>Read our professional articles and resources for pet care.</p>
+                        <div class="heading-text text-align--center">
+                            <h2 class="heading--h2">Blog Resources</h2>
+                            <p class="paragraph--md margin--block-20">Read our professional articles and resources for pet care.</p>
                         </div>
                     </div>
 
-                    <div class="content-block">
+                    <div class="content-block flex-display flex-wrap gap--2 padding--inline-120">
                         <div class="block-card">
                             <div class="card-image-block">
                                 <img src="#" alt="Image 1">
@@ -349,26 +352,26 @@
         </section>
 
         <!-- Testimonials -->
-        <section>
+        <section class="testimonial padding--block-100">
             <div class="container">
                 <div class="content">
                     <div class="heading">
-                        <div class="heading-text">
-                            <h2>Testimonials</h2>
-                            <p>Feedback from Amazing Clients.</p>
+                        <div class="heading-text text-align--center">
+                            <h2 class="heading--h2">Testimonials</h2>
+                            <p class="paragraph--md margin--block-20">Feedback from Amazing Clients.</p>
                         </div>
 
-                        <div class="content-block">
+                        <div class="content-block flex-display gap--4">
                             <div class="image-block">
                                 <img src="#" alt="Testimonials">
                             </div>
 
                             <div class="text-block">
-                                <div>
+                                <div class="quote">
                                     <p>“As a new pet owner, I used to worry about how to manage everything on my own. Thankfully, I discovered PetOga that provided me with the guidance and support I needed.”</p>
                                 </div>
 
-                                <div>
+                                <div class="profile">
                                     <img src="#" alt="Profile photo">
                                     <span>
                                         <p>Brenda Junior</p>
@@ -383,13 +386,13 @@
         </section>
 
         <!-- FAQ -->
-        <section>
+        <section class="faq padding--block-100">
             <div class="container">
-                <div class="content">
+                <div class="content grid-2-column">
                     <div class="heading">
                         <div class="heading-text">
-                            <h2>FAQs</h2>
-                            <p>Find Answer to PetOga Frequently  Asked Questions.</p>
+                            <h2 class="heading--h2">FAQs</h2>
+                            <p class="paragraph--sm margin--block-20">Find Answer to PetOga Frequently  Asked Questions.</p>
                         </div>
                     </div>
 
@@ -462,17 +465,17 @@
         </section>
 
         <!-- Get Started -->
-        <section>
-            <div class="container--full-width">
+        <section class="get-started">
+            <div class="container--full-width padding--block-100">
                 <div class="content">
-                    <div class="heading">
-                        <div class="heading-text">
-                            <h2>Start Caring for Your Pet Today!</h2>
+                    <div class="heading color--white-200">
+                        <div class="heading-text text-align--center">
+                            <h2 class="heading--h2">Start Caring for Your Pet Today!</h2>
                         </div>
                     </div>
 
-                    <div class="btn-container">
-                        <a href="#">Get Started</a>
+                    <div class="btn-container margin--top-60">
+                        <a class="button button--bg-primary" href="#">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -480,30 +483,32 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container--full-width">
+    <footer class="footer">
+        <div class="container--full-width bg--secondary-400 padding--inline-100 padding--block-100 ">
             <div class="content">
-                <div>
+                <div class="brief">
                     <div class="nabar--brand">
                         <a href="#">PetOga</a>
                     </div>
 
-                    <div>
-                        <p>Our mission is to make Adopting and caring for your perfect pet a seamless and enjoyable experience.</p>
+                    <div class="mission">
+                        <p class="margin--block-20">Our mission is to make Adopting and caring for your perfect pet a seamless and enjoyable experience.</p>
                     </div>
 
-                    <div class="btn-container">
-                        <a href="#">Get Started</a>
+                    <div class="btn-container margin--block-20">
+                        <a class="button button--bg-white" href="#">Get Started</a>
                     </div>
 
-                    <div>
+                    <div class="copyright">
                         <p>&COPY; 2024 PetOga. All rights reserved.</p>
                     </div>
                 </div>
-                <div class="footer-nav">
+
+                <div class="footer-nav gap--4">
+
                     <div class="nav-links">
                         <h5>Socials</h5>
-                        <ul>
+                        <ul role="list">
                             <li><a href="#">Facebook</a></li>
                             <li><a href="#">Twitter</a></li>
                             <li><a href="#">Instagram</a></li>
@@ -515,7 +520,7 @@
 
                     <div class="nav-links">
                         <h5>Services</h5>
-                        <ul>
+                        <ul role="list">
                             <li><a href="#">Adopt a Pet</a></li>
                             <li><a href="#">Connect with Vet</a></li>
                             <li><a href="#">Extra Service</a></li>
@@ -525,7 +530,7 @@
 
                     <div class="nav-links">
                         <h5>Meet PetOga</h5>
-                        <ul>
+                        <ul role="list">
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Who We Are</a></li>
                             <li><a href="#">How We Help</a></li>
@@ -537,7 +542,7 @@
 
                     <div class="nav-links">
                         <h5>Support</h5>
-                        <ul>
+                        <ul role="list">
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">Partner WIth Us</a></li>
                             <li><a href="#">Privacy Policy</a></li>
