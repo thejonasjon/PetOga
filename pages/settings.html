@@ -3,6 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Reset password</title>
     <link rel="stylesheet" href="../css/settings.css" />
     <link rel="stylesheet" href="../css/reset.css" />
@@ -14,8 +26,8 @@
         <h1>Set new password</h1>
         <h2>Enter new details to update password</h2>
         <form action="">
-          <label style="color: #606060; font-weight: 600" for="email"
-            >New PassWord</label
+          <label class="a" for="PassWord"
+            >New PassWord<span style="color: rgb(223, 37, 4)"> *</span></label
           ><br />
           <input
             type="text"
@@ -25,10 +37,8 @@
           />
         </form>
         <br />
-        <form action="">
-          <label style="color: #606060; font-weight: 600" for="email"
-            >Confirm new PassWord</label
-          ><br />
+        <form class="a">
+          <label for="password">Confirm new PassWord<span style="color: rgb(223, 37, 4)"> *</label><br />
           <input
             type="text"
             id="password"
@@ -36,7 +46,7 @@
             value="Confirm password"
           />
         </form>
-        <br /><br />
+        <br /><br /><br><br><br>
         <form action="">
           <input type="text" id="pwd" name="pwd" value="Reset password" />
         </form>
