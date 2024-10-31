@@ -7,10 +7,11 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: inherit;
+  font-family: "Montserrat", serif;
+  font-style: normal;
   font-optical-sizing: auto;
   font-weight: weight;
-  font-style: normal;
+  background-color: black;
 }
 
 .container {
@@ -18,36 +19,42 @@ body {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  height: 72.4vh;
-  width: 75rem;
+  height: 99.8vh;
+  width: 116rem;
   margin: auto;
   background: #3d405b;
-  top: 100px;
-  border-radius: 10px;
+  font-family: "Montserrat", serif;
+  border-radius: 20px;
 }
 .intro-img {
-  height: 72.4vh;
-  width: 37.5rem;
+  height: 99.8vh;
+  width: 59rem;
 }
 .intro-img img {
   width: 100%;
-  height: 72.4vh;
+  height: 99.8vh;
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .intro-text {
-  width: 31.8rem;
-  height: 65vh;
+  height: 90.8vh;
+  width: 50rem;
   color: #ffffff;
   font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", serif;
 }
 
 .intro-text h1 {
-  font-size: 2.4rem;
-  font-weight: 500;
-  line-height: 43.2px;
-  margin-left: 2rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 46.2px;
+  margin-right: 7rem;
+  text-align: center;
 }
 
 .intro-text p {
@@ -56,37 +63,40 @@ body {
 .intro-text a {
   color: #aa5e31;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .intro-text h2 {
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: #a6a6a6;
-  left: 30px;
   display: inline;
-  margin-left: 2rem;
+  text-align: center;
+  line-height: 10px;
+  margin-left: 6rem;
 }
 .a {
   display: inline-block;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   border: none;
   color: #ffffff;
-  line-height: 16px;
+  line-height: 24px;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 .b {
   display: inline-block;
   color: #b9b9b999;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   color: #ffffff;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 .p1 {
   font-weight: 300;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   display: inline;
   vertical-align: middle;
   line-height: 3px;
@@ -94,60 +104,92 @@ body {
 .p2 {
   color: #aa5e31;
   font-weight: 300;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   display: inline;
   vertical-align: middle;
   line-height: 3px;
 }
+::placeholder {
+  color: #b9b9b999;
+  opacity: 1;
+}
+#username:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(73, 146, 206);
+}
+#submit:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #aa5e31;
+}
+#email:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(73, 146, 206);
+}
+#password:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(73, 146, 206);
+}
+.a:hover {
+  color: rgb(73, 146, 206);
+}
+.b:hover:hover {
+  color: rgb(73, 146, 206);
+}
+
 #username {
-  width: 130px;
-  height: Fixed (61px);
-  padding: 12px 2px 12px 2px;
+  width: 200px;
+  height: 60px;
+  padding: 12px px 12px 2px;
   gap: 20px;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 7px;
   opacity: 0px;
   background-color: #686b8c;
   border: none;
   color: #b9b9b999;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  margin: 0.2rem;
 }
 #email {
-  width: 265px;
-  height: Fixed (65px) px;
+  width: 408px;
+  height: 60px;
   padding: 12px 2px 12px 2px;
   gap: 10px;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 7px;
   opacity: 0px;
   background-color: #686b8c;
   border: none;
   color: #b9b9b999;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 #password {
-  width: 265px;
-  height: Fixed (65px) px;
+  width: 408px;
+  height: 60px;
   padding: 12px 2px 12px 2px;
   gap: 10px;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 7px;
   opacity: 0px;
   background-color: #686b8c;
   border: none;
   color: #b9b9b999;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 #submit {
-  width: 265px;
-  height: Fixed (65px) px;
+  width: 408px;
+  height: 60px;
   padding: 12px 2px 12px 2px;
   gap: 10px;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 7px;
   opacity: 0px;
   background-color: #f3f3f3;
   border: none;
   color: #3d405b;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }

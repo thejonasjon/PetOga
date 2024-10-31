@@ -7,10 +7,11 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", serif;
+  font-style: normal;
   font-optical-sizing: auto;
   font-weight: weight;
-  font-style: normal;
+  background-color: black;
 }
 
 .container1 {
@@ -18,65 +19,75 @@ body {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  height: 72.4vh;
-  width: 75rem;
+  height: 99.8vh;
+  width: 116rem;
   margin: auto;
   background: #3d405b;
-  top: 100px;
-  border-radius: 10px;
+  font-family: "Montserrat", serif;
+  border-radius: 20px;
 }
 .hero1 {
-  height: 72.4vh;
-  width: 37.5rem;
+  height: 99.8vh;
+  width: 59rem;
 }
 .hero1 img {
   width: 100%;
-  height: 72.4vh;
+  height: 99.8vh;
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .hero2 {
-  width: 31.8rem;
-  height: 62vh;
+  height: 90.8vh;
+  width: 50rem;
   color: #ffffff;
   font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", serif;
 }
+
 .hero2 h1 {
-  font-size: 2.25rem;
-  font-weight: 500;
-  line-height: 23.2px;
-  margin-left: 4rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 46.2px;
+  margin-right: 7rem;
+  text-align: center;
 }
 .hero2 h2 {
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #a6a6a6;
-  left: 30px;
   display: inline;
-  margin-left: 6rem;
   text-align: center;
+  line-height: 10px;
+  margin-left: 15rem;
 }
 .c {
   display: inline-block;
-  font-size: 0.8rem;
+  font-weight: 500;
+  font-size: 1.3rem;
   border: none;
   color: #ffffff;
-  line-height: 17px;
+  line-height: 24px;
+  margin-bottom: 1rem;
+  font-weight: 400;
 }
 .d {
   display: inline-block;
-  font-size: 0.7rem;
-  border: none;
   color: #b9b9b999;
-  line-height: 5px;
-  text-align: center;
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 24px;
 }
 h4 {
   overflow: hidden;
   text-align: center;
   color: #919191;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 h4::before,
@@ -85,10 +96,10 @@ h4::after {
   color: #919191;
   content: "";
   display: inline-block;
-  height: 0.1px;
+  height: 0.4px;
   position: relative;
   vertical-align: middle;
-  width: 93.35px;
+  width: 173.35px;
   border: 0.1px #919191;
 }
 
@@ -102,31 +113,93 @@ h4::after {
   margin-right: -30%;
 }
 .hero2 a {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #919191;
   text-decoration: none;
-  line-height: 19px;
+  line-height: 50px;
 }
 
 button {
-  width: 265px;
-  height: 37px;
+  width: 420px;
+  height: 60px;
   padding: 6px 2px 6px 2px;
-  gap: 10px;
+
   border-radius: 3px 3px 3px 3px;
-  opacity: 0px;
+
   border: 1px solid gray;
   color: #ffffff;
   text-align: center;
-  font-size: 1rem;
-  display: inline-block;
+  font-size: 1.5rem;
+  justify-content: center;
   background-color: inherit;
   font-weight: 400;
   font-family: inherit;
+  align-items: center;
+  display: inline-flex;
 }
 button img {
-  width: 25px;
+  width: 41.2px;
+  height: 39px;
+  gap: 0px;
+  opacity: 0px;
+
   vertical-align: middle;
   align-items: center;
-  margin-left: 10rem;
+}
+#email {
+  width: 420px;
+  height: 60px;
+  padding: 12px 2px 12px 2px;
+  gap: 10px;
+  border-radius: 7px;
+  opacity: 0px;
+  background-color: #686b8c;
+  border: none;
+  color: #b9b9b999;
+  text-align: left;
+  font-size: 1.3rem;
+}
+#submit {
+  width: 420px;
+  height: 60px;
+  padding: 12px 2px 12px 2px;
+  gap: 10px;
+  border-radius: 7px;
+  opacity: 0px;
+  background-color: #f3f3f3;
+  border: none;
+  color: #3d405b;
+  text-align: center;
+  font-size: 1.5rem;
+}
+::placeholder {
+  color: #b9b9b999;
+  opacity: 1;
+}
+
+#submit:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #aa5e31;
+}
+#email:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(73, 146, 206);
+}
+button:hover {
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
+#password:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(73, 146, 206);
+}
+.c:hover {
+  color: rgb(73, 146, 206);
+}
+.d:hover:hover {
+  color: rgb(73, 146, 206);
 }
