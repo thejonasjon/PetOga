@@ -1,71 +1,105 @@
+body {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  background-color: black;
+}
 .container3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  width: 616px;
-  height: 459px;
-  top: 97px;
+  height: 99.8vh;
+  width: 116rem;
 
   gap: 0px;
   opacity: 0px;
-  background: #f3f3f333;
+  background: #ffffff;
   margin: auto;
 }
 
 .contain h1 {
-  font-family: inherit;
-  font-size: 2.65rem;
+  font-size: 3.7rem;
   font-weight: 500;
-  line-height: 43.2px;
-  text-align: left;
+  line-height: 48.2px;
+  font-family: "Montserrat", serif;
+  text-align: center;
   color: #3d405b;
-  margin-left: 4rem;
 }
 .contain h2 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 14.4px;
   text-align: center;
-  width: 216px;
+  width: 296px;
   height: 28px;
   gap: 0px;
-  opacity: 0px;
-  margin-bottom: 2rem;
-  margin-left: 4rem;
-  color: #a6a6a6;
-  font-weight: 300;
+  opacity: 1px;
+  margin-bottom: 5rem;
+  margin-left: 6rem;
+  color: #3d405b;
+  font-family: "Montserrat", serif;
 }
 
 #password {
-  width: 300px;
-  height: 40px;
-  top: 287px;
-  left: 92px;
-  padding: 16px 24px 16px 24px;
+  width: 432px;
+  height: 45px;
+  font-size: 1.2rem;
+  padding: 10px;
   gap: 10px;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 7px;
   opacity: 0px;
+  border: 0.1px solid #00000066;
+  color: #989898;
   border: none;
-  color: #00000066;
-  font-weight: 500;
-  background: #555454;
+  font-weight: 400;
+  font-family: "Montserrat", serif;
   line-height: 36px;
   background-color: #f6f6f6;
 }
 #pwd {
-  width: 300px;
-  height: 40px;
-  top: 287px;
-  left: 92px;
-  padding: 16px 24px 16px 24px;
+  width: 432px;
+  height: 65px;
+  padding: 12px 2px 12px 2px;
   gap: 10px;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 7px;
   opacity: 0px;
-  border: 0.1px solid #3d405b;
   background-color: #3d405b;
-  color: white;
+  border: none;
+  color: #ffffff;
   text-align: center;
-  font-weight: 500;
+  font-size: 1.7rem;
 }
+.a {
+  display: inline-block;
+  font-size: 1.2rem;
+  border: none;
+  color: #3D405B;
+;
+  font-family: "Montserrat", serif;
+  line-height: 26px;
+
+  font-weight: 600;
+}
+::placeholder {
+  color: #b9b9b999;
+  opacity: 1;
+}
+#password:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid rgb(73, 146, 206);
+  text-decoration: none;
+}
+#pwd:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #aa5e31;
+}
+
+.a:hover {
+  color: rgb(73, 146, 206);
+}
+.
