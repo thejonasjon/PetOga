@@ -101,21 +101,3 @@ body {
 .a:hover {
   color: rgb(73, 146, 206);
 }
-.p-viewer {
-  z-index: 9999;
-  position: absolute;
-  left: 660px;
-  top: 341px;
-  margin-top: -60px;
-}
-.p-viewer1 {
-  z-index: 9999;
-  position: absolute;
-  left: 660px;
-  top: 421px;
-  margin-top: -60px;
-}
-.fa-eye-slash {
-  font-size: 14px;
-  color: #3d405b;
-}

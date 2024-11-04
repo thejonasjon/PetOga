@@ -1,0 +1,145 @@
+@import url("/css/common.css");
+
+
+/* General Input */
+.previous-btn {
+    display: flex;
+}
+
+.top-horizontal-nav .previous-btn a{
+    display: flex;
+    align-items: center;
+    gap: var(--size-20);
+    color: var(--c-black-400);
+}
+
+.input-group label {
+    display: block;
+    font-size: var(--size-16);
+    line-height: var(--size-24);
+    font-weight: 400;
+    color: var(--c-black-400);
+    margin-bottom: var(--size-5);
+}
+
+input, textarea, select{
+    font-size: var(--size-14);
+    border: 1px solid var(--cl-grey-400-20);
+    padding: var(--size-10);
+    border-radius: var(--size-5);
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.input-group input[type="button"] {
+    display: block;
+    font-size: var(--size-14);
+    line-height: var(--size-20);
+    font-weight: 400;
+    color: var(--c-black-400);
+    background-color: var(--cl-white-400);
+    padding: var(--size-5);
+
+}
+
+.content-container {
+    max-width: 95%;
+    min-height: 100%;
+    background-color: var(--cl-white-400);
+    margin-inline: auto;
+    padding-bottom: var(--size-20);
+}
+
+.seller-profile_form-container {
+    padding-inline: var(--size-40);
+    padding-top: var(--size-25);
+}
+
+.upload input[type="file"]{
+    width: 100%;
+    height: 100px;
+}
+
+.form-group h4 {
+    display: block;
+    font-size: var(--size-16);
+    line-height: var(--size-24);
+    font-weight: 500;
+    color: var(--c-black-400);
+    padding-block: var(--size-5);
+
+}
+
+.form-group {
+    border: 1px solid var(--cl-grey-400-10);
+    padding: var(--size-25);
+    margin-bottom: var(--size-40);
+    border-radius: var(--size-08);
+}
+
+.select-group-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-pet-type {
+    display: flex;
+    gap: var(--size-60);
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.select-group {
+    display: flex;
+    gap: var(--size-20);
+}
+
+.name-pet-type .input-group {
+    width: 100%;
+}
+
+.input-group {
+    padding-block: var(--size-10);
+}
+
+.input-group input[name="petName"] {
+    width: 100%;
+}
+
+.input-group textarea {
+    width: 100%;
+    min-height: var(--size-120);
+}
+
+.select-sex-group .select-group {
+    gap: 2rem;
+    justify-content: unset;
+}
+
+.personal-trait-form-cont .group .input-group {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.personal-trait-form-cont .group .input-group input{
+    font-size: var(--size-20);
+    color: var(--cl-grey-300);
+    padding-inline: var(--size-200);
+    padding-block: var(--size-12);
+}
+
+.personal-trait-form-cont .select-group-cont{
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    gap: var(--size-10);
+}
+
+input[type="file"] {
+    display: flex;
+    justify-content: center;
+}
