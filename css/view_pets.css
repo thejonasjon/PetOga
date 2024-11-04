@@ -1,0 +1,89 @@
+@import url("/css/common.css");
+@import url("/css/vet_profile.css");
+
+
+.content-container {
+    background-color: transparent;
+}
+
+.pets-image-cont {
+    display: flex;
+    gap: var(--size-30);
+}
+
+.pets-image-cont > * {
+    flex: 1 1 50%;
+}
+
+.sub-image-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-20);
+}
+
+.sub-image-cont > * {
+    flex: 1 1 33%;
+}
+
+.pet-text-container {
+    margin-block: var(--size-60);
+}
+
+.pet-text-container p {
+    font-size: var(--size-14);
+    line-height: var(--size-24);
+}
+
+.pet-text-container .name-gender h4 {
+    font-size: var(--size-20);
+    line-height: var(--size-24);
+    color: var(--cl-primary-400);
+}
+
+.pet-text-container .name-gender p {
+    font-size: var(--size-16);
+    line-height: var(--size-24);
+    margin-top: var(--size-5);
+}
+
+.pet-text-container .additional-status h4,
+.pet-text-container .temparament-cont h4 {
+    font-size: var(--size-20);
+    line-height: var(--size-24);
+}
+
+.pet-text-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--size-30);
+}
+
+.pet-text-container > * {
+    background-color: var(--cl-white-400);
+    border-radius: var(--size-08);
+    padding: var(--size-20);
+}
+
+.pet-text-container .name-status {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--size-14);
+}
+
+.pet-text-container .status,
+.pet-text-container .temparament-cont .temparament {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-08);
+    margin-top: var(--size-20);
+}
+
+.pet-text-container .status span,
+.pet-text-container .temparament-cont .temparament span {
+    font-size: var(--size-14);
+    line-height: var(--size-24);
+    padding: var(--size-08);
+    border-radius: var(--size-08);
+    border: 1px solid rgba(157, 95, 59, 0.35);
+}
+
