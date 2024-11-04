@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
   position: relative;
   height: 99.8vh;
-  width: 116rem;
+  width: 96rem;
   margin: auto;
   background: #3d405b;
   font-family: "Montserrat", serif;
@@ -28,7 +28,7 @@ body {
 }
 .intro-img {
   height: 99.8vh;
-  width: 59rem;
+  width: 48rem;
 }
 .intro-img img {
   width: 100%;
@@ -41,19 +41,20 @@ body {
 }
 .intro-text {
   height: 90.8vh;
-  width: 50rem;
+  width: 42rem;
   color: #ffffff;
   font-weight: 500;
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", serif;
+  margin-top: 3rem;
 }
 
 .intro-text h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 400;
   line-height: 46.2px;
-  margin-right: 7rem;
+  margin-right: 4rem;
   text-align: center;
 }
 
@@ -68,7 +69,7 @@ body {
 
 .intro-text h2 {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #a6a6a6;
   display: inline;
   text-align: center;
@@ -78,17 +79,17 @@ body {
 .a {
   display: inline-block;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   border: none;
   color: #ffffff;
   line-height: 24px;
-  margin-bottom: 1rem;
+
   font-weight: 400;
 }
 .b {
   display: inline-block;
   color: #b9b9b999;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #ffffff;
   font-weight: 500;
   line-height: 24px;
@@ -96,7 +97,7 @@ body {
 }
 .p1 {
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   display: inline;
   vertical-align: middle;
   line-height: 3px;
@@ -104,7 +105,7 @@ body {
 .p2 {
   color: #aa5e31;
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   display: inline;
   vertical-align: middle;
   line-height: 3px;
@@ -133,55 +134,67 @@ body {
   color: black;
   border: 1px solid rgb(73, 146, 206);
 }
-.a:hover {
-  color: rgb(73, 146, 206);
-}
-.b:hover:hover {
-  color: rgb(73, 146, 206);
-}
 
 #username {
-  width: 200px;
+  width: 185px;
   height: 60px;
-  padding: 12px px 12px 2px;
+  padding: 7px;
   gap: 20px;
   border-radius: 7px;
   opacity: 0px;
   background-color: #686b8c;
   border: none;
-  color: #b9b9b999;
+  color: #f1eeee;
   text-align: left;
   font-size: 1.3rem;
   margin: 0.2rem;
 }
 #email {
-  width: 408px;
+  width: 380px;
   height: 60px;
-  padding: 12px 2px 12px 2px;
+  padding: 8px;
   gap: 10px;
   border-radius: 7px;
   opacity: 0px;
   background-color: #686b8c;
   border: none;
-  color: #b9b9b999;
+  color: #f1eeee;
   text-align: left;
   font-size: 1.3rem;
 }
 #password {
-  width: 408px;
+  width: 380px;
   height: 60px;
-  padding: 12px 2px 12px 2px;
+  padding: 8px;
   gap: 10px;
   border-radius: 7px;
   opacity: 0px;
   background-color: #686b8c;
   border: none;
-  color: #b9b9b999;
+  color: #f1eeee;
   text-align: left;
   font-size: 1.3rem;
 }
+.p-viewer {
+  z-index: 9999;
+  position: absolute;
+  left: 890px;
+  top: 400px;
+  margin-top: -60px;
+}
+.p-viewer1 {
+  z-index: 9999;
+  position: absolute;
+  left: 890px;
+  top: 481px;
+  margin-top: -60px;
+}
+.fa-eye-slash {
+  font-size: 14px;
+  color: #f7f2f2d3;
+}
 #submit {
-  width: 408px;
+  width: 380px;
   height: 60px;
   padding: 12px 2px 12px 2px;
   gap: 10px;
