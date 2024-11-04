@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetOga - Dashboard</title>
+
+      <!-- Fonts -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/seller_profile.css">
+</head>
+<body>
+    <!-- Main -->
+    <main>
+        <div class="container--full-width home--grid">
+            <aside class="sidebar">
+                <div class="sidebar-top">
+                    <header class="sidebar-header">
+                        <div class="welcome-block-nav">
+                            <div class="navbar--brand">
+                                <a href="#">Pet<span>Oga</span></a>
+                            </div>
+
+                            <div class="welcome-block">
+                                <div class="profile-photo">
+                                    <img src="/assets/images/dashboard/profile.jpg" alt="Profile Image">
+                                </div>
+                                <div class="profile-text">
+                                    <h6>Welcome</h6>
+                                    <p>Adeniyi Ola</p>
+                                </div>
+                            </div>
+
+                            <nav>
+                                <ul role='list' class="side-nav">
+                                    <li><a href="#"><span class="material-symbols-outlined">home</span> Home</a></li>
+                                    <li><a href="#"><span class="material-symbols-outlined">add_circle</span>Add Pet</a></li>
+                                    <li><a href="#"><span class="material-symbols-outlined">person</span>Profile</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div>
+                            <nav>
+                                <ul role='list' class="side-nav">
+                                    <li><a href="#"><span class="material-symbols-outlined">help</span>Help & Support</a></li>
+                                    <li><a href="#"><span class="material-symbols-outlined">settings</span>Settings</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+                </div>
+            </aside>
+
+            <section class="main-content">
+                <div class="top-horizontal-nav">
+                    <div class="previous-btn">
+                        <a href="#"><span class="material-symbols-outlined">chevron_left</span>Add a Pet</a>
+                    </div>
+                    <div>
+                        <a href="#">Pet Adoption Page</a>
+                        <a href="#">Go Back To Homepge</a>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <div class="content-container">
+                        <div class="seller-profile_form-container">
+                            <form action="">
+                                <div class="form-group upload">
+                                    <h4>Photo</h4>
+                                    <div class="input-group">
+                                        <input type="file" placeholder="Click to upload or drag and drop file" id="upload">
+                                    </div>
+                                </div>
+
+                                <div class="form-group basic-information-form-cont">
+                                    <h4>Basic Information</h4>
+                                    <div class="name-pet-type">
+                                        <div class="input-group">
+                                            <label id="petName" for="pet-name">Pet name</label>
+                                            <input id="petName" type="text" placeholder="E.g Bobby" name="petName" required>
+                                        </div>
+
+                                        <div class="select-group">
+                                            <div class="input-group">
+                                                <input id="dog" type="button" value="Dog">
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input id="cat" type="button" value="Cat">
+                                            </div>
+
+                                            <div class="input-group">
+                                                <input id="other" type="text" placeholder="Other">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <textarea name="description" id="description" placeholder="Give a short description about your pet."></textarea>
+                                    </div>
+
+                                    <div class="select-group-cont">
+                                        <div class="input-group select-sex-group">
+                                            <label id="sex" for="sex">Sex</label>
+                                            <div class="select-group">
+                                                <div class="input-group">
+                                                    <input id="male" type="button" value="Male">
+                                                </div>
+
+                                                <div class="input-group">
+                                                    <input id="female" type="button" value="Female">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="select-group">
+                                            <div class="input-group">
+                                                <label id="size" for="size">Size</label>
+                                                <input id="size" type="number" name="size" placeholder="Specify">
+                                            </div>
+
+                                            <div class="input-group">
+                                                <label id="health" for="health">Health</label>
+                                                <input id="health" type="text" name="health" placeholder="Unknown">
+                                            </div>
+
+                                            <div class="input-group">
+                                                <label id="age" for="age">Age</label>
+                                                <input id="age" type="number" name="age" placeholder="Specify">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group personal-trait-form-cont">
+                                    <h4>Personality Traits</h4>
+                                    <div class="group">
+                                        <div class="input-group">
+                                            <input id="temprament" type="button" value="Temperament" disabled>
+                                        </div>
+                                    </div>
+
+                                    <div class="select-group-cont">
+                                        <div class="input-group">
+                                            <input id="playful" type="button" value="Playful" name="playful">
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input id="agile" type="button" value="Agile" name="agile">
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input id="aggressive" type="button" value="Aggressive" name="aggressive">
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input id="active" type="button" value="Active" name="active">
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input id="careful" type="button" value="Careful" name="careful">
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input id="energetic" type="button" value="Energetic" name="energetic">
+                                        </div>
+
+                                        <div class="input-group">
+                                            <input id="dangerous" type="button" value="Dangerous" name="dangerous">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
