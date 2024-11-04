@@ -1,0 +1,73 @@
+@import url("/css/common.css");
+@import url("/css/seller_profile.css");
+
+.content-container {
+    max-width: 95%;
+    min-height: 100%;
+    background-color: var(--cl-white-400);
+    margin-inline: auto;
+    margin-block: auto;
+    margin-top: var(--size-20);
+    padding: var(--size-25);
+}
+
+.vet-card-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-20);
+}
+
+.vet-card-cont > * {
+    flex: 1 1 40%;
+}
+
+.vet-card-cont .card-block {
+    display: flex;
+    align-items: center;
+    gap: var(--size-20);
+    border: 1px solid rgba(157, 95, 59, 0.35);
+    border-radius: var(--size-08);
+    padding: var(--size-10);
+    padding-bottom: var(--size-20);
+}
+
+.vet-card-cont .card-block .image {
+    width: 150px;
+    height: 100%;
+}
+
+.vet-card-cont .card-block .image img{
+    width: 100%;
+    height: 100%;
+    background-color: var(--cl-grey-400-20);
+    border-radius: var(--size-08);
+}
+
+.vet-card-cont .text p {
+    font-size: var(--size-16);
+    line-height: var(--size-24);
+    color: var(--cl-black-200);
+    margin-bottom: var(--size-5);
+}
+
+.vet-card-cont .text p span{
+    font-weight: 450;
+    color: var(--cl-black-400);
+}
+
+.vet-card-cont .btn-group {
+    margin-top: var(--size-25);
+}
+
+.vet-card-cont .btn-group a {
+    font-size: var(--size-14);
+    line-height: var(--size-20);
+    color: var(--cl-white-200);
+    background-color: var(--cl-primary-400);
+    border-radius: var(--size-08);
+    padding: var(--size-10) var(--size-20);
+}
+
+.vet-card-cont .btn-group a:hover {
+    background-color: var(--cl-secondary-400);
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetOga - Profile</title>
+
+      <!-- Fonts -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+    <!-- Main -->
+    <main>
+        <div class="container--full-width home--grid">
+            <aside class="sidebar">
+                <div class="sidebar-top">
+                    <header class="sidebar-header">
+                        <div class="welcome-block-nav">
+                            <div class="navbar--brand">
+                                <a href="#">Pet<span>Oga</span></a>
+                            </div>
+
+                            <div class="welcome-block">
+                                <div class="profile-photo">
+                                    <img src="/assets/images/dashboard/profile.jpg" alt="Profile Image">
+                                </div>
+                                <div class="profile-text">
+                                    <h6>Welcome</h6>
+                                    <p>Adeniyi Ola</p>
+                                </div>
+                            </div>
+
+                            <nav>
+                                <ul role='list' class="side-nav">
+                                    <li><a href="#"><span class="material-symbols-outlined">home</span> Home</a></li>
+                                    <li><a href="#"><span class="material-symbols-outlined">add_circle</span>Add Pet</a></li>
+                                    <li><a href="#"><span class="material-symbols-outlined">person</span>Profile</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div>
+                            <nav>
+                                <ul role='list' class="side-nav">
+                                    <li><a href="#"><span class="material-symbols-outlined">help</span>Help & Support</a></li>
+                                    <li><a href="#"><span class="material-symbols-outlined">settings</span>Settings</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+                </div>
+            </aside>
+
+            <section class="main-content">
+                <div class="top-horizontal-nav">
+                    <div class="previous-btn">
+                        <a href="#"><span class="material-symbols-outlined">chevron_left</span>Profile</a>
+                    </div>
+                    <div>
+                        <a href="#">Pet Adoption Page</a>
+                        <a href="#">Go Back To Homepge</a>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <div class="content-container">
+                        <div class="seller-profile_form-container">
+                            <form action="">
+                                <div class="form-group add-information-form-cont">
+                                    <h4>Add Information</h4>
+                                    <div class="input-group-cont">
+                                        <div class="input-group">
+                                            <label id="name" for="name">Name</label>
+                                            <input id="namd" type="text" placeholder="Enter your full name" name="name" required>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <label id="email" for="email">Email address</label>
+                                            <input id="email" type="email" placeholder="Enter your email" name="email" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group-cont">
+                                        <div class="input-group">
+                                            <label id="phone" for="phone">Phone number</label>
+                                            <input id="phone" type="tel" placeholder="Enter your phone number" name="phone">
+                                        </div>
+
+                                        <div class="select-group-cont">
+                                            <div class="input-group">
+                                                <label id="country" for="country">Country</label>
+                                                <select>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="input-group">
+                                                <label id="state" for="state">State</label>
+                                                <select>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                    <option value="Select">Select</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group-cont">
+                                        <div class="input-group">
+                                            <label id="address" for="address">Address</label>
+                                            <input id="address" type="text" placeholder="Enter your address" name="address">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group identity-form-cont">
+                                    <h4>Add Identity</h4>
+                                    <div class="input-group-cont">
+                                        <div class="input-group">
+                                            <label id="mIdentification" for="mIdentification">Means of identification</label>
+                                            <input id="mIdentification" type="text" placeholder="E.g Nin, National I.d card" name="mIdentification">
+                                        </div>
+
+                                        <div class="input-group">
+                                            <label id="identificationNumber" for="identificationNumber">Identification number</label>
+                                            <input id="identificationNumber" type="text" placeholder="Enter identification number" name="identificationNumber">
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group-cont">
+                                        <div class="input-group">
+                                            <label id="addPhoto" for="addPhoto">Add Photo</label>
+                                            <input id="addPhoto" type="file" placeholder="Upload Photo" name="addPhoto">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-btn-group">
+                                    <button class="cancel">Cancel</button>
+                                    <button class="save">Save</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
