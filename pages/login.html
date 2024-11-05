@@ -3,21 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
  
     <link rel="stylesheet" href="../css/reset.css">
- <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/common.css">
     <title>LOGIN</title>
     <link rel="stylesheet" href="../css/login.css" />
-  </head>
+    </head>
   <body>
     <section class="container1">
       <div class="hero1">
         <img src="../components/images/footsit.jfif" alt="dog" />
       </div>
       <div class="hero2">
+        <button id="black">
+          <svg id="blue"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -760 960 960"
+            width="18px"
+            fill="#ffffff"
+          >
+            <path
+              d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"
+            />
+          </svg>
+          Back</button>
         <h1>Welcome back!</h1>
         <h2>Please enter your details</h2><br>
           <form  class="c">
@@ -25,21 +41,24 @@
           <input type="email" id="email" name="email" placeholder="   Enter Email:"/>
       </form>
        <form  class="c">
-           <label for="Email">password:</label></br>
+           <label for="Email">Password:</label></br>
           <input type="text" id="email" name="email" placeholder="    Enter password:" />
+               <span class="p-viewer">
+   <i class="fa fa-eye-slash" aria-hidden="true"></i>
+   </span>
       </form><br>
       <form class="d" >
        <input type="checkbox" id="checkbox" name="checkbox" value="checkbox" style="width: 20px; margin-top: 0.9rem;">
-           <label style="font-weight: 300; font-size: 1rem;" for="checkbox">Remember me</label>
-           <label for="text" style="margin-left: 13rem;"> <a style="color: #aa5e31; font-size: 1.3rem;margin-left: 5rem;" href="../pages/forgot.html">Forgot password?</a></label>
+           <label style="font-weight: 300; font-size: 1.1rem;" for="checkbox">Remember me</label>
+           <label for="text" style="margin-left: 13rem;"> <a style="color: #aa5e31; font-size: 1.1rem;margin-left: 4rem;" href="../pages/forgot.html">Forgot Password?</a></label>
            
-      </form><br><br><br>
+      </form><br>
        <form  class="a">
            <input type="button" id="submit" name="submit" value="Login" /><br>
        </form><br>
        <h4>or log in with</h4>
-      <a href="#login">Dont have an account?</a>
-        <a style="color: #aa5e31;" href="../pages/signup.html">create an Account</a><br><br>
+      <a href="#login">Don't have an account?</a>
+        <a style="color: #aa5e31;" href="../pages/signup.html">Create an account</a><br>
         <form  class="a">
         <button><img src="../components/images/0d3b3219612317478f72c776ecd56524.png" alt="google">Google</button>
        </form>

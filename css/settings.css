@@ -5,6 +5,7 @@ body {
   font-weight: weight;
   background-color: black;
 }
+
 .container3 {
   display: flex;
   justify-content: space-around;
@@ -12,12 +13,39 @@ body {
   flex-wrap: wrap;
   position: relative;
   height: 99.8vh;
-  width: 116rem;
-
+  width: 96rem;
   gap: 0px;
   opacity: 0px;
   background: #ffffff;
   margin: auto;
+}
+/*new*/
+.wind {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+  margin: auto;
+  height: 1vh;
+  background-color: white;
+}
+.wind button {
+  color: #3d405b;
+  border: none;
+  background-color: inherit;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  margin: 2rem;
+}
+#blue:hover {
+  fill: #aa5e31;
+}
+.wind button:hover {
+  color: #aa5e31;
 }
 
 .contain h1 {
@@ -52,7 +80,7 @@ body {
   border-radius: 7px;
   opacity: 0px;
   border: 0.1px solid #00000066;
-  color: #989898;
+  color: #3d405b;
   border: none;
   font-weight: 400;
   font-family: "Montserrat", serif;
@@ -62,7 +90,7 @@ body {
 #pwd {
   width: 432px;
   height: 65px;
-  padding: 12px 2px 12px 2px;
+  padding: 9px;
   gap: 10px;
   border-radius: 7px;
   opacity: 0px;
@@ -71,13 +99,13 @@ body {
   color: #ffffff;
   text-align: center;
   font-size: 1.7rem;
+  margin-bottom: 10rem;
 }
 .a {
   display: inline-block;
   font-size: 1.2rem;
   border: none;
-  color: #3D405B;
-;
+  color: #3d405b;
   font-family: "Montserrat", serif;
   line-height: 26px;
 
@@ -99,6 +127,21 @@ body {
   background-color: #aa5e31;
 }
 
-.a:hover {
-  color: rgb(73, 146, 206);
+.p-viewer {
+  z-index: 9999;
+  position: absolute;
+  left: 650px;
+  top: 330px;
+  margin-top: -60px;
+}
+.p-viewer1 {
+  z-index: 9999;
+  position: absolute;
+  left: 650px;
+  top: 409px;
+  margin-top: -60px;
+}
+.fa-eye-slash {
+  font-size: 14px;
+  color: #3d405b;
 }
