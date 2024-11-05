@@ -26,6 +26,26 @@ body {
   font-family: "Montserrat", serif;
   border-radius: 20px;
 }
+#black {
+  color: #ffffff;
+  border: none;
+  background-color: inherit;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  margin-top: 2rem;
+}
+#blue:hover {
+  fill: #aa5e31;
+}
+#black:hover {
+  color: #aa5e31;
+}
 .hero1 {
   height: 99.8vh;
   width: 48rem;
@@ -47,7 +67,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", serif;
-  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .hero2 h1 {
@@ -122,7 +142,7 @@ h4::after {
 
 button {
   width: 380px;
-  height: 60px;
+  height: 50px;
   padding: 6px 2px 6px 2px;
 
   border-radius: 3px 3px 3px 3px;
@@ -149,7 +169,7 @@ button img {
 }
 #email {
   width: 380px;
-  height: 60px;
+  height: 50px;
   padding: 9px;
   gap: 10px;
   border-radius: 7px;
@@ -162,7 +182,7 @@ button img {
 }
 #submit {
   width: 380px;
-  height: 60px;
+  height: 50px;
   padding: 12px 2px 12px 2px;
   gap: 10px;
   border-radius: 7px;
@@ -203,7 +223,7 @@ button:hover {
   z-index: 9999;
   position: absolute;
   left: 890px;
-  top: 310px;
+  top: 317px;
   margin-top: -60px;
 }
 .fa-eye-slash {

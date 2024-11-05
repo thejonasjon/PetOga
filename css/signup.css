@@ -26,6 +26,26 @@ body {
   font-family: "Montserrat", serif;
   border-radius: 20px;
 }
+
+.intro-text button {
+  color: #ffffff;
+  border: none;
+  background-color: inherit;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+}
+#blue:hover {
+  fill: #aa5e31;
+}
+.intro-text button:hover {
+  color: #aa5e31;
+}
 .intro-img {
   height: 99.8vh;
   width: 48rem;
@@ -137,7 +157,7 @@ body {
 
 #username {
   width: 185px;
-  height: 60px;
+  height: 50px;
   padding: 7px;
   gap: 20px;
   border-radius: 7px;
@@ -151,7 +171,7 @@ body {
 }
 #email {
   width: 380px;
-  height: 60px;
+  height: 50px;
   padding: 8px;
   gap: 10px;
   border-radius: 7px;
@@ -164,7 +184,7 @@ body {
 }
 #password {
   width: 380px;
-  height: 60px;
+  height: 50px;
   padding: 8px;
   gap: 10px;
   border-radius: 7px;
@@ -179,14 +199,14 @@ body {
   z-index: 9999;
   position: absolute;
   left: 890px;
-  top: 400px;
+  top: 395px;
   margin-top: -60px;
 }
 .p-viewer1 {
   z-index: 9999;
   position: absolute;
   left: 890px;
-  top: 481px;
+  top: 469px;
   margin-top: -60px;
 }
 .fa-eye-slash {
@@ -195,7 +215,7 @@ body {
 }
 #submit {
   width: 380px;
-  height: 60px;
+  height: 50px;
   padding: 12px 2px 12px 2px;
   gap: 10px;
   border-radius: 7px;
