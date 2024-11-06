@@ -22,7 +22,6 @@ body {
   background-size: cover;
   background-position: center;
   margin: auto;
-  z-index: -1;
   height: 99.8vh;
 }
 .overlay {
@@ -38,7 +37,7 @@ body {
   gap: 0px;
   border-radius: 10px;
   opacity: 0px;
-  z-index: 2;
+  z-index: 1;
   background-color: #ffffff;
   margin: auto;
 }
@@ -76,6 +75,17 @@ h2 {
   color: #aa5e31;
 }
 
+a {
+  display: inline-block;
+  margin-left: 10rem;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  color: #aa5e31;
+}
+
 span {
   font-family: Montserrat;
   font-size: 20px;
@@ -98,9 +108,11 @@ span {
   text-align: left;
   margin: 2rem;
 }
-.cont2 h2:hover {
-  text-decoration: none;
+.cont2 a:hover {
   text-decoration-color: #aa5e31;
   border-bottom: 2px solid #aa5e31;
-  z-index: 3;
+}
+.cont2 h2:hover {
+  text-decoration-color: #aa5e31;
+  border-bottom: 2px solid #aa5e31;
 }
