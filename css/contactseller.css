@@ -35,11 +35,11 @@ body {
   color: #aa5e31;
 }
 .brand-nav {
-  max-width: 50%;
+  max-width: 70%;
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
   position: absolute;
   left: 300px;
   align-items: center;
@@ -120,10 +120,15 @@ body {
 
   float: left;
 }
+.hero-sub span {
+  font-weight: 400;
+}
 .hero-sub h1 {
   display: inline-block;
-  margin: 2rem;
-  line-height: 26px;
+  margin-left: 2rem;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 300;
 }
 h1 img {
   width: 10px;
@@ -132,9 +137,24 @@ h1 img {
   display: block;
 }
 .hero-sub h2 {
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin-top: 1rem;
 }
+.mid {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  width: Hug (476px) px;
+  height: Hug (288px) px;
+
+  gap: 27px;
+  opacity: 0px;
+}
+.mid1 {
+  position: absolute;
+  top: 24px;
+  left: 188px;
+}
+
 footer {
   width: 100%;
   margin: auto;

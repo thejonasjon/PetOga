@@ -129,9 +129,6 @@ a:hover {
   background-color: #aa5e31;
 }
 
-.a:hover {
-  color: rgb(73, 146, 206);
-}
 .a {
   display: inline-block;
   font-size: 1.4rem;
