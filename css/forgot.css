@@ -11,9 +11,11 @@ body {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  height: 99.8vh;
+  height: 89.8vh;
+  border-radius: 20px;
   width: 96rem;
   margin: auto;
+  margin-top: 3rem;
   gap: 0px;
   opacity: 0px;
   background-color: white;
