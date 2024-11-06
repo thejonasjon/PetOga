@@ -12,12 +12,14 @@ body {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  height: 99.8vh;
+  height: 89.8vh;
   width: 96rem;
   gap: 0px;
   opacity: 0px;
   background: #ffffff;
   margin: auto;
+  margin-top: 3rem;
+  border-radius: 20px;
 }
 /*new*/
 .wind {
@@ -131,14 +133,14 @@ body {
   z-index: 9999;
   position: absolute;
   left: 650px;
-  top: 330px;
+  top: 280px;
   margin-top: -60px;
 }
 .p-viewer1 {
   z-index: 9999;
   position: absolute;
   left: 650px;
-  top: 409px;
+  top: 359px;
   margin-top: -60px;
 }
 .fa-eye-slash {
