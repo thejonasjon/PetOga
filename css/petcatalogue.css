@@ -1,0 +1,441 @@
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  background-color: black;
+}
+.brand {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 9.5rem;
+  color: #ffffff;
+  background-color: #3d405b;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  border-left: 0.1px solid white;
+}
+.brand-name {
+  max-width: 20.8rem;
+  height: 2rem;
+  line-height: 33.18px;
+  left: 150px;
+  padding-left: 12rem;
+  float: left;
+  align-items: center;
+}
+.brand-name a {
+  color: #ffffff;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.brand-name span {
+  color: #aa5e31;
+}
+.brand-nav {
+  max-width: 60%;
+  list-style-type: none;
+  font-size: 1.5rem;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 300px;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+}
+
+.brand nav ul li a {
+  color: #ffffff;
+  float: left;
+  list-style-type: none;
+  gap: 10;
+}
+.brand li {
+  list-style-type: none;
+  float: left;
+  margin: 6rem;
+}
+.brand li a:hover {
+  text-decoration: none;
+  text-decoration-color: #aa5e31;
+  border-bottom: 2px solid #aa5e31;
+}
+/*new*/
+.rewind {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+  margin: auto;
+  height: 2vh;
+
+  background-color: white;
+}
+.wind button {
+  color: #3d405b;
+  border: none;
+  background-color: inherit;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  margin: 2rem;
+}
+#blue:hover {
+  fill: #aa5e31;
+}
+.wind button:hover {
+  color: #aa5e31;
+}
+/*new*/
+.real {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+  margin: auto;
+  height: 5vh;
+  padding: 3rem;
+  padding-left: 12rem;
+  padding-top: 5rem;
+  background-color: white;
+}
+.real1 h1 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+/* new*/
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+  background-color: white;
+  padding: 12rem;
+}
+.one {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 67vh;
+  width: 32%;
+  border-radius: 8px;
+  text-align: left;
+  padding: 2rem;
+  line-height: 28px;
+}
+.two {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+
+  height: 67vh;
+  width: 32%;
+  border-radius: 8px;
+  text-align: left;
+  line-height: 28px;
+  padding: 2rem;
+}
+.three {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  text-align: left;
+  height: 67vh;
+  line-height: 28px;
+  width: 32%;
+  border-radius: 8px;
+  padding: 2rem;
+}
+.one img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.two img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.three img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.main button {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
+  background-color: #aa5e31;
+  color: #ffffff;
+  width: 100px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.one a {
+  font-size: 1rem;
+  margin-left: 1.2rem;
+  color: #ffffff;
+}
+
+/*new*/
+.main3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 67vh;
+  background-color: white;
+  padding: 12rem;
+}
+.seven {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 67vh;
+  width: 32%;
+  border-radius: 8px;
+  text-align: left;
+  padding: 2rem;
+  line-height: 28px;
+}
+.eight {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+
+  height: 67vh;
+  width: 32%;
+  border-radius: 8px;
+  text-align: left;
+  line-height: 28px;
+  padding: 2rem;
+}
+.nine {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  text-align: left;
+  height: 67vh;
+  line-height: 28px;
+  width: 32%;
+  border-radius: 8px;
+  padding: 2rem;
+}
+.seven img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.eight img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.nine img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.main2 button {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
+  background-color: #aa5e31;
+  color: #ffffff;
+  width: 100px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/*new*/
+.main2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+  background-color: white;
+  padding: 12rem;
+}
+.four {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 67vh;
+  width: 32%;
+  border-radius: 8px;
+  text-align: left;
+  padding: 2rem;
+  line-height: 28px;
+}
+.five {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+
+  height: 67vh;
+  width: 32%;
+  border-radius: 8px;
+  text-align: left;
+  line-height: 28px;
+  padding: 2rem;
+}
+.six {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  text-align: left;
+  height: 67vh;
+  line-height: 28px;
+  width: 32%;
+  border-radius: 8px;
+  padding: 2rem;
+}
+.four img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.five img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.five img {
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  border-radius: 5px;
+}
+.main3 button {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
+  background-color: #aa5e31;
+  color: #ffffff;
+  width: 100px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+/*next*/
+.next {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 10vh;
+  padding: 3rem;
+  padding-left: 12rem;
+  padding-top: 3rem;
+  background-color: white;
+  padding-bottom: 4rem;
+}
+.next1 h1 {
+  color: #aa5e31;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  margin-left: 1rem;
+}
+.next2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  color: #33333399;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+}
+.next3 h1 {
+  color: #aa5e31;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  margin-right: 11rem;
+}
+.next h1:hover {
+  color: #3d405b;
+}
+#bel:hover {
+  fill: #3d405b;
+}
+/*footer*/
+footer {
+  width: 100%;
+  margin: auto;
+  background-color: #3d405b;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", serif;
+  align-self: start;
+  padding: 3rem;
+}
+.eleven {
+  max-width: 27%;
+  height: 2rem;
+  line-height: 23.18px;
+  left: 150px;
+  padding-left: 5rem;
+  float: left;
+  align-items: center;
+  margin-top: 7rem;
+}
+.eleven a {
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.eleven span {
+  color: #aa5e31;
+}
+.eleven h1 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+.twelve {
+  margin-top: 5rem;
+}
+.thirteen {
+  margin-top: 5rem;
+}
+.fourteen {
+  margin-top: 5rem;
+}
+.fifteen {
+  margin-top: 5rem;
+}
+footer li {
+  list-style-type: none;
+  color: #ffffff;
+  padding: 1rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+footer li:hover {
+  color: #aa5e31;
+}

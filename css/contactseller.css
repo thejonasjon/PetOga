@@ -1,0 +1,214 @@
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  background-color: black;
+}
+.brand {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 9.5rem;
+  color: #ffffff;
+  background-color: #3d405b;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  border-left: 0.1px solid white;
+}
+.brand-name {
+  max-width: 20.8rem;
+  height: 2rem;
+  line-height: 33.18px;
+  left: 150px;
+  padding-left: 11rem;
+  float: left;
+  align-items: center;
+}
+.brand-name a {
+  color: #ffffff;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.brand-name span {
+  color: #aa5e31;
+}
+.brand-nav {
+  max-width: 70%;
+  list-style-type: none;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 300px;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+}
+
+.brand nav ul li a {
+  color: #ffffff;
+  float: left;
+  list-style-type: none;
+  gap: 10;
+}
+.brand li {
+  list-style-type: none;
+  float: left;
+  margin: 6rem;
+}
+.brand li a:hover {
+  text-decoration: none;
+  text-decoration-color: #aa5e31;
+  border-bottom: 2px solid #aa5e31;
+}
+/*new*/
+.rewind {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+  margin: auto;
+  height: 2vh;
+
+  background-color: white;
+}
+.wind button {
+  color: #3d405b;
+  border: none;
+  background-color: inherit;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  margin: 2rem;
+}
+#blue:hover {
+  fill: #aa5e31;
+}
+.wind button:hover {
+  color: #aa5e31;
+}
+/* new section*/
+.hero {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 62vh;
+  margin: auto;
+}
+.hero-sub {
+  width: Hug (604px) px;
+  height: Hug (304px) px;
+  gap: 20px;
+  opacity: 0px;
+
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding: 5rem;
+}
+.hero-sub img {
+  width: 151px;
+  height: 201px;
+  gap: 10px;
+  border-radius: 20px 20px 20px 20px;
+  opacity: 0px;
+
+  float: left;
+}
+.hero-sub span {
+  font-weight: 400;
+}
+.hero-sub h1 {
+  display: inline-block;
+  margin-left: 2rem;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+h1 img {
+  width: 10px;
+}
+.bear img {
+  display: block;
+}
+.hero-sub h2 {
+  margin-top: 1rem;
+}
+.mid {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  width: Hug (476px) px;
+  height: Hug (288px) px;
+
+  gap: 27px;
+  opacity: 0px;
+}
+.mid1 {
+  position: absolute;
+  top: 24px;
+  left: 188px;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  background-color: #3d405b;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", serif;
+  align-self: start;
+  padding: 3rem;
+}
+.one {
+  max-width: 27%;
+  height: 2rem;
+  line-height: 23.18px;
+  left: 150px;
+  padding-left: 5rem;
+  float: left;
+  align-items: center;
+  margin-top: 7rem;
+}
+.one a {
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.one span {
+  color: #aa5e31;
+}
+.one h1 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+.two {
+  margin-top: 5rem;
+}
+.three {
+  margin-top: 5rem;
+}
+.four {
+  margin-top: 5rem;
+}
+.five {
+  margin-top: 5rem;
+}
+footer li {
+  list-style-type: none;
+  color: #ffffff;
+  padding: 1rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+footer li:hover {
+  color: #aa5e31;
+}

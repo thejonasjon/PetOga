@@ -3,23 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
  <title>SIGNUP</title>
- <link rel="stylesheet" href="../css/reset.css">
- <link rel="stylesheet" href="../css/common.css">
+ <!--styles-->
+    <link rel="stylesheet" href="../css/reset.css">
+    
     <link rel="stylesheet" href="../css/signup.css" />
   </head>
   <body>
     <section class="container">
+        
       <div class="intro-img">
         <img src="../components/images/dogcoursh.jfif" alt="" />
       </div>
       <div class="intro-text">
+        
+        <button id="black">
+          <svg id="blue"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -760 960 960"
+            width="18px"
+            fill="#ffffff"
+          >
+            <path
+              d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"
+            />
+          </svg>
+          Back</button>
         <h1>Create an account</h1>
         <h2>Already have an account?</h2>
-        <p><a href="../pages/login.html">log in</a></p><br><br>
+        <p><a href="../pages/login.html">Log in</a></p><br><br>
         <form  class="b">
           <label for="username">First Name</label></br>
           <input type="username" id="username" name="username" placeholder="   Enter First name" />
@@ -35,17 +54,24 @@
        <form  class="a">
            <label for="password">Password</label></br>
           <input type="password" id="password" name="password" placeholder=" Enter Password" />
+          <span class="p-viewer">
+   <i class="fa fa-eye-slash" aria-hidden="true"></i>
+   </span>
       </form>
        <form  class="a">
            <label for="password">Confirm Password</label></br>
           <input type="password" id="password" name="password" placeholder=" Confirm Password" />
+             <span class="p-viewer1">
+   <i class="fa fa-eye-slash" aria-hidden="true"></i>
+   </span>
       </form>
         <form  class="a">
           <label for="button"></label></br>
           <a href="../pages/login.html"><input type="button" id="submit" name="submit" value="Create Account" /></a><br>
-          <input type="checkbox" id="checkbox" name="checkbox" value="checkbox" style="width: 12px;"><br>
-          <label class="p1" for="checkbox">i agreed to the</label>
-          <label class="p2" for="checkbox">Terms and Condition</label>
+          <input type="checkbox" id="checkbox" name="checkbox" value="checkbox" style="width: 12px;">
+          <label style="font-weight: 300;" for="password">I agreed to the <span>Terms and Condition</span></label>
+         
+         
       </form><br>
  
       </div>

@@ -11,13 +11,42 @@ body {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  height: 99.8vh;
-  width: 116rem;
+  height: 89.8vh;
+  border-radius: 20px;
+  width: 96rem;
   margin: auto;
+  margin-top: 3rem;
   gap: 0px;
   opacity: 0px;
   background-color: white;
   font-family: "Montserrat", serif;
+}
+.wind {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+  margin: auto;
+  height: 1vh;
+  background-color: white;
+}
+.wind button {
+  color: #3d405b;
+  border: none;
+  background-color: inherit;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  margin: 2rem;
+}
+#blue:hover {
+  fill: #aa5e31;
+}
+.wind button:hover {
+  color: #aa5e31;
 }
 
 .forgot h1 {
@@ -51,7 +80,7 @@ body {
   border-radius: 7px;
   opacity: 0px;
   border: 0.1px solid #00000066;
-  color: #000000b6;
+  color: #00000066;
 
   font-weight: 500;
   font-family: "Encode Sans Condensed";
@@ -62,10 +91,12 @@ body {
   font-size: 1.3rem;
   margin-left: 10rem;
   line-height: 50px;
+  margin-bottom: 10rem;
 }
 .y {
   color: #3d405b;
   font-size: 1.3rem;
+  margin-bottom: 10rem;
 }
 a:hover {
   color: #aa5e31;
@@ -100,9 +131,6 @@ a:hover {
   background-color: #aa5e31;
 }
 
-.a:hover {
-  color: rgb(73, 146, 206);
-}
 .a {
   display: inline-block;
   font-size: 1.4rem;
@@ -112,4 +140,7 @@ a:hover {
   line-height: 26px;
   margin-bottom: 1rem;
   font-weight: 600;
+}
+.forgot {
+  margin-bottom: 10rem;
 }
