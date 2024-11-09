@@ -81,7 +81,9 @@ input:focus, textarea:focus{
 
 .select-group-cont {
     display: flex;
+    gap: var(--size-20);
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -115,7 +117,7 @@ input:focus, textarea:focus{
 }
 
 .select-sex-group .select-group {
-    gap: 2rem;
+    gap: var(--size-20);
     justify-content: unset;
 }
 

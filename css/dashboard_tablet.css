@@ -1,0 +1,82 @@
+@import url("common.css");
+
+html {
+    font-size: 50%;
+}
+
+/* Dashboard stats */
+.home--grid {
+    display: flex;
+}
+
+.home--grid .sidebar{
+    min-width: 25rem;
+}
+
+.home--grid .main-content {
+    flex: 1;
+}
+
+
+.main-content .content-block {
+    padding: var(--size-40) var(--size-40);
+    overflow: auto;
+  }
+
+  .dashboard-stats .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--size-30);
+    flex-wrap: wrap;
+  }
+
+
+  .dashboard-stats .text-block {
+    margin-top: var(--size-10);
+  } */
+
+  .pet-adopted-listed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    gap: var(--size-40);
+  }
+
+  .pet-adopted-listed > * {
+    flex: unset;
+  }
+
+  .pet-adopted-listed  .listed-adopted-text {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .listed-adopted-text p {
+    display: flex;
+    gap: var(--size-08);
+    font-size: var(--size-16);
+    line-height: var(--size-24);
+  }
+
+  .listed-adopted-text p::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--cl-secondary-400);
+  }
+
+  .listed-adopted-text p:last-child::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--cl-primary-400);
+  }
+
+  .pet-adopted-listed {
+    margin-block: var(--size-40);
+  }
