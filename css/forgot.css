@@ -4,6 +4,7 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   background-color: black;
+  overflow: hidden;
 }
 .form {
   display: flex;
@@ -143,4 +144,154 @@ a:hover {
 }
 .forgot {
   margin-bottom: 10rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* For tablet phones: */
+
+  .form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: 86.8vh;
+    border-radius: 10px;
+    width: 56rem;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 3rem;
+    gap: 0px;
+    opacity: 0px;
+    background-color: white;
+    font-family: "Montserrat", serif;
+  }
+  .wind {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
+    margin: auto;
+    height: 1vh;
+    background-color: white;
+  }
+  .wind button {
+    color: #3d405b;
+    border: none;
+    background-color: inherit;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    margin: 2rem;
+  }
+  #blue:hover {
+    fill: #aa5e31;
+  }
+  .wind button:hover {
+    color: #aa5e31;
+  }
+
+  .forgot h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 48.2px;
+    font-family: "Montserrat", serif;
+    text-align: center;
+    color: #3d405b;
+    margin-top: 10rem;
+  }
+  .forgot h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: center;
+    width: 296px;
+    height: 28px;
+    gap: 0px;
+    opacity: 1px;
+    margin-bottom: 3rem;
+    color: #3d405b;
+    margin-left: 7rem;
+    font-family: "Montserrat", serif;
+  }
+  #email {
+    width: 432px;
+    height: 65px;
+    font-size: 1.5rem;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    border: 0.1px solid #00000066;
+    color: #00000066;
+
+    font-weight: 400;
+    font-family: "Encode Sans Condensed";
+  }
+
+  .z {
+    color: #a6a6a6;
+    font-size: 1.3rem;
+    margin-left: 10rem;
+    line-height: 50px;
+    margin-bottom: 10rem;
+  }
+  .y {
+    color: #3d405b;
+    font-size: 1.3rem;
+    margin-bottom: 10rem;
+  }
+  a:hover {
+    color: #aa5e31;
+  }
+
+  #pwd {
+    width: 432px;
+    height: 65px;
+    padding: 12px 2px 12px 2px;
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #3d405b;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 3rem;
+  }
+  ::placeholder {
+    color: #12111199;
+
+    opacity: 1;
+  }
+  #email:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(73, 146, 206);
+    text-decoration: none;
+  }
+  #pwd:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #aa5e31;
+  }
+
+  .a {
+    display: inline-block;
+    font-size: 1.4rem;
+    border: none;
+    color: #606060;
+    font-family: "Encode Sans Condensed";
+    line-height: 26px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .forgot {
+    margin-bottom: 10rem;
+  }
 }
