@@ -65,6 +65,8 @@
     --size-100: 10rem;
     --size-120: 12rem;
     --size-200: 20rem;
+    --size-270: 27rem;
+    --size-300: 30rem;
 }
 
 /* Utils Class */
@@ -372,7 +374,7 @@ p {
 }
 
 
-/* Home */
+/* Dashboard */
 .navbar--brand a{
     font-size: 2.8rem;
     color: var(--cl-white-400);
@@ -432,6 +434,9 @@ p {
   padding-inline: var(--size-40);
   padding-block: var(--size-40) var(--size-60);
   padding-bottom: 5rem;
+  overflow: hidden;
+  max-width: 40rem;
+  min-width: 25rem;
 }
 
 .sidebar nav ul a {

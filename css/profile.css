@@ -8,37 +8,30 @@
 .input-group-cont {
     display: flex;
     gap: var(--size-200);
+    flex-wrap: wrap;
 }
 
 .input-group-cont > * {
     flex: 1 1;
 }
 
-.input-group-cont .input-group {
+.input-group-cont .input-group,
+.input-group-cont .input-group input,
+.input-group-cont .input-group select{
     width: 100%;
-}
-
-.input-group-cont .input-group input {
-    width: 100%;
-}
-
-.input-group-cont .input-group select {
-    width: 100%;
+    min-width: var(--size-200);
 }
 
 .select-group-cont {
     display: flex;
     gap: var(--size-20);
+    flex-wrap: wrap;
 }
-
-.input-group-cont .input-group input[name="address"] {
-    width: 39%;
-}
-
 
 .form-btn-group {
     display: flex;
     gap: var(--size-10);
+    flex-wrap: wrap;
 }
 
 .form-btn-group button{

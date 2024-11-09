@@ -1,0 +1,49 @@
+@import url("common.css");
+
+html {
+    font-size: 50%;
+}
+
+/* Dashboard */
+.home--grid {
+    display: grid;
+}
+
+.input-group-cont {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--size-30);
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    max-width: 30rem;
+    min-width: 25rem;
+}
+
+.pets-image-cont {
+    display: flex;
+    gap: var(--size-30);
+    flex-wrap: wrap;
+}
+
+.pets-image-cont > * {
+    flex: 1 1 40%;
+}
+
+.sub-image-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-20);
+}
+
+.sub-image-cont > * {
+    flex: 1 1 30%;
+}
+
+.pet-text-container {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: unset;
+    gap: var(--size-20);
+}

@@ -1,0 +1,11 @@
+@import url("common.css");
+
+html {
+    font-size: 50%;
+}
+
+/* Dashboard */
+.home--grid {
+    display: flex;
+    grid-template-columns: unset;
+}
