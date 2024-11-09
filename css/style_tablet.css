@@ -1,0 +1,187 @@
+@import url("common.css");
+
+/* Screen size 1024px */
+html {
+    font-size: 50%;
+}
+
+/* Appointment */
+.appointment.padding--block-100{
+    padding-block: var(--size-50);
+}
+
+.appointment .text-block {
+    max-width: 100%;
+}
+
+.appointment .image-block {
+    width: 100%;
+    min-height: 45vh;
+    position: relative;
+}
+
+.appointment .image-block img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    position: absolute;
+}
+
+.appointment .image-block .love{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+}
+
+.appointment .image-block .vet-doctor{
+    bottom: 0;
+}
+
+/* Connect Pet vendors
+.connect .heading-text{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.connect .text-block {
+    max-width: 25vw;
+}
+
+.connect .profile img {
+    align-self: flex-start;
+}
+
+.connect .profile .details span {
+    font-size: var(--size-20);
+    line-height: var(--size-35);
+    font-weight: 500;
+}
+
+.connect .profil .details p {
+    font-weight: 500;
+}
+
+.connect .profile .details{
+    text-align: left;
+}
+
+.connect .profile .details span, p{
+    text-align: center;
+}
+
+.connect .text-block {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-side-image {
+    justify-self: flex-end;
+}
+
+.connect .image-block {
+    height: 100%;
+    display: flex;
+}
+
+.connect .image-block .top-block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.connect .image-block .middle-block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.connect .middle-block div:nth-child(3) {
+    align-self: flex-end;
+}
+
+.connect .image-block .last-block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-30)
+}
+
+.connect .last-block div:nth-child(3) {
+    align-self: flex-end;
+}
+ */
+
+/* How it works */
+
+.how-it-work .content-block {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.how-it-work .block-card{
+    flex: 1;
+    background-color: var(--cl-white-400);
+    border-radius: var(--size-10);
+    padding: var(--size-30);
+    color: var(--cl-black-400);
+    text-align: center;
+}
+
+.how-it-work .block-card{
+    flex: 1;
+    flex-basis: 40rem;
+    background-color: var(--cl-white-400);
+    border-radius: var(--size-10);
+    padding: var(--size-40);
+    color: var(--cl-black-400);
+    text-align: center;
+    /* margin-bottom: 300rem; */
+}
+
+.how-it-work .card-image-block {
+    display: flex;
+    justify-content: center;
+}
+
+/* .how-it-work .card-text-block h4 {
+    font-size: var(--size-20);
+    font-weight: 400;
+    padding-block: var(--size-10);
+} */
+
+/* .how-it-work .btn-container{
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* Blog Resources */
+.blog .block-card:nth-child(n+4) {
+    display: none;
+}
+
+/* Testimonial */
+
+.testimonial .grid-2-column {
+    gap: 5rem;
+}
+
+/* Connect Pet vendors */
+section.connect.padding--block-100 {
+    padding-block: var(--size-10);
+}
+
+.connect .heading-text{
+    max-width: 35vw;
+}
+
+.connect .heading-text .padding--block-25{
+    padding-block: var(--size-10);
+}

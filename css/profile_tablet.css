@@ -1,0 +1,18 @@
+@import url("common.css");
+
+html {
+    font-size: 50%;
+}
+
+/* Dashboard */
+.home--grid {
+    display: grid;
+    /* grid-template-columns: unset; */
+}
+
+.input-group-cont {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--size-30);
+    flex-wrap: wrap;
+}

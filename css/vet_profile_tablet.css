@@ -1,0 +1,44 @@
+@import url("common.css");
+
+html {
+    font-size: 50%;
+}
+
+/* Dashboard */
+.home--grid {
+    display: grid;
+}
+
+.input-group-cont {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--size-30);
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    max-width: 30rem;
+    min-width: 25rem;
+}
+
+.vet-card-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-20);
+}
+
+.vet-card-cont > * {
+    flex: 1 1 100%;
+}
+
+.vet-card-cont .card-block {
+    display: flex;
+    align-items: center;
+    gap: var(--size-60);
+}
+
+.vet-card-cont .card-block .image {
+    max-width: 40%;
+    min-width: 150px;
+    height: auto;
+}
