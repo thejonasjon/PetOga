@@ -45,8 +45,9 @@ body {
 #blue:hover {
   fill: #aa5e31;
 }
-#black:hover {
+#black a:hover {
   color: #aa5e31;
+  border-bottom: 1px solid #ffffff;
 }
 .hero1 {
   height: 89.8vh;

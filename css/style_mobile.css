@@ -1,0 +1,312 @@
+@import url("/css/common.css");
+
+html {
+    font-size: 50%;
+}
+
+.container {
+    padding-inline: var(--size-60);
+}
+
+.get-started .btn-container {
+    width: 100%;
+    text-align: center;
+}
+
+.landing .padding--inline-100 {
+    padding-inline: var(--size-40);
+}
+
+.landing .padding--top-523 {
+    padding-top: var(--size-25);
+}
+
+.main-nav nav,
+.main-nav .btn-container{
+    display: none;
+}
+
+.hamburger-menu {
+    display: inline-block;
+}
+
+.hamburger-menu:hover .mobile-menu {
+    display: inline-block;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.mobile-menu li {
+  margin: 0.5rem 0;
+}
+
+.mobile-menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.hero .text-block{
+    padding-inline: var(--size-60);
+}
+
+.hero .text-block br{
+    display: none;
+}
+
+.hero .heading--h1 {
+    font-size: var(--size-32);
+    line-height: var(--size-36);
+    font-weight: 300;
+}
+
+.hero .paragraph--sm {
+    font-weight: 100;
+}
+
+.statistics {
+    padding: var(--size-10) 0 var(--size-10) 0;
+  }
+
+.statistics .content {
+    width: 90%;
+    flex-wrap: unset;
+}
+
+.statistics .content > * {
+    flex: 1 1 100%;
+}
+
+.statistics .content-block {
+    width: 10rem;
+    padding: var(--size-12) 0;
+    border: none;
+    border-radius: var(--size-08);
+}
+
+.statistics .heading--h3 {
+    font-size: var(--size-18);
+}
+
+/* Services */
+.service .text-block {
+    max-width: 100%;
+    text-align: center;
+}
+
+.service .text-block .margin--block-20{
+    text-align: center;
+}
+
+.service .grid-2-column {
+    display: flex;
+    grid-template-columns: unset;
+    flex-direction: column-reverse;
+}
+
+/* Appointment */
+.appointment .text-block {
+    max-width: 100%;
+}
+
+.appointment .bg--secondary-400 {
+    background-color: transparent;
+}
+
+.appointment .grid-2-column {
+    grid-template-columns: 1fr;
+}
+
+.appointment .padding--inline-120 {
+    padding-inline: 0;
+}
+
+.appointment .text-block {
+    color: var(--cl-black-400);
+    padding-inline: var(--size-60) !important;
+}
+
+.appointment .image-block {
+    background-color: var(--cl-secondary-400);
+    min-height: 55vh;
+    position: relative;
+}
+
+.appointment .image-block img {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+.appointment .image-block .vet-doctor {
+    bottom: -15px;
+}
+
+.appointment .button--bg-primary:hover {
+  border: 0.5px solid var(--cl-secondary-400);
+}
+
+.appointment .text-block {
+    margin-top: var(--size-18);
+    text-align: center;
+    padding-inline: var(--size-40);
+}
+
+.appointment .text-block .margin--block-20{
+    text-align: center;
+    margin-block: var(--size-10);
+}
+
+/* connect */
+.connect .grid-2-column {
+    display: flex;
+    grid-template-columns: unset;
+    flex-direction: column-reverse;
+}
+
+.connect .heading-text {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connect .text-block {
+  max-width: 100%;
+}
+
+.text-side-image {
+    display: none;
+}
+
+/* Transaction */
+.transaction .grid-2-column {
+    grid-template-columns: 1fr;
+    gap: var(--size-40);
+}
+
+.transaction .text-block {
+    max-width: 100%;
+    text-align: center;
+}
+
+.transaction .sub-block .flex-display {
+    justify-content: left;
+    margin-left: var(--size-40);
+}
+
+.transaction .text-block p.margin--block-20{
+    text-align: center;
+}
+
+/* How PetOga work */
+.how-it-work .block-card{
+    flex: 1;
+    min-width: 40rem;
+}
+
+/* Blog */
+.blog .block-card {
+    flex: 1 1 100%;
+}
+
+/* Testimonial */
+.testimonial .container {
+    padding-inline: 15%;
+}
+
+.testimonial .content-block {
+    margin-top: var(--size-50);
+    border-radius: var(--size-10);
+    border: 1px solid var(--cl-white-200);
+    padding: 2%;
+}
+
+.testimonial .grid-2-column {
+    grid-template-columns: 1fr;
+}
+
+.testimonial .image-block{
+    display: flex;
+    gap: var(--size-10);
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial .next .material-symbols-outlined,
+.testimonial .previous .material-symbols-outlined {
+    display: none;
+}
+
+.testimonial .next-mobile .material-symbols-outlined,
+.testimonial .previous-mobile .material-symbols-outlined {
+    display: inline-block;
+}
+
+/* FAQs */
+.faq .heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq .heading .paragraph--sm {
+    text-align: center;
+}
+
+.faq .grid-2-column {
+    grid-template-columns: 1fr;
+}
+
+.faq .block-card {
+  border-bottom: 1px solid var(--cl-white-200);
+  padding-block: var(--size-15);
+}
+
+.faq .block-card .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--size-40);
+}
+
+/* Get Started */
+.get-started .container--full-width {
+    background-color: var(--cl-secondary-300);
+    padding-inline: var(--size-40);
+}
+
+/* Footer */
+.footer .content {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  gap: var(--size-60);
+  color: #dadada;
+}
+.footer .content .footer-nav {
+  flex: 1 1;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-nav > * {
+  flex: 1 1 40%;
+}
+
