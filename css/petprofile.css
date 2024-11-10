@@ -86,8 +86,12 @@ body {
   text-align: left;
   margin: 2rem;
 }
-.wind button:hover {
+.wind a {
+  color: #3d405b;
+}
+.wind button a:hover {
   color: #aa5e31;
+  border-bottom: 1px solid #aa5e31;
 }
 #blue:hover {
   fill: #aa5e31;
@@ -186,6 +190,9 @@ body {
 .intro1 button a {
   font-size: 1.3rem;
   color: #ffffff;
+}
+.intro1 button:hover {
+  background-color: #3d405b;
 }
 /*footer*/
 footer {
@@ -341,6 +348,13 @@ footer li:hover {
   #blue:hover {
     fill: #aa5e31;
   }
+  .wind a {
+    color: #3d405b;
+  }
+  .wind button a:hover {
+    color: #aa5e31;
+    border-bottom: 1px solid #aa5e31;
+  }
   /* new section*/
   .hero {
     display: flex;
@@ -435,6 +449,9 @@ footer li:hover {
   .intro1 button a {
     font-size: 1.2rem;
     color: #ffffff;
+  }
+  .intro1 button:hover {
+    background-color: #3d405b;
   }
   /*footer*/
   footer {
