@@ -14,13 +14,9 @@
 
 
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="css/mobile.css" media="(max-width:500px)" /> -->
-
-    <!-- <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/common.css"> -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/style_tablet.css" media="(max-width:1024px)" />
-
+    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width:500px)" />
 
 </head>
 <body>
@@ -45,6 +41,20 @@
                             <a class="button-default button-round--3 border--primary" href="/pages/login.html">Log in</a>
                             <a class="button-default button-round--3 button--bg-primary" href="/pages/signup.html">Sign up</a>
                         </div>
+
+                        <div class="hamburger-menu" onclick="toggleMobileMenu()">
+                            <span class="material-symbols-outlined">menu</span>
+                        </div>
+                    </div>
+
+                    <div class="mobile-menu">
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="/pages/login.html">Log in</a></li>
+                            <li><a href="/pages/signup.html">Sign up</a></li>
+                        </ul>
                     </div>
                 </header>
 
@@ -407,7 +417,13 @@
                                 <span class="material-symbols-outlined">chevron_left</span>
                             </div>
                             <div class="image-block">
+                                <div class="previous-mobile">
+                                    <span class="material-symbols-outlined">chevron_left</span>
+                                </div>
                                 <img src="/assets/images/landing_page/testimonial-img.png" alt="Testimonials">
+                                <div class="next-mobile">
+                                    <span class="material-symbols-outlined">chevron_right</span>
+                                </div>
                             </div>
 
                             <div class="text-block">

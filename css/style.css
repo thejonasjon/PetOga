@@ -1,4 +1,4 @@
-@import url(common.css);
+@import url("/css/common.css");
 
 /* Buttons */
 .button-default {
@@ -166,6 +166,15 @@
 
 .text-align--center {
   text-align: center;
+}
+
+.mobile-menu, .hamburger-menu {
+  display: none;
+}
+
+.hamburger-menu .material-symbols-outlined {
+  color: var(--cl-white-400);
+  font-size: var(--size-30) !important;
 }
 
 .statistics {
@@ -347,7 +356,6 @@ p {
 }
 
 /* Transaction */
-
 .transaction .text-block {
   max-width: 25vw;
 }
@@ -387,7 +395,7 @@ p {
   position: relative;
   z-index: 2;
   color: white;
-  padding: 20px;
+  padding: var(--size-20);
   text-align: center;
 }
 
@@ -418,9 +426,8 @@ p {
 }
 
 .how-it-work .btn-container {
-  width: 10vw;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  text-align: center;
 }
 
 /* Blog Resources */
@@ -458,9 +465,8 @@ p {
 }
 
 .blog .btn-container {
-  width: 10vw;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  text-align: center;
 }
 
 /* Testimonial */
@@ -470,7 +476,6 @@ p {
 .testimonial .content-block {
     border-radius: var(--size-10);
     border: 1px solid var(--cl-white-200);
-    /* padding: var(--size-20) var(--size-100); */
     padding: 2%
 }
 
@@ -480,10 +485,18 @@ p {
 }
 
 .testimonial .next .material-symbols-outlined,
-.testimonial .previous .material-symbols-outlined {
+.testimonial .previous .material-symbols-outlined,
+.testimonial .next-mobile .material-symbols-outlined,
+.testimonial .previous-mobile .material-symbols-outlined {
     font-size: var(--size-40) !important;
     color: var(--cl-primary-400);
 }
+
+.testimonial .next-mobile .material-symbols-outlined,
+.testimonial .previous-mobile .material-symbols-outlined {
+    display: none;
+}
+
 
 .testimonial .next {
     justify-self: flex-end;
@@ -575,19 +588,16 @@ p {
 }
 
 /* Get Started */
-
 .get-started .container--full-width {
   background-color: var(--cl-secondary-300);
 }
 
 .get-started .btn-container {
-  width: 10vw;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  text-align: center;
 }
 
 /* Footer */
-
 .footer .content {
   display: flex;
   flex-wrap: wrap;
