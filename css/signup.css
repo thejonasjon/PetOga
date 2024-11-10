@@ -42,11 +42,13 @@ body {
   letter-spacing: 0.15000000596046448px;
   text-align: left;
 }
+
 #blue:hover {
   fill: #aa5e31;
 }
-.intro-text button:hover {
+.intro-text button a:hover {
   color: #aa5e31;
+  border-bottom: 1px solid #ffffff;
 }
 .intro-img {
   height: 89.8vh;
@@ -260,10 +262,13 @@ body {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+  .intro-text a {
+    color: #ffffff;
+  }
   #blue:hover {
     fill: #aa5e31;
   }
-  .intro-text button:hover {
+  .intro-text button a:hover {
     color: #aa5e31;
   }
   .intro-img {
