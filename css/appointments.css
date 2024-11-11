@@ -1,0 +1,7 @@
+@import url("common.css");
+
+/* Dashboard stats */
+.main-content .content-block {
+  padding: var(--size-40) var(--size-40);
+  overflow: auto;
+}

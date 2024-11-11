@@ -1,0 +1,63 @@
+@import url("common.css");
+
+/* Dashboard stats */
+.main-content .content-block {
+  padding: var(--size-40) var(--size-40);
+  overflow: auto;
+}
+
+.record-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.record-table thead{
+  font-size: var(--size-14);
+  line-height: var(--size-20);
+  padding: var(--size-60);
+  background-color: transparent;
+}
+
+.record-table tbody{
+  background-color: var(--cl-white-400);
+}
+
+.record-table tbody tr{
+  font-size: var(--size-14);
+  line-height: var(--size-20);
+}
+
+.record-table th{
+    text-align: left;
+    padding-bottom: var(--size-10);
+    padding-left: var(--size-20);
+}
+
+.record-table td {
+  text-align: left;
+  padding: var(--size-15);
+  padding-left: var(--size-20);
+}
+
+.form-btn-group {
+    margin-top: var(--size-40);
+}
+
+.form-btn-group button{
+    outline: none;
+    border: none;
+    font-size: var(--size-14);
+    line-height: var(--size-20);
+    font-weight: 450;
+    color: var(--cl-white-400);
+    padding: var(--size-08) var(--size-20);
+    border-radius: var(--size-08);
+}
+
+.form-btn-group .rebook {
+    background-color: var(--cl-primary-400);
+}
+
+.form-btn-group .rebook:hover {
+    cursor: pointer;
+}
