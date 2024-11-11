@@ -3,8 +3,6 @@
 
 
 /* General Input */
-
-
 .input-group-cont {
     display: flex;
     gap: var(--size-200);
