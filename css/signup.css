@@ -463,3 +463,235 @@ body {
     font-weight: 500;
   }
 }
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 99.8vh;
+    width: 40rem;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+    background: #3d405b;
+    font-family: "Montserrat", serif;
+    border-radius: 10px;
+    margin-top: 0.1rem;
+  }
+
+  .intro-text button {
+    color: #ffffff;
+    border: none;
+    background-color: inherit;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    display: none;
+    justify-content: left;
+    align-items: flex-start;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+  }
+  .intro-text a {
+    color: #ffffff;
+  }
+  #blue:hover {
+    fill: #aa5e31;
+  }
+  .intro-text button a:hover {
+    color: #aa5e31;
+  }
+  .intro-img {
+    display: none;
+  }
+  .intro-img img {
+    display: none;
+    width: 100%;
+    height: 89.8vh;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .intro-text {
+    margin-left: auto;
+    height: 50vh;
+    width: 36rem;
+    color: #ffffff;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    margin-top: 5rem;
+    margin-bottom: auto;
+  }
+  .intro-text h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 34.2px;
+    margin-right: 6rem;
+    text-align: center;
+  }
+
+  .intro-text p {
+    display: inline;
+  }
+  .intro-text a {
+    color: #aa5e31;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .intro-text h2 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #a6a6a6;
+    display: inline;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 2.2rem;
+  }
+  .a {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.1rem;
+    border: none;
+    color: #ffffff;
+    line-height: 24px;
+
+    font-weight: 400;
+  }
+  .b {
+    display: inline-block;
+    color: #b9b9b999;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .p1 {
+    font-weight: 300;
+    font-size: 1.1rem;
+    display: inline;
+    vertical-align: middle;
+    line-height: 3px;
+  }
+  .a span {
+    color: #aa5e31;
+    font-weight: 400;
+    font-size: 1.1rem;
+    display: inline;
+    vertical-align: middle;
+    line-height: 3px;
+  }
+
+  ::placeholder {
+    color: #12111199;
+    font-weight: 500;
+    opacity: 1;
+  }
+  #username:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(73, 146, 206);
+  }
+  #submit:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #aa5e31;
+  }
+  #email:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(73, 146, 206);
+  }
+  #password:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(73, 146, 206);
+  }
+
+  #username {
+    width: 165px;
+    height: 60px;
+    padding: 7px;
+    gap: 20px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #686b8c;
+    border: none;
+    color: white;
+    text-align: left;
+    font-size: 1.1rem;
+    margin: 0.2rem;
+    font-family: inherit;
+    font-weight: 600;
+  }
+  #email {
+    width: 340px;
+    height: 60px;
+    padding: 8px;
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #686b8c;
+    border: none;
+    color: white;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  #password {
+    width: 340px;
+    height: 60px;
+    padding: 8px;
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #686b8c;
+    border: none;
+    color: white;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .p-viewer {
+    z-index: 9999;
+    position: absolute;
+    left: 358px;
+    top: 384px;
+    margin-top: -60px;
+  }
+  .p-viewer1 {
+    z-index: 9999;
+    position: absolute;
+    left: 358px;
+    top: 465px;
+    margin-top: -60px;
+  }
+  .fa-eye-slash {
+    font-size: 10px;
+    color: #f3f3f3;
+  }
+  #submit {
+    width: 340px;
+    height: 60px;
+    padding: 10px 2px 12px 2px;
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #f3f3f3;
+    border: none;
+    color: #3d405b;
+    text-align: center;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
