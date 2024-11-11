@@ -373,7 +373,6 @@ p {
     align-items: baseline;
 }
 
-
 /* Dashboard */
 .navbar--brand a{
     font-size: 2.8rem;
@@ -475,6 +474,11 @@ p {
 }
 
 .side-nav li:active {
+  background-color: var(--cl-primary-400);
+  border-radius: var(--size-5);
+}
+
+.side-nav li.active {
   background-color: var(--cl-primary-400);
   border-radius: var(--size-5);
 }
