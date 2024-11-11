@@ -2,17 +2,6 @@
 
 
 /* General Input */
-.previous-btn {
-    display: flex;
-}
-
-.top-horizontal-nav .previous-btn a{
-    display: flex;
-    align-items: center;
-    gap: var(--size-20);
-    color: var(--c-black-400);
-}
-
 .input-group label {
     display: block;
     font-size: var(--size-16);

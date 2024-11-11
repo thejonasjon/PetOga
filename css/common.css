@@ -1,5 +1,5 @@
 /* General CSS */
-@import url(/css/reset.css);
+@import url("/css/reset.css");
 
 /* Variable */
 :root {
@@ -513,4 +513,16 @@ p {
 .main-content .top-horizontal-nav a {
   font-size: var(--size-16);
   color: var(--cl-primary-400);
+}
+
+/*  */
+.previous-btn {
+  display: flex;
+}
+
+.top-horizontal-nav .previous-btn a{
+  display: flex;
+  align-items: center;
+  gap: var(--size-20);
+  color: var(--c-black-400);
 }
