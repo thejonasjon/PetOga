@@ -12,7 +12,7 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   background-color: black;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container1 {
@@ -244,12 +244,12 @@ button:hover {
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 86.8vh;
-    width: 62rem;
+    height: 94.8vh;
+    width: 90%;
     line-height: 0;
     font-size: 0;
     vertical-align: middle;
-    margin-top: 5rem;
+
     background: #3d405b;
     font-family: "Montserrat", serif;
     border-radius: 10px;
@@ -291,8 +291,8 @@ button:hover {
     border-bottom-left-radius: 20px;
   }
   .hero2 {
-    height: 50vh;
-    width: 54rem;
+    height: 80vh;
+    width: 90%;
     color: #ffffff;
     font-weight: 500;
     align-items: center;
@@ -304,25 +304,25 @@ button:hover {
   }
 
   .hero2 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 400;
     line-height: 46.2px;
-    margin-right: 7rem;
+
     text-align: center;
   }
   .hero2 h2 {
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: #a6a6a6;
     display: inline;
     text-align: center;
-    line-height: 10px;
-    margin-left: 16rem;
+    line-height: 20px;
+    margin-left: 26rem;
   }
   .c {
     display: inline-block;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     border: none;
     color: #ffffff;
     line-height: 24px;
@@ -332,7 +332,7 @@ button:hover {
   .d {
     display: inline-block;
     color: #b9b9b999;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     color: #ffffff;
     font-weight: 400;
     line-height: 24px;
@@ -377,8 +377,8 @@ button:hover {
   }
 
   button {
-    width: 460px;
-    height: 50px;
+    width: 650px;
+    height: 70px;
     padding: 6px 2px 6px 2px;
 
     border-radius: 3px 3px 3px 3px;
@@ -404,8 +404,8 @@ button:hover {
     align-items: center;
   }
   #email {
-    width: 460px;
-    height: 50px;
+    width: 650px;
+    height: 70px;
     padding: 9px;
     gap: 10px;
     border-radius: 7px;
@@ -418,8 +418,8 @@ button:hover {
     font-weight: 600;
   }
   #submit {
-    width: 460px;
-    height: 50px;
+    width: 650px;
+    height: 70px;
 
     gap: 10px;
     border-radius: 7px;
@@ -460,8 +460,8 @@ button:hover {
   .p-viewer {
     z-index: 9999;
     position: absolute;
-    left: 490px;
-    top: 288px;
+    left: 690px;
+    top: 328px;
     margin-top: -60px;
   }
   .fa-eye-slash {
@@ -469,22 +469,22 @@ button:hover {
     color: #f7f2f2d3;
   }
   .tab {
-    margin-left: 20rem;
+    margin-left: 40rem;
   }
 }
-@media only screen and (max-width: 500px) {
-  /* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  /* For tablet phones: */
   .container1 {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 99.8vh;
-    width: 40rem;
+    height: 94.8vh;
+    width: 90%;
     line-height: 0;
     font-size: 0;
     vertical-align: middle;
-    margin-top: 0.1rem;
+
     background: #3d405b;
     font-family: "Montserrat", serif;
     border-radius: 10px;
@@ -526,8 +526,244 @@ button:hover {
     border-bottom-left-radius: 20px;
   }
   .hero2 {
+    height: 80vh;
+    width: 90%;
+    color: #ffffff;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+  }
+
+  .hero2 h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 46.2px;
+
+    text-align: center;
+  }
+  .hero2 h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #a6a6a6;
+    display: inline;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 18rem;
+  }
+  .c {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border: none;
+    color: #ffffff;
+    line-height: 24px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  .d {
+    display: inline-block;
+    color: #b9b9b999;
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  h4 {
+    text-align: center;
+    color: #919191;
+    font-size: 1rem;
+    position: relative;
+    top: 40%;
+  }
+
+  h4::before,
+  h4::after {
+    background-color: #919191;
+    color: #919191;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    top: 60%;
+    vertical-align: middle;
+    width: 173.35px;
+    border: 0.1px #919191;
+  }
+
+  h4::before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+  h4::after {
+    left: 0.5em;
+    margin-right: -30%;
+  }
+  .hero2 a {
+    font-size: 1.1rem;
+    color: #919191;
+    text-decoration: none;
+    line-height: 50px;
+  }
+
+  button {
+    width: 550px;
+    height: 70px;
+    padding: 6px 2px 6px 2px;
+
+    border-radius: 3px 3px 3px 3px;
+
+    border: 1px solid gray;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    background-color: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    align-items: center;
+    display: inline-flex;
+  }
+  button img {
+    width: 41.2px;
+    height: 39px;
+    gap: 0px;
+    opacity: 0px;
+
+    vertical-align: middle;
+    align-items: center;
+  }
+  #email {
+    width: 550px;
+    height: 70px;
+    padding: 9px;
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #686b8c;
+    border: none;
+    color: #f1eeee;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  #submit {
+    width: 550px;
+    height: 70px;
+
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #f3f3f3;
+    border: none;
+    color: #3d405b;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  ::placeholder {
+    color: #12111199;
+    font-weight: 500;
+    opacity: 1;
+  }
+
+  #submit:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #aa5e31;
+  }
+  #email:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(73, 146, 206);
+  }
+  button:hover {
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+  }
+  #password:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(73, 146, 206);
+  }
+
+  .p-viewer {
+    z-index: 9999;
+    position: absolute;
+    left: 590px;
+    top: 328px;
+    margin-top: -60px;
+  }
+  .fa-eye-slash {
+    font-size: 12px;
+    color: #f7f2f2d3;
+  }
+  .tab {
+    margin-left: 30rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100.8vh;
+    width: 100%;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+    margin-top: 0.1rem;
+    background: #3d405b;
+    font-family: "Montserrat", serif;
+    border-radius: 10px;
+  }
+  #black {
+    display: none;
+    color: #ffffff;
+    border: none;
+    background-color: inherit;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+
+    justify-content: left;
+    align-items: flex-start;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    margin-top: 4rem;
+  }
+  #blue:hover {
+    fill: #aa5e31;
+  }
+  #black:hover {
+    color: #aa5e31;
+  }
+  .hero1 {
+    display: none;
+    height: 89.8vh;
+    width: 90%;
+  }
+  .hero1 img {
+    display: none;
+    width: 100%;
+    height: 89.8vh;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .hero2 {
     height: 55vh;
-    width: 36rem;
+    width: 90%;
     color: #ffffff;
     font-weight: 500;
     align-items: center;
@@ -705,5 +941,241 @@ button:hover {
   }
   .tab {
     margin-left: 9rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  /* For mobile phones: */
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100.8vh;
+    width: 100%;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+    margin-top: 0.1rem;
+    background: #3d405b;
+    font-family: "Montserrat", serif;
+    border-radius: 10px;
+  }
+  #black {
+    display: none;
+    color: #ffffff;
+    border: none;
+    background-color: inherit;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+
+    justify-content: left;
+    align-items: flex-start;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    margin-top: 4rem;
+  }
+  #blue:hover {
+    fill: #aa5e31;
+  }
+  #black:hover {
+    color: #aa5e31;
+  }
+  .hero1 {
+    display: none;
+    height: 89.8vh;
+    width: 90%;
+  }
+  .hero1 img {
+    display: none;
+    width: 100%;
+    height: 89.8vh;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .hero2 {
+    height: 55vh;
+    width: 90%;
+    color: #ffffff;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-top: 7rem;
+  }
+
+  .hero2 h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 46.2px;
+    margin-right: 7rem;
+    text-align: center;
+  }
+  .hero2 h2 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #a6a6a6;
+    display: inline;
+    text-align: center;
+    line-height: 10px;
+    margin-left: 8rem;
+  }
+  .c {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: none;
+    color: #ffffff;
+    line-height: 24px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  .d {
+    display: inline-block;
+    color: #b9b9b999;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  h4 {
+    text-align: center;
+    color: #919191;
+    font-size: 1rem;
+    position: relative;
+    top: 40%;
+  }
+
+  h4::before,
+  h4::after {
+    background-color: #919191;
+    color: #919191;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    top: 60%;
+    vertical-align: middle;
+    width: 173.35px;
+    border: 0.1px #919191;
+  }
+
+  h4::before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+  h4::after {
+    left: 0.5em;
+    margin-right: -30%;
+  }
+  .hero2 a {
+    font-size: 1.1rem;
+    color: #919191;
+    text-decoration: none;
+    line-height: 50px;
+  }
+
+  button {
+    width: 320px;
+    height: 50px;
+    padding: 6px 2px 6px 2px;
+
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 5rem;
+    border: 1px solid gray;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    background-color: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    align-items: center;
+    display: inline-flex;
+  }
+  button img {
+    width: 41.2px;
+    height: 39px;
+    gap: 0px;
+    opacity: 0px;
+
+    vertical-align: middle;
+    align-items: center;
+  }
+  #email {
+    width: 320px;
+    height: 50px;
+    padding: 9px;
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #686b8c;
+    border: none;
+    color: #f1eeee;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  #submit {
+    width: 320px;
+    height: 50px;
+
+    gap: 10px;
+    border-radius: 7px;
+    opacity: 0px;
+    background-color: #f3f3f3;
+    border: none;
+    color: #3d405b;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  ::placeholder {
+    color: #12111199;
+    font-weight: 500;
+    opacity: 1;
+  }
+
+  #submit:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #aa5e31;
+  }
+  #email:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(73, 146, 206);
+  }
+  button:hover {
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+  }
+  #password:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(73, 146, 206);
+  }
+
+  .p-viewer {
+    z-index: 9999;
+    position: absolute;
+    left: 330px;
+    top: 308px;
+    margin-top: -60px;
+  }
+  .fa-eye-slash {
+    font-size: 12px;
+    color: #f7f2f2d3;
+  }
+  .tab {
+    margin-left: 7rem;
   }
 }

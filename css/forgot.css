@@ -158,14 +158,14 @@ a:hover {
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    height: 100%;
+    height: 100.8vh;
     border-radius: 10px;
-    width: 56rem;
+    width: 100%;
     line-height: 0;
     font-size: 0;
     vertical-align: middle;
     margin: auto;
-    margin-top: 3rem;
+
     gap: 0px;
     opacity: 0px;
     background-color: white;
@@ -203,13 +203,13 @@ a:hover {
   }
 
   .forgot h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 500;
     line-height: 48.2px;
     font-family: "Montserrat", serif;
     text-align: center;
     color: #3d405b;
-    margin-top: 10rem;
+    margin-top: 1rem;
   }
   .forgot h2 {
     font-size: 1.2rem;
@@ -222,12 +222,12 @@ a:hover {
     opacity: 1px;
     margin-bottom: 3rem;
     color: #3d405b;
-    margin-left: 7rem;
+    margin-left: 17rem;
     font-family: "Montserrat", serif;
   }
   #email {
-    width: 432px;
-    height: 65px;
+    width: 600px;
+    height: 75px;
     font-size: 1.5rem;
     padding: 10px;
     gap: 10px;
@@ -242,14 +242,14 @@ a:hover {
 
   .z {
     color: #a6a6a6;
-    font-size: 1.3rem;
-    margin-left: 10rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
     line-height: 50px;
     margin-bottom: 10rem;
   }
   .y {
     color: #3d405b;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 10rem;
   }
   a:hover {
@@ -257,8 +257,8 @@ a:hover {
   }
 
   #pwd {
-    width: 432px;
-    height: 65px;
+    width: 600px;
+    height: 75px;
     padding: 12px 2px 12px 2px;
     gap: 10px;
     border-radius: 7px;
@@ -268,7 +268,7 @@ a:hover {
     color: #ffffff;
     text-align: center;
     font-size: 1.7rem;
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
   ::placeholder {
     color: #12111199;
@@ -298,7 +298,7 @@ a:hover {
     font-weight: 500;
   }
   .forgot {
-    margin-bottom: 10rem;
+    margin-bottom: 20rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -309,14 +309,14 @@ a:hover {
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    height: 97.8vh;
-    border-radius: 10px;
-    width: 38rem;
+    height: 100.8vh;
+    border-radius: 1px;
+    width: 100%;
     line-height: 0;
     font-size: 0;
     vertical-align: middle;
     margin: auto;
-    margin-top: 0.1rem;
+
     gap: 0px;
     opacity: 0px;
     background-color: white;
@@ -450,6 +450,6 @@ a:hover {
     font-weight: 500;
   }
   .forgot {
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
   }
 }

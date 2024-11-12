@@ -458,7 +458,7 @@ footer li:hover {
     display: flex;
     position: relative;
     width: 100%;
-    height: 8.5rem;
+    height: 9vh;
     color: #ffffff;
     background-color: #3d405b;
     justify-content: space-between;
@@ -473,7 +473,7 @@ footer li:hover {
     height: 2rem;
     line-height: 33.18px;
     left: 120px;
-    padding-left: 10rem;
+    padding-left: 7rem;
     float: left;
     align-items: center;
   }
@@ -492,7 +492,7 @@ footer li:hover {
     line-height: 24px;
     font-weight: 400;
     position: absolute;
-    left: 300px;
+    left: 250px;
     align-items: center;
     text-align: center;
     justify-self: center;
@@ -502,6 +502,8 @@ footer li:hover {
     color: #ffffff;
     float: left;
     list-style-type: none;
+    font-weight: 500;
+    font-size: 1.3rem;
     gap: 10;
   }
   .brand li {
@@ -515,7 +517,7 @@ footer li:hover {
     border-bottom: 2px solid #aa5e31;
   }
   .hambugger {
-    display: flex;
+    display: none;
     max-width: 20%;
     list-style-type: none;
     font-size: 1.5rem;
@@ -523,7 +525,7 @@ footer li:hover {
     font-weight: 400;
     position: absolute;
     left: 450px;
-    margin-left: 30rem;
+    margin-left: 25rem;
     align-items: center;
     text-align: center;
     justify-self: center;
@@ -589,14 +591,14 @@ footer li:hover {
 
     width: 100%;
     margin: auto;
-    height: 67vh;
+    height: auto;
     background-color: white;
     padding: 6rem;
   }
   .one {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 67vh;
+    height: auto;
     width: 48%;
     border-radius: 8px;
     text-align: left;
@@ -606,7 +608,7 @@ footer li:hover {
   .two {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
-    height: 67vh;
+    height: auto;
     width: 48%;
     border-radius: 8px;
     text-align: left;
@@ -668,14 +670,14 @@ footer li:hover {
 
     width: 100%;
     margin: auto;
-    height: 67vh;
+    height: auto;
     background-color: white;
     padding: 6rem;
   }
   .seven {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 67vh;
+    height: auto;
     width: 48%;
     border-radius: 8px;
     text-align: left;
@@ -685,7 +687,7 @@ footer li:hover {
   .eight {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
-    height: 67vh;
+    height: auto;
     width: 48%;
     border-radius: 8px;
     text-align: left;
@@ -742,14 +744,14 @@ footer li:hover {
     align-items: center;
     width: 100%;
     margin: auto;
-    height: 67vh;
+    height: auto;
     background-color: white;
     padding: 6rem;
   }
   .four {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 67vh;
+    height: auto;
     width: 48%;
     border-radius: 8px;
     text-align: left;
@@ -759,7 +761,7 @@ footer li:hover {
   .five {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
-    height: 67vh;
+    height: auto;
     width: 48%;
     border-radius: 8px;
     text-align: left;
@@ -942,7 +944,7 @@ footer li:hover {
     height: 2rem;
     line-height: 33.18px;
     left: 50px;
-    padding-left: 5rem;
+    padding-left: 3rem;
     float: left;
     align-items: center;
   }
@@ -956,7 +958,7 @@ footer li:hover {
   }
   .brand-nav {
     display: none;
-    max-width: 20%;
+    max-width: 60%;
     list-style-type: none;
     font-size: 1.5rem;
     line-height: 24px;
@@ -986,9 +988,20 @@ footer li:hover {
     border-bottom: 2px solid #aa5e31;
   }
   .hambugger {
+    display: flex;
+    max-width: 20%;
+    list-style-type: none;
+    font-size: 1.5rem;
+    line-height: 24px;
+    font-weight: 400;
     position: absolute;
-    left: 100px;
+    left: 350px;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
   }
+
   /*new*/
   .rewind {
     display: flex;
@@ -1053,7 +1066,7 @@ footer li:hover {
   .one {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 67vh;
+    height: auto;
     width: 80%;
     border-radius: 8px;
     text-align: left;
@@ -1063,7 +1076,7 @@ footer li:hover {
   .two {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
-    height: 67vh;
+    height: auto;
     width: 80%;
     border-radius: 8px;
     text-align: left;
@@ -1131,7 +1144,7 @@ footer li:hover {
   .seven {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 67vh;
+    height: auto;
     width: 80%;
     border-radius: 8px;
     text-align: left;
@@ -1141,7 +1154,7 @@ footer li:hover {
   .eight {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
-    height: 67vh;
+    height: auto;
     width: 80%;
     border-radius: 8px;
     text-align: left;
@@ -1204,7 +1217,7 @@ footer li:hover {
   .four {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 67vh;
+    height: auto;
     width: 80%;
     border-radius: 8px;
     text-align: left;
@@ -1214,7 +1227,7 @@ footer li:hover {
   .five {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
-    height: 67vh;
+    height: auto;
     width: 80%;
     border-radius: 8px;
     text-align: left;
