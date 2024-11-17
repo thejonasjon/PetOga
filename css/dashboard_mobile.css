@@ -1,0 +1,68 @@
+@import url("common.css");
+
+html {
+    font-size: 50%;
+}
+
+/* Dashboard stats */
+.home--grid {
+    display: flex;
+}
+
+.home--grid .sidebar{
+    display: none;
+}
+
+.home--grid .main-content {
+    flex: 1;
+}
+
+.hamburger-menu .material-symbols-outlined {
+    color: var(--cl-primary-400);
+}
+
+
+.top-horizontal-nav div:first-child,
+.top-horizontal-nav div:nth-child(2){
+    display: none;
+}
+
+/* Stats */
+.dashboard-stats .wrapper {
+    flex-wrap: unset;
+  }
+
+.dashboard-stats .wrapper > * {
+    flex: 1;
+  }
+
+  .dashboard-stats .card-block .icon{
+    width: 30px;
+    height: 30px;
+    background-color: var(--cl-white-300);
+    padding: var(--size-15);
+    border-radius: 50%;
+  }
+
+  .dashboard-stats .card-block .icon .material-symbols-outlined{
+    color: var(--cl-primary-400);
+    font-size: 2px;
+  }
+
+  .dashboard-stats .icon-text{
+    display: flex;
+    align-items: end;
+    text-align: center;
+  }
+
+/* Pet adopted section */
+.pet-adopted-listed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--size-40);
+  }
+
+  .pet-adopted-listed > * {
+    flex: 1 1 100%;
+  }
