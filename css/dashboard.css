@@ -6,6 +6,10 @@
   overflow: auto;
 }
 
+.main-content .top-horizontal-nav .hamburger-menu {
+  display: none;
+}
+
 .dashboard-stats .wrapper {
   display: flex;
   justify-content: space-between;

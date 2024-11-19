@@ -131,7 +131,7 @@
   padding: var(--size-60) 0;
 }
 
-/*  */
+/* Global element */
 a {
   font-size: var(--size-16);
   line-height: var(--size-24);
@@ -164,7 +164,6 @@ p {
     line-height: var(--size-35);
     font-weight: 550;
 }
-
 
 .paragraph--sm {
     font-size: var(--size-18);
@@ -292,12 +291,14 @@ p {
 
 /* Buttons */
 .button-default {
+    min-width: fit-content;
     text-decoration: none;
     font-size: var(--size-14);
     line-height: var(--size-20);
     padding: var(--size-10) var(--size-20);
     border-radius: 0.8rem;
 }
+
 
 .button-round {
     border-radius: 2rem;

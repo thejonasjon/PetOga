@@ -48,13 +48,14 @@ html {
 
 .how-it-work .block-card{
     flex: 1;
-    flex-basis: 40rem;
+    min-width: 33%;
     background-color: var(--cl-white-400);
     border-radius: var(--size-10);
     padding: var(--size-40);
     color: var(--cl-black-400);
     text-align: center;
 }
+
 
 .how-it-work .card-image-block {
     display: flex;
@@ -67,7 +68,6 @@ html {
 }
 
 /* Testimonial */
-
 .testimonial .grid-2-column {
     gap: 5rem;
 }
