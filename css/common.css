@@ -131,7 +131,7 @@
   padding: var(--size-60) 0;
 }
 
-/*  */
+/* Global element */
 a {
   font-size: var(--size-16);
   line-height: var(--size-24);
@@ -164,7 +164,6 @@ p {
     line-height: var(--size-35);
     font-weight: 550;
 }
-
 
 .paragraph--sm {
     font-size: var(--size-18);
@@ -292,12 +291,14 @@ p {
 
 /* Buttons */
 .button-default {
+    min-width: fit-content;
     text-decoration: none;
     font-size: var(--size-14);
     line-height: var(--size-20);
     padding: var(--size-10) var(--size-20);
     border-radius: 0.8rem;
 }
+
 
 .button-round {
     border-radius: 2rem;
@@ -498,10 +499,10 @@ p {
   padding: var(--size-20) var(--size-20);
 }
 
-.main-content .top-horizontal-nav div:last-child {
+.main-content .top-horizontal-nav .top-nav-link {
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
+  gap: var(--size-20);
 }
 
 .main-content .top-horizontal-nav div:first-child p:last-child{
@@ -525,4 +526,18 @@ p {
   align-items: center;
   gap: var(--size-20);
   color: var(--c-black-400);
+}
+
+.top-horizontal-nav .top-nav-link {
+  display: flex;
+  gap: min(var(--size-10));
+  flex-wrap: wrap;
+  margin-left: var(--size-20);
+}
+
+@media screen and (min-width: 300px) and (max-width: 1138px) {
+  /* Side Menu */
+  .home--grid .sidebar{
+    max-width: var(--size-200);
+  }
 }

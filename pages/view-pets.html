@@ -15,6 +15,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/view_pets.css">
     <link rel="stylesheet" href="/css/view_pets_tablet.css" media="(max-width:1024px)" />
+    <link rel="stylesheet" href="/css/view_pets_mobile.css" media="(max-width:600px)" />
+
 
 
 </head>
@@ -67,9 +69,13 @@
                     <div class="previous-btn">
                         <a href="#"><span class="material-symbols-outlined">chevron_left</span>View Pet </a>
                     </div>
-                    <div>
+                    <div class="top-nav-link">
                         <a href="/pages/petprofile.html">Pet Adoption Page</a>
                         <a href="/pages/dashboard.html">Go Back To Homepge</a>
+                    </div>
+
+                    <div class="hamburger-menu" onclick="toggleMobileMenu()">
+                        <span class="material-symbols-outlined">menu</span>
                     </div>
                 </div>
 

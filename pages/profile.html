@@ -15,6 +15,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/profile.css">
     <link rel="stylesheet" href="/css/profile_tablet.css" media="(max-width:1024px)" />
+    <link rel="stylesheet" href="/css/profile_mobile.css" media="(max-width:600px)" />
 
 </head>
 <body>
@@ -42,7 +43,7 @@
                             <nav>
                                 <ul role='list' class="side-nav">
                                     <li><a href="#"><span class="material-symbols-outlined">home</span> Overview</a></li>
-                                    <li><a href="#"><span class="material-symbols-outlined">add_circle</span>Appointment</a></li>
+                                    <li><a href="/pages/appointments.html"><span class="material-symbols-outlined">add_circle</span>Appointment</a></li>
                                     <li class="active"><a href="/pages/profile.html"><span class="material-symbols-outlined">person</span>Profile</a></li>
                                 </ul>
                             </nav>
@@ -65,9 +66,13 @@
                     <div class="previous-btn">
                         <a href="#"><span class="material-symbols-outlined">chevron_left</span>Profile</a>
                     </div>
-                    <div>
+                    <div class="top-nav-link">
                         <a href="/pages/petprofile.html">Pet Adoption Page</a>
                         <a href="/pages/dashboard.html">Go Back To Homepge</a>
+                    </div>
+
+                    <div class="hamburger-menu" onclick="toggleMobileMenu()">
+                        <span class="material-symbols-outlined">menu</span>
                     </div>
                 </div>
 

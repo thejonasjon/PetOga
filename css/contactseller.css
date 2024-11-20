@@ -203,6 +203,18 @@ footer {
   align-self: start;
   padding: 3rem;
 }
+.started button {
+  display: none;
+  width: 100px;
+  height: 5vh;
+  font-weight: 500;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 3px;
+}
+.start {
+  font-size: 1.3rem;
+}
 .one {
   max-width: 27%;
   height: 2rem;
@@ -257,7 +269,7 @@ footer li:hover {
     display: flex;
     position: relative;
     width: 100%;
-    height: 8.5rem;
+    height: 9vh;
     color: #ffffff;
     background-color: #3d405b;
     justify-content: space-between;
@@ -300,7 +312,8 @@ footer li:hover {
   .brand nav ul li a {
     color: #ffffff;
     float: left;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
     list-style-type: none;
     gap: 10;
   }
@@ -309,7 +322,7 @@ footer li:hover {
     float: left;
     margin: 3rem;
     font-size: 1rem;
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
   .brand li a:hover {
     text-decoration: none;
@@ -327,7 +340,7 @@ footer li:hover {
     width: 100%;
     margin: auto;
     height: 2vh;
-
+    border: none;
     background-color: white;
   }
   .wind button {
@@ -353,12 +366,12 @@ footer li:hover {
     display: flex;
     background-color: white;
     width: 100%;
-    height: 62vh;
+    height: auto;
     margin: auto;
   }
   .hero-sub {
-    width: Hug (604px) px;
-    height: Hug (304px) px;
+    width: 100%;
+    height: auto;
     gap: 20px;
     opacity: 0px;
 
@@ -368,8 +381,8 @@ footer li:hover {
     padding: 5rem;
   }
   .hero-sub img {
-    width: 151px;
-    height: 201px;
+    width: 35%;
+    height: 18vh;
     gap: 10px;
     border-radius: 20px 20px 20px 20px;
     opacity: 0px;
@@ -382,18 +395,19 @@ footer li:hover {
   .hero-sub h1 {
     display: inline-block;
     margin-left: 2rem;
-    line-height: 30px;
+    line-height: 35px;
     font-size: 14px;
     font-weight: 300;
   }
   h1 img {
     width: 10px;
+    height: auto;
   }
   .bear img {
     display: block;
   }
   .hero-sub h2 {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   .mid {
     position: relative;
@@ -422,6 +436,24 @@ footer li:hover {
     font-family: "Montserrat", serif;
     align-self: start;
     padding: 1rem;
+  }
+  .started button {
+    font-family: inherit;
+    margin-top: 5px;
+    display: block;
+    width: 150px;
+    height: 4vh;
+    font-weight: 500;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+  .started button:hover {
+    background-color: #aa5e31;
+    color: #ffffff;
+  }
+  .start {
+    font-size: 1.5rem;
   }
   .one {
     max-width: 27%;
@@ -469,6 +501,9 @@ footer li:hover {
   footer li:hover {
     color: #aa5e31;
   }
+  .sixteen {
+    display: none;
+  }
 }
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
@@ -491,7 +526,7 @@ footer li:hover {
     height: 2rem;
     line-height: 33.18px;
     left: 120px;
-    padding-left: 7rem;
+    padding-left: 3rem;
     float: left;
     align-items: center;
   }
@@ -548,8 +583,8 @@ footer li:hover {
     line-height: 24px;
     font-weight: 400;
     position: absolute;
-    left: 250px;
-    margin-left: 15rem;
+    left: 320px;
+    margin-left: auto;
     align-items: center;
     text-align: center;
     justify-self: center;
@@ -588,23 +623,23 @@ footer li:hover {
     display: flex;
     background-color: white;
     width: 100%;
-    height: 52vh;
+    height: auto;
     margin: auto;
   }
   .hero-sub {
-    width: Hug (444px) px;
-    height: Hug (404px) px;
+    width: 100%;
+    height: auto;
     gap: 20px;
     opacity: 0px;
 
     margin-left: 1rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
-    padding: 5rem;
+    padding: 2rem;
   }
   .hero-sub img {
-    width: 141px;
-    height: 161px;
+    width: 30%;
+    height: 17vh;
     gap: 10px;
     border-radius: 20px 20px 20px 20px;
     opacity: 0px;
@@ -617,7 +652,7 @@ footer li:hover {
   .hero-sub h1 {
     display: inline-block;
     margin-left: 2rem;
-    line-height: 24px;
+    line-height: 22px;
     font-size: 12px;
     font-weight: 300;
   }
@@ -627,8 +662,12 @@ footer li:hover {
   .bear img {
     display: block;
   }
+  h2 {
+    width: 100%;
+    height: 30px;
+  }
   .hero-sub h2 {
-    margin-top: 0.1rem;
+    margin-top: 1rem;
   }
   .mid {
     position: relative;
@@ -648,16 +687,36 @@ footer li:hover {
 
   /*footer*/
   footer {
-    width: 100%;
+    width: auto;
     margin: auto;
     background-color: #3d405b;
     height: auto;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    flex-wrap: wrap;
+    justify-content: left;
     flex-direction: column;
     font-family: "Montserrat", serif;
     align-self: start;
     padding: 1rem;
+  }
+  .started button {
+    margin-top: 5px;
+    display: block;
+    width: 100px;
+    height: 4vh;
+    font-weight: 500;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 3px;
+  }
+  .started button:hover {
+    background-color: #aa5e31;
+    color: #ffffff;
+  }
+  .start {
+    font-size: 1.3rem;
+    display: none;
   }
   .one {
     max-width: 80%;
@@ -684,16 +743,16 @@ footer li:hover {
     margin-top: 2rem;
   }
   .two {
-    margin-top: 12rem;
+    margin-top: 15rem;
   }
   .three {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .four {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .five {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   footer li {
     list-style-type: none;
@@ -705,5 +764,14 @@ footer li:hover {
   }
   footer li:hover {
     color: #aa5e31;
+  }
+  .sixteen {
+    height: auto;
+    background-color: #3d405b;
+    display: flex;
+    font-size: 0.5rem;
+    color: #ffffff;
+    justify-content: left;
+    padding-left: 3rem;
   }
 }

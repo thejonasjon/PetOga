@@ -1,0 +1,41 @@
+@import url("common.css");
+
+html {
+    font-size: 50%;
+}
+
+/* Dashboard */
+.home--grid {
+    display: flex;
+}
+
+.home--grid .sidebar{
+    display: none;
+}
+
+.home--grid .main-content {
+    flex: 1;
+}
+
+.hamburger-menu .material-symbols-outlined {
+    color: var(--cl-primary-400);
+}
+
+.top-horizontal-nav div:first-child,
+.top-horizontal-nav div:nth-child(2){
+    display: none;
+}
+
+.vet-card-cont .card-block {
+    display: flex;
+    align-items: center;
+    gap: var(--size-20);
+    border: 1px solid rgba(157, 95, 59, 0.35);
+    border-radius: var(--size-08);
+    padding: var(--size-10);
+    padding-bottom: var(--size-20);
+}
+
+.vet-card-cont > * {
+    min-width: 45rem;
+}
