@@ -203,6 +203,18 @@ footer {
   align-self: start;
   padding: 3rem;
 }
+.started button {
+  display: none;
+  width: 100px;
+  height: 5vh;
+  font-weight: 500;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 3px;
+}
+.start {
+  font-size: 1.3rem;
+}
 .one {
   max-width: 27%;
   height: 2rem;
@@ -389,6 +401,7 @@ footer li:hover {
   }
   h1 img {
     width: 10px;
+    height: auto;
   }
   .bear img {
     display: block;
@@ -423,6 +436,24 @@ footer li:hover {
     font-family: "Montserrat", serif;
     align-self: start;
     padding: 1rem;
+  }
+  .started button {
+    font-family: inherit;
+    margin-top: 5px;
+    display: block;
+    width: 150px;
+    height: 4vh;
+    font-weight: 500;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 3px;
+  }
+  .started button:hover {
+    background-color: #aa5e31;
+    color: #ffffff;
+  }
+  .start {
+    font-size: 1.5rem;
   }
   .one {
     max-width: 27%;
@@ -469,6 +500,9 @@ footer li:hover {
   }
   footer li:hover {
     color: #aa5e31;
+  }
+  .sixteen {
+    display: none;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -653,16 +687,36 @@ footer li:hover {
 
   /*footer*/
   footer {
-    width: 100%;
+    width: auto;
     margin: auto;
     background-color: #3d405b;
     height: auto;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    flex-wrap: wrap;
+    justify-content: left;
     flex-direction: column;
     font-family: "Montserrat", serif;
     align-self: start;
     padding: 1rem;
+  }
+  .started button {
+    margin-top: 5px;
+    display: block;
+    width: 100px;
+    height: 4vh;
+    font-weight: 500;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 3px;
+  }
+  .started button:hover {
+    background-color: #aa5e31;
+    color: #ffffff;
+  }
+  .start {
+    font-size: 1.3rem;
+    display: none;
   }
   .one {
     max-width: 80%;
@@ -692,13 +746,13 @@ footer li:hover {
     margin-top: 15rem;
   }
   .three {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .four {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .five {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   footer li {
     list-style-type: none;
@@ -710,5 +764,14 @@ footer li:hover {
   }
   footer li:hover {
     color: #aa5e31;
+  }
+  .sixteen {
+    height: auto;
+    background-color: #3d405b;
+    display: flex;
+    font-size: 0.5rem;
+    color: #ffffff;
+    justify-content: left;
+    padding-left: 3rem;
   }
 }
