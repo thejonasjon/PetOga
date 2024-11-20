@@ -4,7 +4,7 @@ html {
     font-size: 50%;
 }
 
-/* Dashboard */
+/* Dashboard stats */
 .home--grid {
     display: flex;
 }
@@ -20,6 +20,7 @@ html {
 .hamburger-menu .material-symbols-outlined {
     color: var(--cl-primary-400);
 }
+
 
 .top-horizontal-nav div:first-child,
 .top-horizontal-nav div:nth-child(2){

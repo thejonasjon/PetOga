@@ -499,10 +499,10 @@ p {
   padding: var(--size-20) var(--size-20);
 }
 
-.main-content .top-horizontal-nav div:last-child {
+.main-content .top-horizontal-nav .top-nav-link {
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
+  gap: var(--size-20);
 }
 
 .main-content .top-horizontal-nav div:first-child p:last-child{
@@ -526,4 +526,18 @@ p {
   align-items: center;
   gap: var(--size-20);
   color: var(--c-black-400);
+}
+
+.top-horizontal-nav .top-nav-link {
+  display: flex;
+  gap: min(var(--size-10));
+  flex-wrap: wrap;
+  margin-left: var(--size-20);
+}
+
+@media screen and (min-width: 300px) and (max-width: 1138px) {
+  /* Side Menu */
+  .home--grid .sidebar{
+    max-width: var(--size-200);
+  }
 }

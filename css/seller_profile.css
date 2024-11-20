@@ -2,6 +2,10 @@
 
 
 /* General Input */
+.top-horizontal-nav .hamburger-menu {
+    display: none ;
+}
+
 .input-group label {
     display: block;
     font-size: var(--size-16);
@@ -30,7 +34,6 @@ input:focus, textarea:focus{
     color: var(--c-black-400);
     background-color: var(--cl-white-400);
     padding: var(--size-5);
-
 }
 
 .content-container {
@@ -58,7 +61,6 @@ input:focus, textarea:focus{
     font-weight: 500;
     color: var(--c-black-400);
     padding-block: var(--size-5);
-
 }
 
 .form-group {
