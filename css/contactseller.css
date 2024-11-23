@@ -192,31 +192,48 @@ h2 {
   */
 
 /* footer */
+/*footer*/
 footer {
   width: 100%;
   margin: auto;
   background-color: #3d405b;
-  height: 50vh;
+  height: auto;
   display: flex;
   justify-content: space-around;
   font-family: "Montserrat", serif;
   align-self: start;
   padding: 3rem;
 }
+.copyright {
+  width: 30%;
+  background-color: #3d405b;
+  height: 56vh;
+  display: flex;
+  justify-content: left;
+  font-family: "Montserrat", serif;
+  align-self: start;
+}
 .started button {
-  display: none;
+  display: block;
+  margin: 1rem;
+  margin-left: 0px;
   width: 100px;
   height: 5vh;
   font-weight: 500;
   border: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   border-radius: 3px;
+  color: #3d405b;
+}
+.started button a {
+  font-size: 1.3rem;
+  color: #3d405b;
 }
 .start {
   font-size: 1.3rem;
 }
 .one {
-  max-width: 27%;
+  max-width: 90%;
   height: 2rem;
   line-height: 23.18px;
   left: 150px;
@@ -239,6 +256,15 @@ footer {
   font-weight: 300;
   margin-top: 2rem;
 }
+.right {
+  width: 70%;
+  background-color: #3d405b;
+  height: 66vh;
+  display: flex;
+  justify-content: left;
+  font-family: "Montserrat", serif;
+  align-self: start;
+}
 .two {
   margin-top: 5rem;
 }
@@ -255,11 +281,32 @@ footer li {
   list-style-type: none;
   color: #ffffff;
   padding: 1rem;
+  margin-left: 10rem;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+footer p {
+  list-style-type: none;
+  color: #ffffff;
+  padding: 1rem;
+  margin-left: 10rem;
   font-weight: 300;
   font-size: 1.3rem;
 }
 footer li:hover {
   color: #aa5e31;
+}
+footer button :hover {
+  color: white;
+  background-color: #aa5e31;
+}
+footer button:hover {
+  color: white;
+  background-color: #aa5e31;
+}
+
+.sixteen {
+  display: none;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -382,7 +429,7 @@ footer li:hover {
   }
   .hero-sub img {
     width: 35%;
-    height: 18vh;
+    height: 38vh;
     gap: 10px;
     border-radius: 20px 20px 20px 20px;
     opacity: 0px;
@@ -424,50 +471,61 @@ footer li:hover {
     top: 24px;
     left: 188px;
   }
-
   /*footer*/
   footer {
     width: 100%;
     margin: auto;
     background-color: #3d405b;
-    height: 52vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
     font-family: "Montserrat", serif;
     align-self: start;
-    padding: 1rem;
+    padding: 3rem;
+  }
+  .copyright {
+    width: 30%;
+    background-color: #3d405b;
+    height: 56vh;
+    display: flex;
+    justify-content: left;
+    font-family: "Montserrat", serif;
+    align-self: start;
   }
   .started button {
-    font-family: inherit;
-    margin-top: 5px;
     display: block;
-    width: 150px;
+    margin: 1rem;
+    margin-left: 0px;
+    width: 120px;
     height: 4vh;
     font-weight: 500;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border-radius: 3px;
+    color: #3d405b;
   }
-  .started button:hover {
-    background-color: #aa5e31;
-    color: #ffffff;
+  .started button a {
+    font-size: 1.3rem;
+    color: #3d405b;
   }
   .start {
-    font-size: 1.5rem;
+    display: block;
+    font-size: 12px;
   }
+
   .one {
-    max-width: 27%;
+    max-width: 90%;
     height: 2rem;
     line-height: 23.18px;
     left: 150px;
-    padding-left: 3rem;
+    padding-left: 5rem;
     float: left;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 7rem;
   }
   .one a {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 600;
   }
   .one span {
@@ -475,9 +533,18 @@ footer li:hover {
   }
   .one h1 {
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
+  }
+  .right {
+    width: 70%;
+    background-color: #3d405b;
+    height: 56vh;
+    display: flex;
+    justify-content: left;
+    font-family: "Montserrat", serif;
+    align-self: start;
   }
   .two {
     margin-top: 3rem;
@@ -495,11 +562,28 @@ footer li:hover {
     list-style-type: none;
     color: #ffffff;
     padding: 1rem;
+    margin-left: 2rem;
+    font-weight: 300;
+    font-size: 1.1rem;
+  }
+  footer p {
+    list-style-type: none;
+    color: #ffffff;
+    padding: 1rem;
+    margin-left: 2rem;
     font-weight: 300;
     font-size: 1.1rem;
   }
   footer li:hover {
     color: #aa5e31;
+  }
+  footer button :hover {
+    color: white;
+    background-color: #aa5e31;
+  }
+  footer button:hover {
+    color: white;
+    background-color: #aa5e31;
   }
   .sixteen {
     display: none;
@@ -687,50 +771,60 @@ footer li:hover {
 
   /*footer*/
   footer {
-    width: auto;
+    width: 100%;
     margin: auto;
     background-color: #3d405b;
     height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 160px);
-    flex-wrap: wrap;
-    justify-content: left;
+    display: flex;
     flex-direction: column;
+    justify-content: space-around;
     font-family: "Montserrat", serif;
     align-self: start;
-    padding: 1rem;
+    padding: 3rem;
+  }
+  .copyright {
+    width: 90%;
+    background-color: #3d405b;
+    height: 36vh;
+    display: flex;
+    justify-content: left;
+    font-family: "Montserrat", serif;
+    align-self: start;
   }
   .started button {
-    margin-top: 5px;
     display: block;
-    width: 100px;
+    margin: 1rem;
+    margin-left: 0px;
+    width: 120px;
     height: 4vh;
     font-weight: 500;
     border: none;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     border-radius: 3px;
+    color: #3d405b;
   }
-  .started button:hover {
-    background-color: #aa5e31;
-    color: #ffffff;
+  .started button a {
+    font-size: 1.3rem;
+    color: #3d405b;
   }
   .start {
-    font-size: 1.3rem;
     display: none;
+    font-size: 12px;
   }
+
   .one {
-    max-width: 80%;
+    max-width: 90%;
     height: 2rem;
     line-height: 23.18px;
     left: 150px;
-    padding-left: 3rem;
+    padding-left: 2rem;
     float: left;
     align-items: center;
     margin-top: 2rem;
   }
   .one a {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 600;
   }
   .one span {
@@ -742,28 +836,55 @@ footer li:hover {
     font-weight: 300;
     margin-top: 2rem;
   }
+  .right {
+    width: 90%;
+
+    background-color: #3d405b;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: left;
+    font-family: "Montserrat", serif;
+    align-self: start;
+  }
   .two {
-    margin-top: 15rem;
+    margin-top: 0.1rem;
   }
   .three {
-    margin-top: 1rem;
+    margin-top: 0.1rem;
   }
   .four {
-    margin-top: 1rem;
+    margin-top: 0.1rem;
   }
-  .five {
-    margin-top: 1rem;
+  .fifteen {
+    margin-top: 0.1rem;
   }
   footer li {
     list-style-type: none;
     color: #ffffff;
     padding: 1rem;
-    padding-left: 3rem;
+    margin-left: 2rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+  }
+  footer p {
+    list-style-type: none;
+    color: #ffffff;
+    padding: 1rem;
+    margin-left: 2rem;
     font-weight: 300;
     font-size: 1.1rem;
   }
   footer li:hover {
     color: #aa5e31;
+  }
+  footer button :hover {
+    color: white;
+    background-color: #aa5e31;
+  }
+  footer button:hover {
+    color: white;
+    background-color: #aa5e31;
   }
   .sixteen {
     height: auto;
