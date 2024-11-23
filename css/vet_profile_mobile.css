@@ -25,3 +25,17 @@ html {
 .top-horizontal-nav div:nth-child(2){
     display: none;
 }
+
+.vet-card-cont .card-block {
+    display: flex;
+    align-items: center;
+    gap: var(--size-20);
+    border: 1px solid rgba(157, 95, 59, 0.35);
+    border-radius: var(--size-08);
+    padding: var(--size-10);
+    padding-bottom: var(--size-20);
+}
+
+.vet-card-cont > * {
+    min-width: 45rem;
+}
