@@ -115,7 +115,7 @@
 }
 
 .landing header {
-  padding-top: 1.5rem;
+  padding-top: var(--size-30);
   margin-bottom: var(--size-10);
 }
 
@@ -133,6 +133,15 @@
 
 .hero .text-block {
   text-align: center;
+}
+
+.hero .adjust--top {
+  margin-bottom: max(var(--size-60));
+}
+
+.hero .btn-container {
+  margin-top: max(-2rem);
+  margin-bottom: max(var(--size-60));
 }
 
 .btn-container-image-block {
@@ -166,6 +175,45 @@
 
 .text-align--center {
   text-align: center;
+}
+
+.featuresDropdown.desktop .drop-relative {
+  position: relative;
+}
+
+.desktop .dropdown{
+  position: absolute;
+  pointer-events: auto;
+  width: 18rem;
+  background-color: var(--cl-white-400);
+  color: var(--cl-secondary-400);
+}
+
+.desktop .dropdown ul a {
+  color: var(--cl-secondary-400);
+}
+
+.desktop .dropdown ul li a {
+  padding: var(--size-3) var(--size-10) var(--size-3) var(--size-10);
+  transition: background-color ease 0.8s;
+}
+
+.featuresDropdown.desktop .dropdown ul li:hover a{
+  background-color: var(--cl-primary-400);
+  color: var(--cl-white-400);
+  border-bottom: none;
+}
+
+
+.desktop a {
+  display: flex;
+  align-items: center;
+  gap: var(--size-5);
+}
+
+.desktop a svg {
+  stroke: var(--cl-white-400);
+  width: var(--size-30);
 }
 
 .mobile-menu, .hamburger-menu {
@@ -583,12 +631,19 @@ p {
 .faq .block-card {
   border-bottom: 1px solid var(--cl-white-200);
   padding-block: var(--size-15);
+  cursor: pointer;
+  position: relative;
+}
+
+.faq .block-card.no-border {
+  border-bottom: none;
 }
 
 .faq .block-card .question {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: transform 0.6s ease;
 }
 
 .faq .block-card .question p {
@@ -597,6 +652,40 @@ p {
   font-weight: 400;
   text-align: left;
 }
+
+.faq .block-card .answer {
+  display: none;
+  width: 100%;
+  height: fit-content;
+  padding-block: var(--size-10);
+  position: relative;
+  transition: max-height 0.5s ease, opacity 0.6s ease;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.faq .block-card .answer p {
+  color: var(--cl-secondary-400);
+  text-align: left;
+  position: absolute;
+}
+
+.faq .block-card .question span {
+  transition: transform 0.6s ease;
+}
+
+.faq .block-card.active .question span {
+  transform: rotate(180deg);
+}
+
+.faq .block-card.active .answer {
+  display: block;
+  max-height: 200px;
+  opacity: 1;
+  visibility: visible;
+}
+
 
 /* Get Started */
 .get-started .container--full-width {
@@ -729,46 +818,12 @@ p {
     padding-inline: var(--size-40);
 }
 
-.landing .padding--top-523 {
+.landing .padding--top-25 {
     padding-top: max(var(--size-25));
 }
 
-.main-nav nav,
-.main-nav .btn-container{
-    display: none;
-}
-
-.hamburger-menu {
-    display: inline-block;
-}
-
-.hamburger-menu:hover .mobile-menu {
-    display: inline-block;
-}
-
-.mobile-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
-
-.mobile-menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 1rem;
-}
-
-.mobile-menu li {
-  margin: 0.5rem 0;
-}
-
-.mobile-menu a {
-  color: #333;
-  text-decoration: none;
+.landing .padding--top-523 {
+  padding-top: max(var(--size-25));
 }
 
 .hero .text-block{

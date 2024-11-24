@@ -6,10 +6,6 @@
   overflow: auto;
 }
 
-.main-content .top-horizontal-nav .hamburger-menu {
-  display: none;
-}
-
 .dashboard-stats .wrapper {
   display: flex;
   justify-content: space-between;
@@ -245,4 +241,11 @@
 .dashboard-table td {
   text-align: center;
   padding: var(--size-15);
+}
+
+.dashboard-table .action-drop {
+  width: var(--size-40);
+  fill: none;
+  stroke: var(--cl-secondary-400);
+  cursor: pointer;
 }
