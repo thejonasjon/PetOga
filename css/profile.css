@@ -44,11 +44,21 @@
 }
 
 .form-btn-group .cancel {
-    background-color: #FF0000;
+    background-color: #ff0000e9;
+    cursor: pointer;
 }
 
 .form-btn-group .save {
     background-color: var(--cl-secondary-400);
+    cursor: pointer;
 }
 
+.form-btn-group .save:hover {
+    background-color: #303247;
+    cursor: pointer;
+}
+
+.form-btn-group .cancel:hover {
+    background-color: #FF0000;
+}
 
