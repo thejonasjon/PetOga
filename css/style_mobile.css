@@ -1,8 +1,8 @@
 @import url("/css/common.css");
 
-html {
+/* html {
     font-size: 50%;
-}
+} */
 
 .container {
     padding-inline: var(--size-60);
@@ -21,42 +21,113 @@ html {
     padding-top: var(--size-25);
 }
 
-.main-nav nav,
-.main-nav .btn-container{
+.main-nav nav.main,
+.main-nav .btn-container.main{
     display: none;
 }
 
-.hamburger-menu {
-    display: inline-block;
+.mobile-menu, .hamburger-menu {
+    display: block;
+  }
+
+.hamburger-menu .mobile-close svg {
+  fill: var(--cl-primary-400);
+  width: var(--size-40);
 }
 
-.hamburger-menu:hover .mobile-menu {
-    display: inline-block;
+.hamburger-menu nav a {
+  display: flex;
+  align-items: center;
+  gap: var(--size-08);
+}
+
+.hamburger-menu nav a svg {
+  stroke: var(--cl-white-400);
+  width: var(--size-30);
+}
+
+.hamburger-menu {
+    display: block;
 }
 
 .mobile-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    z-index: 10;
+  display: none;
+}
+
+.mobile-menu.show {
+  display: block;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--cl-secondary-400);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  padding-inline: var(--size-40);
+  padding-top: var(--size-40);
+  pointer-events: auto;
 }
 
 .mobile-menu ul {
-  list-style: none;
-  margin: 0;
-  padding: 1rem;
+list-style: none;
+margin: 0;
+padding: 1rem;
 }
 
 .mobile-menu li {
-  margin: 0.5rem 0;
+  margin-bottom: var(--size-20);
 }
 
 .mobile-menu a {
-  color: #333;
-  text-decoration: none;
+  font-size: var(--size-16);
+  color: var(--cl-white-400);
+}
+
+.mobile-menu .btn-container{
+  flex-direction: column;
+  justify-self: left;
+}
+
+.hamburger-menu .dropdown {
+  display: block;
+  max-width: fit-content;
+  background-color: var(--cl-white-400);
+}
+
+.svg--90dg {
+  transform: rotate(180deg);
+}
+
+.hamburger-menu .dropdown ul {
+  padding: 0;
+}
+
+.hamburger-menu .dropdown ul a{
+    font-size: var(--size-18);
+  color: var(--cl-secondary-400);
+}
+
+.hamburger-menu .dropdown ul li{
+  padding: var(--size-10) var(--size-60);
+}
+
+.hamburger-menu .dropdown ul li:hover{
+  background-color: var(--cl-primary-400);
+}
+
+.hamburger-menu .dropdown ul li:focus{
+border-bottom: none;}
+
+.landing .hamburger-menu nav ul a:hover {
+  border-bottom: none;
+}
+
+.hamburger-menu .dropdown ul li:hover a{
+  color: var(--cl-white-400);
 }
 
 .hero .text-block{

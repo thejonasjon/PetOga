@@ -56,8 +56,29 @@
 
 .form-btn-group .rebook {
     background-color: var(--cl-primary-400);
+    cursor: pointer;
 }
 
 .form-btn-group .rebook:hover {
-    cursor: pointer;
+    background-color: var(--cl-secondary-400);
+}
+
+.record-status {
+  padding: var(--size-08) var(--size-30);
+  border-radius: var(--size-3);
+}
+
+.completed {
+  background-color: rgba(50, 198, 55, 0.1);
+  color: #32C637;
+}
+
+.cancelled {
+  background-color: rgba(210, 34, 34, 0.1);
+  color: #D22222;
+}
+
+.pending {
+  background-color: rgba(216, 132, 36, 0.1);
+  color: #D88424;
 }
