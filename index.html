@@ -24,49 +24,87 @@
     <section class="landing">
         <div class="container--full-width hero-bg">
             <div class="header-hero">
-                <header class="padding--top-523">
+                <header class="padding--top-25">
                     <div class="main-nav padding--inline-100 flex-display justify-content--space_between align-items--center" style="justify-content: space-between;">
                         <div class="navbar--brand">
                             <a href="#">Pet<span>Oga</span></a>
                         </div>
-                        <nav>
+                        <nav class="main">
                             <ul role='list' class="flex-display  gap--4">
-                                <li><a class="flex-display justify-content--space_between align-items--center gap--05" href="#"> <span>Features</span><span class="material-symbols-outlined nav--dropdown-icon">keyboard_arrow_down</span></a></li>
+                                <!-- <li><a class="flex-display justify-content--space_between align-items--center gap--05" href="#"> <span>Features</span><span class="material-symbols-outlined nav--dropdown-icon">keyboard_arrow_down</span></a></li> -->
+                                <li class="featuresDropdown desktop">
+                                    <a href="#">
+                                    <div class="drop-relative">
+                                        <span>Features</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m7 10l5 5l5-5"/></svg>
+                                        <div class="dropdown" id="dropdown">
+                                            <ul>
+                                                <li class="dropdown-hover"><a href="/pages/signup.html">Adopt Pet</a></li>
+                                                <li class="dropdown-hover--none"><a href="pages/signup.html">Vet Appointment</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </li>
                                 <li><a href="#testimonials">Testimonials</a></li>
                                 <li><a href="#faq">FAQ</a></li>
                             </ul>
                         </nav>
 
-                        <div class="btn-container flex-display gap--1">
+                        <div class="btn-container main flex-display gap--1">
                             <a class="button-default button-round--3 border--primary" href="/pages/login.html">Log in</a>
                             <a class="button-default button-round--3 button--bg-primary" href="/pages/signup.html">Sign up</a>
                         </div>
 
-                        <div class="hamburger-menu" onclick="toggleMobileMenu()">
+                        <div class="hamburger-menu">
                             <span class="material-symbols-outlined">menu</span>
-                        </div>
-                    </div>
+                            <div class="mobile-menu" id="mobile-menu-main">
+                                <div class="flex-display justify-content--space_between align-items--center margin--bm-30">
+                                    <div class="navbar--brand">
+                                        <a href="#">Pet<span>Oga</span></a>
+                                    </div>
 
-                    <div class="mobile-menu">
-                        <ul>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#testimonials">Testimonials</a></li>
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="/pages/login.html">Log in</a></li>
-                            <li><a href="/pages/signup.html">Sign up</a></li>
-                        </ul>
+                                    <div class="mobile-close">
+                                        <svg id="hamburgerClose" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"/></svg>
+                                    </div>
+                                </div>
+
+                                <nav>
+                                    <ul>
+                                        <li class="featuresDropdown"><a href="#">
+                                            <div>
+                                                <span>Features</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m7 10l5 5l5-5"/></svg>
+                                                <div class="dropdown" id="dropdown">
+                                                    <ul>
+                                                        <li><a href="/pages/signup.html">Adopt Pet</a></li>
+                                                        <li><a href="/pages/signup.html">Vet Appointment</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a></li>
+                                        <li><a href="#testimonials">Testimonies</a></li>
+                                        <li><a href="#faq">FAQ</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="btn-container flex-display gap--1 margin--top-100">
+                                    <a class="button-default button-round--3 border--primary" href="/pages/login.html">Log in</a>
+                                    <a class="button-default button-round--3 button--bg-primary" href="/pages/signup.html">Sign up</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </header>
 
                 <div class="hero">
-                    <div class="text-block color--white-400">
+                    <div class="text-block adjust--top color--white-400">
                         <h1 class="heading--h1">Find your perfect pet and manage <br>their wellbeing with ease</h1>
                         <p class="paragraph--sm padding--block-25">Explore a variety of pets, easily book services, and manage your pet's needs <br> —all in one convenient platform!</p>
                     </div>
 
                     <div class="btn-container-image-block">
                         <div class="btn-container margin--top-10">
-                            <a class="button-default button--bg-white" href="/pages/signup.html">Explore Services</a>
+                            <a class="button-default explore-service" href="/pages/signup.html">Explore Services</a>
                         </div>
 
                         <div class="image-block">
@@ -100,7 +138,7 @@
     <!-- Main -->
     <main>
         <!-- Service Overview -->
-        <section id="overview" class="service margin--top-60">
+        <section id="overview" class="service margin--top-95">
             <div class="container">
                 <div class="content">
                     <div class="heading">
@@ -138,9 +176,9 @@
         </section>
 
         <!-- Vet Appointment -->
-        <section class="appointment padding--block-100">
+        <section class="appointment margin--top-95" id="Appointment">
             <div class="container--full-width bg--secondary-400 color--white-400 padding--inline-120 padding--top-52">
-                <div class="content grid-2-column gap--2 align-items--center">
+                <div class="content grid-2-column gap--6 align-items--center">
                     <div class="image-block">
                         <img class="love" src="/assets/images/landing_page/love-img.png" alt="Image Love">
                         <img class="vet-doctor" src="/assets/images/landing_page/vet-appointment.png" alt="Image Vet Doctor">
@@ -158,11 +196,11 @@
         </section>
 
         <!-- Connect Pet Vendors -->
-        <section class="connect padding--block-100">
+        <section class="connect margin--top-95">
             <div class="container">
                 <div class="content">
                     <div class="heading">
-                        <div class="heading-text text-align--center padding--block-25">
+                        <div class="heading-text text-align--center">
                             <h2 class="heading--h2">Easily Connect With Pet Vendors</h2>
                         </div>
                     </div>
@@ -240,7 +278,7 @@
         </section>
 
         <!-- Secure Transaction -->
-        <section class="transaction padding--block-100">
+        <section class="transaction margin--top-95">
             <div class="container">
                 <div class="content grid-2-column align-items--center gap--200">
                     <div class="image-block">
@@ -264,7 +302,7 @@
         </section>
 
         <!-- How it Works -->
-        <section class="how-it-work padding--block-100">
+        <section class="how-it-work padding--block-100 margin--top-95">
             <div class="overlay-container"></div>
             <div class="container--full-width">
                 <div class="content">
@@ -405,7 +443,7 @@
         </section>
 
         <!-- Testimonials -->
-        <section id="testimonials" class="testimonial padding--block-100">
+        <section id="testimonials" class="testimonial margin--top-95">
             <div class="container">
                 <div class="content">
                     <div class="heading">
@@ -456,7 +494,7 @@
         </section>
 
         <!-- FAQ -->
-        <section id="faq" class="faq padding--block-100">
+        <section id="faq" class="faq margin--top-95">
             <div class="container">
                 <div class="content grid-2-column">
                     <div class="heading">
@@ -472,7 +510,7 @@
                                 <p>How does PetOga work?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
                             </div>
                             <div class="answer">
-                                <!-- Answer -->
+                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
                             </div>
                         </div>
 
@@ -481,7 +519,7 @@
                                 <p>Can I sell/rehome my pet on PetOga?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
                             </div>
                             <div class="answer">
-                                <!-- Answer -->
+                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
                             </div>
                         </div>
 
@@ -490,7 +528,7 @@
                                 <p>How does PetOga work?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
                             </div>
                             <div class="answer">
-                                <!-- Answer -->
+                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
                             </div>
                         </div>
 
@@ -499,7 +537,7 @@
                                 <p>Are the pet listed here verified?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
                             </div>
                             <div class="answer">
-                                <!-- Answer -->
+                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
                             </div>
                         </div>
 
@@ -508,7 +546,7 @@
                                 <p>How do i contact seller?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
                             </div>
                             <div class="answer">
-                                <!-- Answer -->
+                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
                             </div>
                         </div>
 
@@ -517,7 +555,7 @@
                                 <p>Can i re-sell my pet on PetOga?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
                             </div>
                             <div class="answer">
-                                <!-- Answer -->
+                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
                             </div>
                         </div>
 
@@ -526,7 +564,7 @@
                                 <p>Is PetOga available as a mobile App?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
                             </div>
                             <div class="answer">
-                                <!-- Answer -->
+                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
                             </div>
                         </div>
                     </div>
@@ -536,7 +574,7 @@
 
         <!-- Get Started -->
         <section class="get-started">
-            <div class="container--full-width padding--block-100">
+            <div class="container--full-width padding--block-100 margin--top-95">
                 <div class="content">
                     <div class="heading color--white-200">
                         <div class="heading-text text-align--center">
@@ -575,7 +613,6 @@
                 </div>
 
                 <div class="footer-nav gap--4">
-
                     <div class="nav-links">
                         <h5>Socials</h5>
                         <ul role="list">
@@ -625,5 +662,8 @@
         </div>
     </footer>
 
+    <script src="/js/main.js">
+
+    </script>
 </body>
 </html>

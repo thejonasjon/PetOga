@@ -29,12 +29,13 @@
     border-radius: var(--size-08);
     padding: var(--size-10);
     padding-bottom: var(--size-20);
+    cursor: pointer;
 }
 
 .vet-card-cont .card-block .image {
     max-width: 40%;
     min-width: 150px;
-    height: auto;
+    max-height: 100%;
 }
 
 .vet-card-cont .card-block .image img{
@@ -71,4 +72,23 @@
 
 .vet-card-cont .btn-group a:hover {
     background-color: var(--cl-secondary-400);
+}
+
+.vet-card-cont .view-more-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.vet-card-cont .view-more-cont .btn-view-more {
+    font-size: var(--size-16);
+    line-height: var(--size-20);
+    color: var(--cl-primary-400);
+    cursor: pointer;
+    border-bottom: var(--size-1) solid var(--cl-primary-400);
+}
+
+.vet-card-cont .view-more-cont .btn-view-more:hover {
+    color: var(--cl-secondary-400);
+    cursor: pointer;
+    border-bottom: var(--size-1) solid var(--cl-secondary-400);
 }

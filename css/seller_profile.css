@@ -2,10 +2,6 @@
 
 
 /* General Input */
-.top-horizontal-nav .hamburger-menu {
-    display: none ;
-}
-
 .input-group label {
     display: block;
     font-size: var(--size-16);
