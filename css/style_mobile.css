@@ -44,6 +44,7 @@
 .hamburger-menu nav a svg {
   stroke: var(--cl-white-400);
   width: var(--size-30);
+  fill: transparent;
 }
 
 .hamburger-menu {

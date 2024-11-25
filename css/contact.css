@@ -1,0 +1,150 @@
+@import url("/css/common.css");
+
+.header .navbar--brand {
+    max-width: 100%;
+    justify-self: left;
+    align-self: center;
+    margin-left: none;
+}
+
+.contact .back-btn-cotainer {
+    margin-top: var(--size-15);
+    margin-left: max(var(--size-20));
+    cursor: pointer;
+}
+
+.contact .back-btn-cotainer a{
+    font-size: var(--size-16);
+    color: var(--cl-secondary-400);
+}
+
+.contact .back-btn-cotainer a:hover{
+    color: var(--cl-primary-400);
+    cursor: pointer !important;
+}
+
+.header .nav-center {
+    background-color: var(--cl-secondary-400);
+}
+
+.header .main-nav {
+    width: 80%;
+    display: flex;
+    padding: var(--size-20) var(--size-100);
+    justify-content: left;
+}
+
+.header .main-nav > * {
+    flex: 1;
+}
+
+.header .main-nav .main {
+    text-align: left;
+    align-content: flex-start;
+}
+
+.header .navbar--brand a {
+  font-size: 2.8rem;
+  color: var(--cl-white-400);
+  font-weight: 600;
+}
+
+.header .navbar--brand a span {
+  color: var(--cl-primary-400);
+}
+
+.header nav ul a:hover {
+  border-bottom: 1.5px solid var(--cl-primary-400);
+}
+
+.contact .heading--h2 {
+    font-size: var(--size-32);
+}
+
+.contact .paragraph--md {
+    font-size: var(--size-20);
+    line-height: var(--size-24);
+}
+
+.contact .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--size-20);
+}
+
+
+
+.contact .input-group input,
+.contact .input-group textarea {
+    font-size: var(--size-14);
+    padding: var(--size-16)  var(--size-20);
+    width: 30%;
+    min-width: var(--size-100);
+    background-color: var(--cl-secondary-400);
+    color: var(--cl-white-300);
+    border-radius: var(--size-5);
+    outline: none;
+    border: none;
+}
+
+.contact .input-group input:focus,
+.contact .input-group textarea:focus {
+    background-color: rgb(232, 240, 254);
+    color: fieldtext !important;
+}
+
+.contact .input-group textarea {
+    padding: var(--size-16)  var(--size-20);
+    min-height: var(--size-200);
+}
+
+.contact .input-group label {
+    font-size: var(--size-14);
+}
+
+.contact .contact-form .terms {
+    text-align: left;
+}
+
+.contact .contact-form .terms p{
+    font-size: var(--size-12);
+    text-align: left;
+    line-height: var(--size-14);
+    margin-bottom: var(--size-10);
+}
+
+.contact .contact-form .terms .input-group {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: var(--size-10);
+    align-items: flex-start;
+    justify-items: top;
+}
+
+.contact .contact-form .terms .input-group input{
+    padding: var(--size-16)  var(--size-20);
+    width: auto;
+    min-width: auto;
+    margin-top: var(--size-5);
+}
+
+.contact .contact-form .btn-container button{
+   margin-bottom: var(--size-60);
+}
+
+.contact .contact-form .btn-container button{
+    font-size: var(--size-14);
+    outline: none;
+    border: none;
+    background-color: var(--cl-primary-400);
+    color: var(--cl-white-400);
+    padding: var(--size-5) var(--size-20);
+    border-radius: var(--size-5);
+    cursor: pointer;
+}
+
+.contact .contact-form .btn-container button:hover{
+    background-color: var(--cl-secondary-400);
+    cursor: pointer;
+}
