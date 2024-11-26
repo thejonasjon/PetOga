@@ -3,6 +3,7 @@ body {
   font-optical-sizing: auto;
   background-color: black;
 }
+
 .brand {
   display: flex;
   position: relative;
@@ -17,6 +18,7 @@ body {
   font-optical-sizing: auto;
   border-left: 0.1px solid white;
 }
+
 .brand-name {
   max-width: 20.8rem;
   height: 2rem;
@@ -26,14 +28,17 @@ body {
   float: left;
   align-items: center;
 }
+
 .brand-name a {
   color: #ffffff;
   font-size: 2.8rem;
   font-weight: 700;
 }
+
 .brand-name span {
   color: #aa5e31;
 }
+
 .brand-nav {
   max-width: 70%;
   list-style-type: none;
@@ -53,16 +58,19 @@ body {
   list-style-type: none;
   gap: 10;
 }
+
 .brand li {
   list-style-type: none;
   float: left;
   margin: 6rem;
 }
+
 .brand li a:hover {
   text-decoration: none;
   text-decoration-color: #aa5e31;
   border-bottom: 2px solid #aa5e31;
 }
+
 .hambugger {
   display: none;
 }
@@ -81,6 +89,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 .mage h1 {
   font-family: Montserrat;
   font-size: 36px;
@@ -92,6 +101,7 @@ body {
   color: #ffffff;
   margin-bottom: 20rem;
 }
+
 /*new*/
 .intro {
   display: flex;
@@ -105,6 +115,7 @@ body {
   background-color: #ffffff;
   color: black;
 }
+
 #black {
   position: absolute;
   left: 0px;
@@ -112,21 +123,27 @@ body {
   background-color: inherit;
   border: none;
 }
+
 svg {
   fill: #ffffff;
 }
+
 svg:hover {
   fill: #aa5e31;
 }
+
 #black a:hover {
   color: #aa5e31;
 }
+
 .intro1 {
   margin: 80px;
 }
+
 .intro1 h1 {
   font-weight: 600;
 }
+
 .intro1 h2 {
   margin-bottom: 20px;
 }
@@ -134,12 +151,15 @@ svg:hover {
 .intro2 {
   margin: 60px;
 }
+
 .intro2 h1 {
   font-weight: 600;
 }
+
 .intro2 h2 {
   margin-bottom: 20px;
 }
+
 /*footer*/
 footer {
   width: 100%;
@@ -152,6 +172,7 @@ footer {
   align-self: start;
   padding: 3rem;
 }
+
 .copyright {
   width: 30%;
   background-color: #3d405b;
@@ -161,6 +182,7 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .started button {
   display: block;
   margin: 1rem;
@@ -173,13 +195,16 @@ footer {
   border-radius: 3px;
   color: #3d405b;
 }
+
 .started button a {
   font-size: 1.3rem;
   color: #3d405b;
 }
+
 .start {
   font-size: 1.3rem;
 }
+
 .eleven {
   max-width: 90%;
   height: 2rem;
@@ -190,20 +215,24 @@ footer {
   align-items: center;
   margin-top: 7rem;
 }
+
 .eleven a {
   color: #ffffff;
   font-size: 3.5rem;
   font-weight: 600;
 }
+
 .eleven span {
   color: #aa5e31;
 }
+
 .eleven h1 {
   color: #ffffff;
   font-size: 1.4rem;
   font-weight: 300;
   margin-top: 2rem;
 }
+
 .right {
   width: 70%;
   background-color: #3d405b;
@@ -213,18 +242,23 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .twelve {
   margin-top: 5rem;
 }
+
 .thirteen {
   margin-top: 5rem;
 }
+
 .fourteen {
   margin-top: 5rem;
 }
+
 .fifteen {
   margin-top: 5rem;
 }
+
 footer li {
   list-style-type: none;
   color: #ffffff;
@@ -233,6 +267,7 @@ footer li {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer p {
   list-style-type: none;
   color: #ffffff;
@@ -241,13 +276,16 @@ footer p {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer li:hover {
   color: #aa5e31;
 }
+
 footer button :hover {
   color: white;
   background-color: #aa5e31;
 }
+
 footer button:hover {
   color: white;
   background-color: #aa5e31;

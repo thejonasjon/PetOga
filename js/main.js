@@ -1,6 +1,5 @@
 'use strict'
 // Index
-
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const mobileMenu = document.querySelector(".hamburger-menu .mobile-menu");
 const hamburgerClose = document.querySelector(".mobile-close");
@@ -59,7 +58,7 @@ hamburgerClose.addEventListener("click", (e) => {
 const faqItems = document.querySelectorAll('.faq .block-card');
 console.log(faqItems);
 
-//listeners to each FAQ item
+//listen to each FAQ item
 faqItems.forEach(item => {
   const question = item.querySelector('.question');
   const answer = item.querySelector('.answer');

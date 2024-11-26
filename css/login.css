@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: "Montserrat", serif;
   font-style: normal;
@@ -28,6 +30,7 @@ body {
   font-family: "Montserrat", serif;
   border-radius: 20px;
 }
+
 #black {
   color: #ffffff;
   border: none;
@@ -42,20 +45,25 @@ body {
   text-align: left;
   margin-top: 4rem;
 }
+
 #blue:hover {
   fill: #aa5e31;
 }
+
 #black a:hover {
   color: #aa5e31;
 }
+
 #reell {
   line-height: 20px;
   color: #ffffff;
 }
+
 .hero1 {
   height: 89.8vh;
   width: 48rem;
 }
+
 .hero1 img {
   width: 100%;
   height: 89.8vh;
@@ -65,6 +73,7 @@ body {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
+
 .hero2 {
   height: 90.8vh;
   width: 42rem;
@@ -83,6 +92,7 @@ body {
   margin-right: 7rem;
   text-align: center;
 }
+
 .hero2 h2 {
   font-weight: 300;
   font-size: 1.1rem;
@@ -92,6 +102,7 @@ body {
   line-height: 10px;
   margin-left: 10rem;
 }
+
 .c {
   display: inline-block;
   font-weight: 500;
@@ -102,6 +113,7 @@ body {
   margin-bottom: 1rem;
   font-weight: 400;
 }
+
 .d {
   display: inline-block;
   color: #b9b9b999;
@@ -110,6 +122,7 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
+
 h4 {
   overflow: hidden;
   text-align: center;
@@ -139,6 +152,7 @@ h4::after {
   left: 0.5em;
   margin-right: -30%;
 }
+
 .hero2 a {
   font-size: 1.1rem;
   color: #919191;
@@ -164,6 +178,7 @@ button {
   align-items: center;
   display: inline-flex;
 }
+
 button img {
   width: 41.2px;
   height: 39px;
@@ -173,6 +188,7 @@ button img {
   vertical-align: middle;
   align-items: center;
 }
+
 #email {
   width: 380px;
   height: 50px;
@@ -186,6 +202,7 @@ button img {
   text-align: left;
   font-size: 1.3rem;
 }
+
 #submit {
   width: 380px;
   height: 50px;
@@ -199,6 +216,7 @@ button img {
   text-align: center;
   font-size: 1.5rem;
 }
+
 ::placeholder {
   color: #b9b9b999;
   opacity: 1;
@@ -209,16 +227,19 @@ button img {
   color: white;
   background-color: #aa5e31;
 }
+
 #email:hover {
   cursor: pointer;
   color: black;
   border: 1px solid rgb(73, 146, 206);
 }
+
 button:hover {
   cursor: pointer;
   color: white;
   border: 1px solid white;
 }
+
 #password:hover {
   cursor: pointer;
   color: black;
@@ -232,15 +253,18 @@ button:hover {
   top: 304px;
   margin-top: -60px;
 }
+
 .fa-eye-slash {
   font-size: 14px;
   color: #f7f2f2d3;
 }
+
 .tab {
   margin-left: 10em;
 }
 
 @media only screen and (max-width: 1024px) {
+
   /* For tablet phones: */
   .container1 {
     display: flex;
@@ -257,6 +281,7 @@ button:hover {
     font-family: "Montserrat", serif;
     border-radius: 10px;
   }
+
   #black {
     display: none;
     color: #ffffff;
@@ -272,17 +297,21 @@ button:hover {
     text-align: left;
     margin-top: 4rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   #black:hover {
     color: #aa5e31;
   }
+
   .hero1 {
     display: none;
     height: 89.8vh;
     width: 48rem;
   }
+
   .hero1 img {
     display: none;
     width: 100%;
@@ -293,6 +322,7 @@ button:hover {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
+
   .hero2 {
     height: 80vh;
     width: 90%;
@@ -313,6 +343,7 @@ button:hover {
 
     text-align: center;
   }
+
   .hero2 h2 {
     font-weight: 400;
     font-size: 1.5rem;
@@ -322,6 +353,7 @@ button:hover {
     line-height: 20px;
     margin-left: 26rem;
   }
+
   .c {
     display: inline-block;
     font-weight: 500;
@@ -332,6 +364,7 @@ button:hover {
     margin-bottom: 1rem;
     font-weight: 400;
   }
+
   .d {
     display: inline-block;
     color: #b9b9b999;
@@ -340,6 +373,7 @@ button:hover {
     font-weight: 400;
     line-height: 24px;
   }
+
   h4 {
     text-align: center;
     color: #919191;
@@ -372,6 +406,7 @@ button:hover {
     left: 0.5em;
     margin-right: -30%;
   }
+
   .hero2 a {
     font-size: 1.1rem;
     color: #919191;
@@ -397,6 +432,7 @@ button:hover {
     align-items: center;
     display: inline-flex;
   }
+
   button img {
     width: 41.2px;
     height: 39px;
@@ -406,6 +442,7 @@ button:hover {
     vertical-align: middle;
     align-items: center;
   }
+
   #email {
     width: 550px;
     height: 70px;
@@ -420,6 +457,7 @@ button:hover {
     font-size: 1.3rem;
     font-weight: 600;
   }
+
   #submit {
     width: 550px;
     height: 70px;
@@ -433,6 +471,7 @@ button:hover {
     text-align: center;
     font-size: 1.5rem;
   }
+
   ::placeholder {
     color: #12111199;
     font-weight: 500;
@@ -444,16 +483,19 @@ button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   #email:hover {
     cursor: pointer;
     color: black;
     border: 1px solid rgb(73, 146, 206);
   }
+
   button:hover {
     cursor: pointer;
     color: white;
     border: 1px solid white;
   }
+
   #password:hover {
     cursor: pointer;
     color: black;
@@ -467,15 +509,19 @@ button:hover {
     top: 328px;
     margin-top: -60px;
   }
+
   .fa-eye-slash {
     font-size: 12px;
     color: #f7f2f2d3;
   }
+
   .tab {
     margin-left: 30rem;
   }
 }
+
 @media only screen and (max-width: 768px) {
+
   /* For tablet phones: */
   .container1 {
     display: flex;
@@ -492,6 +538,7 @@ button:hover {
     font-family: "Montserrat", serif;
     border-radius: 10px;
   }
+
   #black {
     display: none;
     color: #ffffff;
@@ -507,17 +554,21 @@ button:hover {
     text-align: left;
     margin-top: 4rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   #black:hover {
     color: #aa5e31;
   }
+
   .hero1 {
     display: none;
     height: 89.8vh;
     width: 48rem;
   }
+
   .hero1 img {
     display: none;
     width: 100%;
@@ -528,6 +579,7 @@ button:hover {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
+
   .hero2 {
     height: 80vh;
     width: 90%;
@@ -548,6 +600,7 @@ button:hover {
 
     text-align: center;
   }
+
   .hero2 h2 {
     font-weight: 400;
     font-size: 1.5rem;
@@ -557,6 +610,7 @@ button:hover {
     line-height: 20px;
     margin-left: 18rem;
   }
+
   .c {
     display: inline-block;
     font-weight: 500;
@@ -567,6 +621,7 @@ button:hover {
     margin-bottom: 1rem;
     font-weight: 400;
   }
+
   .d {
     display: inline-block;
     color: #b9b9b999;
@@ -575,6 +630,7 @@ button:hover {
     font-weight: 400;
     line-height: 24px;
   }
+
   h4 {
     text-align: center;
     color: #919191;
@@ -607,6 +663,7 @@ button:hover {
     left: 0.5em;
     margin-right: -30%;
   }
+
   .hero2 a {
     font-size: 1.1rem;
     color: #919191;
@@ -632,6 +689,7 @@ button:hover {
     align-items: center;
     display: inline-flex;
   }
+
   button img {
     width: 41.2px;
     height: 39px;
@@ -641,6 +699,7 @@ button:hover {
     vertical-align: middle;
     align-items: center;
   }
+
   #email {
     width: 500px;
     height: 70px;
@@ -655,6 +714,7 @@ button:hover {
     font-size: 1.3rem;
     font-weight: 600;
   }
+
   #submit {
     width: 500px;
     height: 70px;
@@ -668,6 +728,7 @@ button:hover {
     text-align: center;
     font-size: 1.5rem;
   }
+
   ::placeholder {
     color: #12111199;
     font-weight: 500;
@@ -679,16 +740,19 @@ button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   #email:hover {
     cursor: pointer;
     color: black;
     border: 1px solid rgb(73, 146, 206);
   }
+
   button:hover {
     cursor: pointer;
     color: white;
     border: 1px solid white;
   }
+
   #password:hover {
     cursor: pointer;
     color: black;
@@ -702,16 +766,19 @@ button:hover {
     top: 328px;
     margin-top: -60px;
   }
+
   .fa-eye-slash {
     font-size: 12px;
     color: #f7f2f2d3;
   }
+
   .tab {
     margin-left: 24rem;
   }
 }
 
 @media only screen and (max-width: 500px) {
+
   /* For mobile phones: */
   .container1 {
     display: flex;
@@ -728,6 +795,7 @@ button:hover {
     font-family: "Montserrat", serif;
     border-radius: 10px;
   }
+
   #black {
     display: none;
     color: #ffffff;
@@ -743,17 +811,21 @@ button:hover {
     text-align: left;
     margin-top: 4rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   #black:hover {
     color: #aa5e31;
   }
+
   .hero1 {
     display: none;
     height: 89.8vh;
     width: 90%;
   }
+
   .hero1 img {
     display: none;
     width: 100%;
@@ -764,6 +836,7 @@ button:hover {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
+
   .hero2 {
     height: 55vh;
     width: 90%;
@@ -784,6 +857,7 @@ button:hover {
     margin-right: 7rem;
     text-align: center;
   }
+
   .hero2 h2 {
     font-weight: 400;
     font-size: 1.1rem;
@@ -793,6 +867,7 @@ button:hover {
     line-height: 10px;
     margin-left: 8rem;
   }
+
   .c {
     display: inline-block;
     font-weight: 500;
@@ -803,6 +878,7 @@ button:hover {
     margin-bottom: 1rem;
     font-weight: 400;
   }
+
   .d {
     display: inline-block;
     color: #b9b9b999;
@@ -811,6 +887,7 @@ button:hover {
     font-weight: 400;
     line-height: 24px;
   }
+
   h4 {
     text-align: center;
     color: #919191;
@@ -843,6 +920,7 @@ button:hover {
     left: 0.5em;
     margin-right: -30%;
   }
+
   .hero2 a {
     font-size: 1.1rem;
     color: #919191;
@@ -868,6 +946,7 @@ button:hover {
     align-items: center;
     display: inline-flex;
   }
+
   button img {
     width: 41.2px;
     height: 39px;
@@ -877,6 +956,7 @@ button:hover {
     vertical-align: middle;
     align-items: center;
   }
+
   #email {
     width: 350px;
     height: 50px;
@@ -891,6 +971,7 @@ button:hover {
     font-size: 1.3rem;
     font-weight: 600;
   }
+
   #submit {
     width: 350px;
     height: 50px;
@@ -904,6 +985,7 @@ button:hover {
     text-align: center;
     font-size: 1.5rem;
   }
+
   ::placeholder {
     color: #12111199;
     font-weight: 500;
@@ -915,16 +997,19 @@ button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   #email:hover {
     cursor: pointer;
     color: black;
     border: 1px solid rgb(73, 146, 206);
   }
+
   button:hover {
     cursor: pointer;
     color: white;
     border: 1px solid white;
   }
+
   #password:hover {
     cursor: pointer;
     color: black;
@@ -938,16 +1023,19 @@ button:hover {
     top: 308px;
     margin-top: -60px;
   }
+
   .fa-eye-slash {
     font-size: 12px;
     color: #f7f2f2d3;
   }
+
   .tab {
     margin-left: 9rem;
   }
 }
 
 @media only screen and (max-width: 390px) {
+
   /* For mobile phones: */
   .container1 {
     display: flex;
@@ -964,6 +1052,7 @@ button:hover {
     font-family: "Montserrat", serif;
     border-radius: 10px;
   }
+
   #black {
     display: none;
     color: #ffffff;
@@ -979,17 +1068,21 @@ button:hover {
     text-align: left;
     margin-top: 4rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   #black:hover {
     color: #aa5e31;
   }
+
   .hero1 {
     display: none;
     height: 89.8vh;
     width: 90%;
   }
+
   .hero1 img {
     display: none;
     width: 100%;
@@ -1000,6 +1093,7 @@ button:hover {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
+
   .hero2 {
     height: 55vh;
     width: 90%;
@@ -1020,6 +1114,7 @@ button:hover {
     margin-right: 7rem;
     text-align: center;
   }
+
   .hero2 h2 {
     font-weight: 400;
     font-size: 1.1rem;
@@ -1029,6 +1124,7 @@ button:hover {
     line-height: 10px;
     margin-left: 8rem;
   }
+
   .c {
     display: inline-block;
     font-weight: 500;
@@ -1039,6 +1135,7 @@ button:hover {
     margin-bottom: 1rem;
     font-weight: 400;
   }
+
   .d {
     display: inline-block;
     color: #b9b9b999;
@@ -1047,6 +1144,7 @@ button:hover {
     font-weight: 400;
     line-height: 24px;
   }
+
   h4 {
     text-align: center;
     color: #919191;
@@ -1079,6 +1177,7 @@ button:hover {
     left: 0.5em;
     margin-right: -30%;
   }
+
   .hero2 a {
     font-size: 1.1rem;
     color: #919191;
@@ -1104,6 +1203,7 @@ button:hover {
     align-items: center;
     display: inline-flex;
   }
+
   button img {
     width: 41.2px;
     height: 39px;
@@ -1113,6 +1213,7 @@ button:hover {
     vertical-align: middle;
     align-items: center;
   }
+
   #email {
     width: 320px;
     height: 50px;
@@ -1127,6 +1228,7 @@ button:hover {
     font-size: 1.3rem;
     font-weight: 600;
   }
+
   #submit {
     width: 320px;
     height: 50px;
@@ -1140,6 +1242,7 @@ button:hover {
     text-align: center;
     font-size: 1.5rem;
   }
+
   ::placeholder {
     color: #12111199;
     font-weight: 500;
@@ -1151,16 +1254,19 @@ button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   #email:hover {
     cursor: pointer;
     color: black;
     border: 1px solid rgb(73, 146, 206);
   }
+
   button:hover {
     cursor: pointer;
     color: white;
     border: 1px solid white;
   }
+
   #password:hover {
     cursor: pointer;
     color: black;
@@ -1174,10 +1280,12 @@ button:hover {
     top: 308px;
     margin-top: -60px;
   }
+
   .fa-eye-slash {
     font-size: 12px;
     color: #f7f2f2d3;
   }
+
   .tab {
     margin-left: 7rem;
   }

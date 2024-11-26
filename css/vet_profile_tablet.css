@@ -27,7 +27,7 @@ html {
     gap: var(--size-20);
 }
 
-.vet-card-cont > * {
+.vet-card-cont>* {
     flex: 1 1 100%;
 }
 

@@ -9,7 +9,7 @@ html {
     display: flex;
 }
 
-.home--grid .sidebar{
+.home--grid .sidebar {
     display: none;
 }
 
@@ -23,6 +23,6 @@ html {
 
 
 .top-horizontal-nav div:first-child,
-.top-horizontal-nav div:nth-child(2){
+.top-horizontal-nav div:nth-child(2) {
     display: none;
 }
