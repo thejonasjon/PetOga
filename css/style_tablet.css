@@ -6,7 +6,7 @@ html {
 }
 
 /* Appointment */
-.appointment.padding--block-100{
+.appointment.padding--block-100 {
     padding-block: var(--size-50);
 }
 
@@ -20,14 +20,14 @@ html {
     position: relative;
 }
 
-.appointment .image-block img{
+.appointment .image-block img {
     margin-left: auto;
     margin-right: auto;
     width: 350px;
     position: absolute;
 }
 
-.appointment .image-block .love{
+.appointment .image-block .love {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -35,7 +35,7 @@ html {
     bottom: 0;
 }
 
-.appointment .image-block .vet-doctor{
+.appointment .image-block .vet-doctor {
     bottom: 0;
 }
 
@@ -46,7 +46,7 @@ html {
     flex-wrap: wrap;
 }
 
-.how-it-work .block-card{
+.how-it-work .block-card {
     flex: 1;
     min-width: 33%;
     background-color: var(--cl-white-400);
@@ -77,10 +77,10 @@ section.connect.padding--block-100 {
     padding-block: var(--size-10);
 }
 
-.connect .heading-text{
+.connect .heading-text {
     max-width: 35vw;
 }
 
-.connect .heading-text .padding--block-25{
+.connect .heading-text .padding--block-25 {
     padding-block: var(--size-10);
 }

@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: "Montserrat", serif;
   font-style: normal;
@@ -14,6 +16,7 @@ body {
   background-color: black;
   overflow: hidden;
 }
+
 .container1 {
   position: relative;
   display: flex;
@@ -25,6 +28,7 @@ body {
   margin: auto;
   height: 99.8vh;
 }
+
 .overlay {
   position: absolute;
   background-color: #3d405bcc;
@@ -32,6 +36,7 @@ body {
   height: 99.8vh;
   margin: auto;
 }
+
 .cont2 {
   width: 612px;
   height: 406px;
@@ -42,14 +47,17 @@ body {
   background-color: #ffffff;
   margin: auto;
 }
+
 #mainn {
   margin-left: 0.1rem;
   color: #3d405b;
   font-size: 1.5rem;
 }
+
 #mainn:hover {
   color: #aa5e31;
 }
+
 .cont2 img {
   width: 109.38px;
   height: 109.38px;
@@ -59,9 +67,11 @@ body {
   opacity: 0px;
   transform: rotate(180.04deg);
 }
+
 img {
   display: inline-block;
 }
+
 h1 {
   font-family: Montserrat;
   font-size: 20px;
@@ -73,6 +83,7 @@ h1 {
 
   color: #3d405b;
 }
+
 h2 {
   display: inline-block;
   margin-left: 10rem;
@@ -94,6 +105,7 @@ a {
   text-align: center;
   color: #000000;
 }
+
 #left-n {
   margin-left: 0.4rem;
   color: #aa5e31;
@@ -109,6 +121,7 @@ span {
 
   color: #aa5e31;
 }
+
 .cont2 button {
   color: #3d405b;
   border: none;
@@ -121,6 +134,7 @@ span {
   text-align: left;
   margin: 2rem;
 }
+
 /* .cont2 a:hover {
   color: #aa5e31;
   background-image: 1px solid #3d405b;
@@ -156,6 +170,7 @@ span {
 
     border-radius: 10px;
   }
+
   .overlay {
     position: absolute;
     background-color: #3d405bcc;
@@ -163,6 +178,7 @@ span {
     height: 100.8vh;
     margin: auto;
   }
+
   .cont2 {
     width: 500px;
     height: 380px;
@@ -173,6 +189,7 @@ span {
     background-color: #ffffff;
     margin: auto;
   }
+
   .cont2 img {
     width: 99.38px;
     height: 99.38px;
@@ -182,9 +199,11 @@ span {
     opacity: 0px;
     transform: rotate(180.04deg);
   }
+
   img {
     display: inline-block;
   }
+
   h1 {
     font-family: Montserrat;
     font-size: 18px;
@@ -196,6 +215,7 @@ span {
 
     color: #3d405b;
   }
+
   h2 {
     display: inline-block;
     margin-left: 7rem;
@@ -228,6 +248,7 @@ span {
 
     color: #aa5e31;
   }
+
   .cont2 button {
     color: #3d405b;
     border: none;
@@ -240,6 +261,7 @@ span {
     text-align: left;
     margin: 2rem;
   }
+
   /* .cont2 a:hover {
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
@@ -247,12 +269,15 @@ span {
   #left-n:hover {
     text-decoration-color: #3d405b;
   }
+
   /* .cont2 h2:hover {
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
   } */
 }
+
 @media only screen and (max-width: 500px) {
+
   /* For mobile phones: */
   .container1 {
     position: relative;
@@ -270,6 +295,7 @@ span {
 
     border-radius: 10px;
   }
+
   .overlay {
     position: absolute;
     background-color: #3d405bcc;
@@ -277,6 +303,7 @@ span {
     height: 100.8vh;
     margin: auto;
   }
+
   .cont2 {
     width: 500px;
     height: 50vh;
@@ -288,6 +315,7 @@ span {
     margin: auto;
     margin-top: 50vh;
   }
+
   .cont2 img {
     width: 80.38px;
     height: 80.38px;
@@ -297,9 +325,11 @@ span {
     opacity: 0px;
     transform: rotate(180.04deg);
   }
+
   img {
     display: inline-block;
   }
+
   h1 {
     font-family: Montserrat;
     font-size: 18px;
@@ -311,6 +341,7 @@ span {
 
     color: #3d405b;
   }
+
   h2 {
     display: inline-block;
     margin-left: 3rem;
@@ -343,6 +374,7 @@ span {
 
     color: #aa5e31;
   }
+
   .cont2 button {
     color: #3d405b;
     border: none;
@@ -355,6 +387,7 @@ span {
     text-align: left;
     margin: 2rem;
   }
+
   /* .cont2 a:hover {
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;

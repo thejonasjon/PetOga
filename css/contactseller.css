@@ -3,6 +3,7 @@ body {
   font-optical-sizing: auto;
   background-color: black;
 }
+
 .brand {
   display: flex;
   position: relative;
@@ -17,6 +18,7 @@ body {
   font-optical-sizing: auto;
   border-left: 0.1px solid white;
 }
+
 .brand-name {
   max-width: 20.8rem;
   height: 2rem;
@@ -26,14 +28,17 @@ body {
   float: left;
   align-items: center;
 }
+
 .brand-name a {
   color: #ffffff;
   font-size: 2.8rem;
   font-weight: 700;
 }
+
 .brand-name span {
   color: #aa5e31;
 }
+
 .brand-nav {
   max-width: 70%;
   list-style-type: none;
@@ -53,19 +58,23 @@ body {
   list-style-type: none;
   gap: 10;
 }
+
 .brand li {
   list-style-type: none;
   float: left;
   margin: 6rem;
 }
+
 .brand li a:hover {
   text-decoration: none;
   text-decoration-color: #aa5e31;
   border-bottom: 2px solid #aa5e31;
 }
+
 .hambugger {
   display: none;
 }
+
 /*new*/
 .rewind {
   display: flex;
@@ -77,6 +86,7 @@ body {
 
   background-color: white;
 }
+
 .wind button {
   color: #3d405b;
   border: none;
@@ -89,15 +99,19 @@ body {
   text-align: left;
   margin: 2rem;
 }
+
 .wind a {
   color: #3d405b;
 }
+
 #blue:hover {
   fill: #aa5e31;
 }
+
 .wind button a:hover {
   color: #aa5e31;
 }
+
 /* new section*/
 .hero {
   display: flex;
@@ -106,6 +120,7 @@ body {
   height: 65vh;
   margin: auto;
 }
+
 .hero-sub {
   width: Hug (604px) px;
   height: Hug (304px) px;
@@ -117,6 +132,7 @@ body {
 
   padding: 5rem;
 }
+
 .hero-sub img {
   width: 151px;
   height: 201px;
@@ -126,9 +142,11 @@ body {
 
   float: left;
 }
+
 .hero-sub span {
   font-weight: 400;
 }
+
 .hero-sub h1 {
   display: inline-block;
   margin-left: 2rem;
@@ -136,19 +154,24 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
+
 .hero-sub img:hover {
   background-color: #aa5e31;
   color: #aa5e31;
 }
+
 h1 img {
   width: 10px;
 }
+
 .bear img {
   display: block;
 }
+
 .hero-sub h2 {
   margin-top: 1rem;
 }
+
 .mid {
   position: relative;
   display: flex;
@@ -159,11 +182,13 @@ h1 img {
   gap: 27px;
   opacity: 0px;
 }
+
 .mid1 {
   position: absolute;
   top: 24px;
   left: 188px;
 }
+
 /* new *
 .gallery {
   width: 100%;
@@ -204,6 +229,7 @@ footer {
   align-self: start;
   padding: 3rem;
 }
+
 .copyright {
   width: 30%;
   background-color: #3d405b;
@@ -213,6 +239,7 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .started button {
   display: block;
   margin: 1rem;
@@ -225,13 +252,16 @@ footer {
   border-radius: 3px;
   color: #3d405b;
 }
+
 .started button a {
   font-size: 1.3rem;
   color: #3d405b;
 }
+
 .start {
   font-size: 1.3rem;
 }
+
 .one {
   max-width: 90%;
   height: 2rem;
@@ -242,20 +272,24 @@ footer {
   align-items: center;
   margin-top: 7rem;
 }
+
 .one a {
   color: #ffffff;
   font-size: 3.5rem;
   font-weight: 600;
 }
+
 .one span {
   color: #aa5e31;
 }
+
 .one h1 {
   color: #ffffff;
   font-size: 1.4rem;
   font-weight: 300;
   margin-top: 2rem;
 }
+
 .right {
   width: 70%;
   background-color: #3d405b;
@@ -265,18 +299,23 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .two {
   margin-top: 5rem;
 }
+
 .three {
   margin-top: 5rem;
 }
+
 .four {
   margin-top: 5rem;
 }
+
 .five {
   margin-top: 5rem;
 }
+
 footer li {
   list-style-type: none;
   color: #ffffff;
@@ -285,6 +324,7 @@ footer li {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer p {
   list-style-type: none;
   color: #ffffff;
@@ -293,13 +333,16 @@ footer p {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer li:hover {
   color: #aa5e31;
 }
+
 footer button :hover {
   color: white;
   background-color: #aa5e31;
 }
+
 footer button:hover {
   color: white;
   background-color: #aa5e31;
@@ -326,6 +369,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20%;
     height: 2rem;
@@ -335,14 +379,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.4rem;
     font-weight: 700;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     width: 80%;
     list-style-type: none;
@@ -364,6 +411,7 @@ footer button:hover {
     list-style-type: none;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
@@ -371,14 +419,17 @@ footer button:hover {
     font-size: 1rem;
     margin-right: 2rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
   }
+
   .hambugger {
     display: none;
   }
+
   /*new*/
   .rewind {
     display: flex;
@@ -390,6 +441,7 @@ footer button:hover {
     border: none;
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -402,12 +454,15 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
+
   /* new section*/
   .hero {
     display: flex;
@@ -416,6 +471,7 @@ footer button:hover {
     height: auto;
     margin: auto;
   }
+
   .hero-sub {
     width: 100%;
     height: auto;
@@ -427,6 +483,7 @@ footer button:hover {
     margin-bottom: 5rem;
     padding: 5rem;
   }
+
   .hero-sub img {
     width: 35%;
     height: 38vh;
@@ -436,9 +493,11 @@ footer button:hover {
 
     float: left;
   }
+
   .hero-sub span {
     font-weight: 400;
   }
+
   .hero-sub h1 {
     display: inline-block;
     margin-left: 2rem;
@@ -446,16 +505,20 @@ footer button:hover {
     font-size: 14px;
     font-weight: 300;
   }
+
   h1 img {
     width: 10px;
     height: auto;
   }
+
   .bear img {
     display: block;
   }
+
   .hero-sub h2 {
     margin-top: 2rem;
   }
+
   .mid {
     position: relative;
     display: flex;
@@ -466,11 +529,13 @@ footer button:hover {
     gap: 27px;
     opacity: 0px;
   }
+
   .mid1 {
     position: absolute;
     top: 24px;
     left: 188px;
   }
+
   /*footer*/
   footer {
     width: 100%;
@@ -483,6 +548,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 30%;
     background-color: #3d405b;
@@ -492,6 +558,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -504,10 +571,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: block;
     font-size: 12px;
@@ -523,20 +592,24 @@ footer button:hover {
     align-items: center;
     margin-top: 7rem;
   }
+
   .one a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .one span {
     color: #aa5e31;
   }
+
   .one h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 70%;
     background-color: #3d405b;
@@ -546,18 +619,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .two {
     margin-top: 3rem;
   }
+
   .three {
     margin-top: 3rem;
   }
+
   .four {
     margin-top: 3rem;
   }
+
   .five {
     margin-top: 3rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -566,6 +644,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -574,22 +653,28 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
   }
+
   footer button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   .sixteen {
     display: none;
   }
 }
+
 @media only screen and (max-width: 500px) {
+
   /* For mobile phones: */
   .brand {
     display: flex;
@@ -605,6 +690,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20%;
     height: 2rem;
@@ -614,14 +700,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.4rem;
     font-weight: 700;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     display: none;
     width: 80%;
@@ -643,6 +732,7 @@ footer button:hover {
     list-style-type: none;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
@@ -650,15 +740,18 @@ footer button:hover {
     font-size: 1rem;
     margin-right: 4rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
   }
+
   .hambugger {
     position: absolute;
     left: 100px;
   }
+
   .hambugger {
     display: flex;
     max-width: 20%;
@@ -673,6 +766,7 @@ footer button:hover {
     text-align: center;
     justify-self: center;
   }
+
   /*new*/
   .rewind {
     display: flex;
@@ -684,6 +778,7 @@ footer button:hover {
 
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -696,12 +791,15 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
+
   /* new section*/
   .hero {
     display: flex;
@@ -710,6 +808,7 @@ footer button:hover {
     height: auto;
     margin: auto;
   }
+
   .hero-sub {
     width: 100%;
     height: auto;
@@ -721,6 +820,7 @@ footer button:hover {
     margin-bottom: 5rem;
     padding: 2rem;
   }
+
   .hero-sub img {
     width: 30%;
     height: 17vh;
@@ -730,9 +830,11 @@ footer button:hover {
 
     float: left;
   }
+
   .hero-sub span {
     font-weight: 400;
   }
+
   .hero-sub h1 {
     display: inline-block;
     margin-left: 2rem;
@@ -740,19 +842,24 @@ footer button:hover {
     font-size: 12px;
     font-weight: 300;
   }
+
   h1 img {
     width: 10px;
   }
+
   .bear img {
     display: block;
   }
+
   h2 {
     width: 100%;
     height: 30px;
   }
+
   .hero-sub h2 {
     margin-top: 1rem;
   }
+
   .mid {
     position: relative;
     display: flex;
@@ -763,6 +870,7 @@ footer button:hover {
     gap: 27px;
     opacity: 0px;
   }
+
   .mid1 {
     position: absolute;
     top: 24px;
@@ -782,6 +890,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 90%;
     background-color: #3d405b;
@@ -791,6 +900,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -803,10 +913,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: none;
     font-size: 12px;
@@ -822,20 +934,24 @@ footer button:hover {
     align-items: center;
     margin-top: 2rem;
   }
+
   .one a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .one span {
     color: #aa5e31;
   }
+
   .one h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 90%;
 
@@ -847,18 +963,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .two {
     margin-top: 0.1rem;
   }
+
   .three {
     margin-top: 0.1rem;
   }
+
   .four {
     margin-top: 0.1rem;
   }
+
   .fifteen {
     margin-top: 0.1rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -867,6 +988,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.3rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -875,17 +997,21 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
   }
+
   footer button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   .sixteen {
     height: auto;
     background-color: #3d405b;

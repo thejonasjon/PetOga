@@ -1,209 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PetOga - Dashboard</title>
 
-      <!-- Fonts -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/seller_profile.css">
-    <link rel="stylesheet" href="/css/seller_profile_tablet.css" media="(max-width:1024px)" />
-    <link rel="stylesheet" href="/css/seller_profile_mobile.css" media="(max-width:600px)" />
-
-
-</head>
-<body>
+    <link rel="stylesheet" href="/css/seller_profile.css" />
+    <link
+      rel="stylesheet"
+      href="/css/seller_profile_tablet.css"
+      media="(max-width:1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/seller_profile_mobile.css"
+      media="(max-width:600px)"
+    />
+  </head>
+  <body>
     <!-- Main -->
     <main>
-        <div class="container--full-width home--grid">
-            <aside class="sidebar">
-                <div class="sidebar-top">
-                    <header class="sidebar-header">
-                        <div class="welcome-block-nav">
-                            <div class="navbar--brand">
-                                <a href="#">Pet<span>Oga</span></a>
-                            </div>
-
-                            <div class="welcome-block">
-                                <div class="profile-photo">
-                                    <img src="/assets/images/dashboard/profile.jpg" alt="Profile Image">
-                                </div>
-                                <div class="profile-text">
-                                    <h6>Welcome</h6>
-                                    <p>Adeniyi Ola</p>
-                                </div>
-                            </div>
-
-                            <nav>
-                                <ul role='list' class="side-nav">
-                                    <li><a href="/pages/dashboard.html">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.707 2.293l9 9c.63.63.184 1.707-.707 1.707h-1v6a3 3 0 0 1-3 3h-1v-7a3 3 0 0 0-2.824-2.995L13 12h-2a3 3 0 0 0-3 3v7H7a3 3 0 0 1-3-3v-6H3c-.89 0-1.337-1.077-.707-1.707l9-9a1 1 0 0 1 1.414 0M13 14a1 1 0 0 1 1 1v7h-4v-7a1 1 0 0 1 .883-.993L11 14z"/></svg>
-                                        Home</a></li>
-                                    <li class="active"><a href="/pages/seller_profile.html">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0m149.3 277.3c0 11.8-9.5 21.3-21.3 21.3h-85.3V384c0 11.8-9.5 21.3-21.3 21.3h-42.7c-11.8 0-21.3-9.6-21.3-21.3v-85.3H128c-11.8 0-21.3-9.6-21.3-21.3v-42.7c0-11.8 9.5-21.3 21.3-21.3h85.3V128c0-11.8 9.5-21.3 21.3-21.3h42.7c11.8 0 21.3 9.6 21.3 21.3v85.3H384c11.8 0 21.3 9.6 21.3 21.3z"/></svg>
-                                        Add Pet</a></li>
-                                    <li><a href="/pages/profile.html">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke="white"><path stroke-linejoin="round" d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><circle cx="12" cy="7" r="3"/></g></svg>
-                                        Profile</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                        <div>
-                            <nav>
-                                <ul role='list' class="side-nav">
-                                    <li><a href="/pages/contacts.html">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.95 18q.525 0 .888-.363t.362-.887t-.362-.888t-.888-.362t-.887.363t-.363.887t.363.888t.887.362m-.9-3.85h1.85q0-.825.188-1.3t1.062-1.3q.65-.65 1.025-1.238T15.55 8.9q0-1.4-1.025-2.15T12.1 6q-1.425 0-2.312.75T8.55 8.55l1.65.65q.125-.45.563-.975T12.1 7.7q.8 0 1.2.438t.4.962q0 .5-.3.938t-.75.812q-1.1.975-1.35 1.475t-.25 1.825M12 22q-2.075 0-3.9-.787t-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/></svg>
-                                        Help & Center</a></li>
-                                    <li><a href="/pages/settings.html">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m9.25 22l-.4-3.2q-.325-.125-.612-.3t-.563-.375L4.7 19.375l-2.75-4.75l2.575-1.95Q4.5 12.5 4.5 12.338v-.675q0-.163.025-.338L1.95 9.375l2.75-4.75l2.975 1.25q.275-.2.575-.375t.6-.3l.4-3.2h5.5l.4 3.2q.325.125.613.3t.562.375l2.975-1.25l2.75 4.75l-2.575 1.95q.025.175.025.338v.674q0 .163-.05.338l2.575 1.95l-2.75 4.75l-2.95-1.25q-.275.2-.575.375t-.6.3l-.4 3.2zm2.8-6.5q1.45 0 2.475-1.025T15.55 12t-1.025-2.475T12.05 8.5q-1.475 0-2.488 1.025T8.55 12t1.013 2.475T12.05 15.5"/></svg>
-                                        Settings</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </header>
-                </div>
-            </aside>
-
-            <section class="main-content">
-                <div class="top-horizontal-nav">
-                    <div class="previous-btn">
-                        <a href="/pages/dashboard.html"><span class="material-symbols-outlined">chevron_left</span>Add a Pet</a>
-                    </div>
-                    <div class="top-nav-link">
-                        <a href="/pages/petprofile.html">Pet Adoption Page</a>
-                        <a href="../index.html">Go Back To Homepge</a>
-                    </div>
-
-                    <div class="hamburger-menu" onclick="toggleMobileMenu()">
-                        <span class="material-symbols-outlined">menu</span>
-                    </div>
+      <div class="container--full-width home--grid">
+        <aside class="sidebar">
+          <div class="sidebar-top">
+            <header class="sidebar-header">
+              <div class="welcome-block-nav">
+                <div class="navbar--brand">
+                  <a href="#">Pet<span>Oga</span></a>
                 </div>
 
-                <div class="content-block">
-                    <div class="content-container">
-                        <div class="seller-profile_form-container">
-                            <form action="">
-                                <div class="form-group upload">
-                                    <h4>Photo</h4>
-                                    <div class="input-group">
-                                        <input type="file" placeholder="Click to upload or drag and drop file" id="upload">
-                                    </div>
-                                </div>
+                <div class="welcome-block">
+                  <div class="profile-photo">
+                    <img
+                      src="/assets/images/dashboard/profile.jpg"
+                      alt="Profile Image"
+                    />
+                  </div>
+                  <div class="profile-text">
+                    <h6>Welcome</h6>
+                    <p>Adeniyi Ola</p>
+                  </div>
+                </div>
 
-                                <div class="form-group basic-information-form-cont">
-                                    <h4>Basic Information</h4>
-                                    <div class="name-pet-type">
-                                        <div class="input-group">
-                                            <label id="petName" for="pet-name">Pet name</label>
-                                            <input id="petName" type="text" placeholder="E.g Bobby" name="petName" required>
-                                        </div>
+                <nav>
+                  <ul role="list" class="side-nav">
+                    <li>
+                      <a href="/pages/dashboard.html">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m12.707 2.293l9 9c.63.63.184 1.707-.707 1.707h-1v6a3 3 0 0 1-3 3h-1v-7a3 3 0 0 0-2.824-2.995L13 12h-2a3 3 0 0 0-3 3v7H7a3 3 0 0 1-3-3v-6H3c-.89 0-1.337-1.077-.707-1.707l9-9a1 1 0 0 1 1.414 0M13 14a1 1 0 0 1 1 1v7h-4v-7a1 1 0 0 1 .883-.993L11 14z"
+                          />
+                        </svg>
+                        Home</a
+                      >
+                    </li>
+                    <li class="active">
+                      <a href="/pages/seller_profile.html">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 512 512"
+                        >
+                          <path
+                            d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0m149.3 277.3c0 11.8-9.5 21.3-21.3 21.3h-85.3V384c0 11.8-9.5 21.3-21.3 21.3h-42.7c-11.8 0-21.3-9.6-21.3-21.3v-85.3H128c-11.8 0-21.3-9.6-21.3-21.3v-42.7c0-11.8 9.5-21.3 21.3-21.3h85.3V128c0-11.8 9.5-21.3 21.3-21.3h42.7c11.8 0 21.3 9.6 21.3 21.3v85.3H384c11.8 0 21.3 9.6 21.3 21.3z"
+                          />
+                        </svg>
+                        Add Pet</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/pages/profile.html">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <g stroke="white">
+                            <path
+                              stroke-linejoin="round"
+                              d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"
+                            />
+                            <circle cx="12" cy="7" r="3" />
+                          </g>
+                        </svg>
+                        Profile</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
 
-                                        <div class="select-group">
-                                            <div class="input-group">
-                                                <input id="dog" type="button" value="Dog">
-                                            </div>
+              <div>
+                <nav>
+                  <ul role="list" class="side-nav">
+                    <li>
+                      <a href="/pages/contacts.html">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.95 18q.525 0 .888-.363t.362-.887t-.362-.888t-.888-.362t-.887.363t-.363.887t.363.888t.887.362m-.9-3.85h1.85q0-.825.188-1.3t1.062-1.3q.65-.65 1.025-1.238T15.55 8.9q0-1.4-1.025-2.15T12.1 6q-1.425 0-2.312.75T8.55 8.55l1.65.65q.125-.45.563-.975T12.1 7.7q.8 0 1.2.438t.4.962q0 .5-.3.938t-.75.812q-1.1.975-1.35 1.475t-.25 1.825M12 22q-2.075 0-3.9-.787t-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                          />
+                        </svg>
+                        Help & Center</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/pages/settings.html">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="m9.25 22l-.4-3.2q-.325-.125-.612-.3t-.563-.375L4.7 19.375l-2.75-4.75l2.575-1.95Q4.5 12.5 4.5 12.338v-.675q0-.163.025-.338L1.95 9.375l2.75-4.75l2.975 1.25q.275-.2.575-.375t.6-.3l.4-3.2h5.5l.4 3.2q.325.125.613.3t.562.375l2.975-1.25l2.75 4.75l-2.575 1.95q.025.175.025.338v.674q0 .163-.05.338l2.575 1.95l-2.75 4.75l-2.95-1.25q-.275.2-.575.375t-.6.3l-.4 3.2zm2.8-6.5q1.45 0 2.475-1.025T15.55 12t-1.025-2.475T12.05 8.5q-1.475 0-2.488 1.025T8.55 12t1.013 2.475T12.05 15.5"
+                          />
+                        </svg>
+                        Settings</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </header>
+          </div>
+        </aside>
 
-                                            <div class="input-group">
-                                                <input id="cat" type="button" value="Cat">
-                                            </div>
+        <section class="main-content">
+          <div class="top-horizontal-nav">
+            <div class="previous-btn">
+              <a href="/pages/dashboard.html"
+                ><span class="material-symbols-outlined">chevron_left</span>Add
+                a Pet</a
+              >
+            </div>
+            <div class="top-nav-link">
+              <a href="/pages/petprofile.html">Pet Adoption Page</a>
+              <a href="../index.html">Go Back To Homepge</a>
+            </div>
 
-                                            <div class="input-group">
-                                                <input id="other" type="text" placeholder="Other">
-                                            </div>
-                                        </div>
-                                    </div>
+            <div class="hamburger-menu" onclick="toggleMobileMenu()">
+              <span class="material-symbols-outlined">menu</span>
+            </div>
+          </div>
 
-                                    <div class="input-group">
-                                        <textarea name="description" id="description" placeholder="Give a short description about your pet."></textarea>
-                                    </div>
+          <div class="content-block">
+            <div class="content-container">
+              <div class="seller-profile_form-container">
+                <form action="">
+                  <div class="form-group upload">
+                    <h4>Photo</h4>
+                    <div class="input-group">
+                      <input
+                        type="file"
+                        placeholder="Click to upload or drag and drop file"
+                        id="upload"
+                      />
+                    </div>
+                  </div>
 
-                                    <div class="select-group-cont">
-                                        <div class="input-group select-sex-group">
-                                            <label id="sex" for="sex">Sex</label>
-                                            <div class="select-group">
-                                                <div class="input-group">
-                                                    <input id="male" type="button" value="Male">
-                                                </div>
+                  <div class="form-group basic-information-form-cont">
+                    <h4>Basic Information</h4>
+                    <div class="name-pet-type">
+                      <div class="input-group">
+                        <label id="petName" for="pet-name">Pet name</label>
+                        <input
+                          id="petName"
+                          type="text"
+                          placeholder="E.g Bobby"
+                          name="petName"
+                          required
+                        />
+                      </div>
 
-                                                <div class="input-group">
-                                                    <input id="female" type="button" value="Female">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="select-group">
-                                            <div class="input-group">
-                                                <label id="size" for="size">Size</label>
-                                                <input id="size" type="number" name="size" placeholder="Specify">
-                                            </div>
-
-                                            <div class="input-group">
-                                                <label id="health" for="health">Health</label>
-                                                <input id="health" type="text" name="health" placeholder="Unknown">
-                                            </div>
-
-                                            <div class="input-group">
-                                                <label id="age" for="age">Age</label>
-                                                <input id="age" type="number" name="age" placeholder="Specify">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="form-group personal-trait-form-cont">
-                                    <h4>Personality Traits</h4>
-                                    <div class="group">
-                                        <div class="input-group">
-                                            <input id="temprament" type="button" value="Temperament" disabled>
-                                        </div>
-                                    </div>
-
-                                    <div class="select-group-cont">
-                                        <div class="input-group">
-                                            <input id="playful" type="button" value="Playful" name="playful">
-                                        </div>
-
-                                        <div class="input-group">
-                                            <input id="agile" type="button" value="Agile" name="agile">
-                                        </div>
-
-                                        <div class="input-group">
-                                            <input id="aggressive" type="button" value="Aggressive" name="aggressive">
-                                        </div>
-
-                                        <div class="input-group">
-                                            <input id="active" type="button" value="Active" name="active">
-                                        </div>
-
-                                        <div class="input-group">
-                                            <input id="careful" type="button" value="Careful" name="careful">
-                                        </div>
-
-                                        <div class="input-group">
-                                            <input id="energetic" type="button" value="Energetic" name="energetic">
-                                        </div>
-
-                                        <div class="input-group">
-                                            <input id="dangerous" type="button" value="Dangerous" name="dangerous">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
+                      <div class="select-group">
+                        <div class="input-group">
+                          <input id="dog" type="button" value="Dog" />
                         </div>
 
+                        <div class="input-group">
+                          <input id="cat" type="button" value="Cat" />
+                        </div>
+
+                        <div class="input-group">
+                          <input id="other" type="text" placeholder="Other" />
+                        </div>
+                      </div>
                     </div>
-                </div>
-            </section>
-        </div>
+
+                    <div class="input-group">
+                      <textarea
+                        name="description"
+                        id="description"
+                        placeholder="Give a short description about your pet."
+                      ></textarea>
+                    </div>
+
+                    <div class="select-group-cont">
+                      <div class="input-group select-sex-group">
+                        <label id="sex" for="sex">Sex</label>
+                        <div class="select-group">
+                          <div class="input-group">
+                            <input id="male" type="button" value="Male" />
+                          </div>
+
+                          <div class="input-group">
+                            <input id="female" type="button" value="Female" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="select-group">
+                        <div class="input-group">
+                          <label id="size" for="size">Size</label>
+                          <input
+                            id="size"
+                            type="number"
+                            name="size"
+                            placeholder="Specify"
+                          />
+                        </div>
+
+                        <div class="input-group">
+                          <label id="health" for="health">Health</label>
+                          <input
+                            id="health"
+                            type="text"
+                            name="health"
+                            placeholder="Unknown"
+                          />
+                        </div>
+
+                        <div class="input-group">
+                          <label id="age" for="age">Age</label>
+                          <input
+                            id="age"
+                            type="number"
+                            name="age"
+                            placeholder="Specify"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group personal-trait-form-cont">
+                    <h4>Personality Traits</h4>
+                    <div class="group">
+                      <div class="input-group">
+                        <input
+                          id="temprament"
+                          type="button"
+                          value="Temperament"
+                          disabled
+                        />
+                      </div>
+                    </div>
+
+                    <div class="select-group-cont">
+                      <div class="input-group">
+                        <input
+                          id="playful"
+                          type="button"
+                          value="Playful"
+                          name="playful"
+                        />
+                      </div>
+
+                      <div class="input-group">
+                        <input
+                          id="agile"
+                          type="button"
+                          value="Agile"
+                          name="agile"
+                        />
+                      </div>
+
+                      <div class="input-group">
+                        <input
+                          id="aggressive"
+                          type="button"
+                          value="Aggressive"
+                          name="aggressive"
+                        />
+                      </div>
+
+                      <div class="input-group">
+                        <input
+                          id="active"
+                          type="button"
+                          value="Active"
+                          name="active"
+                        />
+                      </div>
+
+                      <div class="input-group">
+                        <input
+                          id="careful"
+                          type="button"
+                          value="Careful"
+                          name="careful"
+                        />
+                      </div>
+
+                      <div class="input-group">
+                        <input
+                          id="energetic"
+                          type="button"
+                          value="Energetic"
+                          name="energetic"
+                        />
+                      </div>
+
+                      <div class="input-group">
+                        <input
+                          id="dangerous"
+                          type="button"
+                          value="Dangerous"
+                          name="dangerous"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-</body>
+  </body>
 </html>

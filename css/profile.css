@@ -9,13 +9,13 @@
     flex-wrap: wrap;
 }
 
-.input-group-cont > * {
+.input-group-cont>* {
     flex: 1 1;
 }
 
 .input-group-cont .input-group,
 .input-group-cont .input-group input,
-.input-group-cont .input-group select{
+.input-group-cont .input-group select {
     width: 100%;
     min-width: var(--size-200);
 }
@@ -32,7 +32,7 @@
     flex-wrap: wrap;
 }
 
-.form-btn-group button{
+.form-btn-group button {
     outline: none;
     border: none;
     font-size: var(--size-14);
@@ -61,4 +61,3 @@
 .form-btn-group .cancel:hover {
     background-color: #FF0000;
 }
-

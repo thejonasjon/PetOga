@@ -10,7 +10,7 @@
     gap: var(--size-30);
 }
 
-.pets-image-cont > * {
+.pets-image-cont>* {
     flex: 1 1 50%;
 }
 
@@ -20,7 +20,7 @@
     gap: var(--size-20);
 }
 
-.sub-image-cont > * {
+.sub-image-cont>* {
     flex: 1 1 33%;
 }
 
@@ -57,7 +57,7 @@
     gap: var(--size-30);
 }
 
-.pet-text-container > * {
+.pet-text-container>* {
     background-color: var(--cl-white-400);
     border-radius: var(--size-08);
     padding: var(--size-20);
@@ -85,4 +85,3 @@
     border-radius: var(--size-08);
     border: 1px solid rgba(157, 95, 59, 0.35);
 }
-

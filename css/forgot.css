@@ -6,6 +6,7 @@ body {
   background-color: black;
   overflow: hidden;
 }
+
 .form {
   display: flex;
   justify-content: space-around;
@@ -22,6 +23,7 @@ body {
   background-color: white;
   font-family: "Montserrat", serif;
 }
+
 .wind {
   display: flex;
   justify-content: left;
@@ -31,6 +33,7 @@ body {
   height: 1vh;
   background-color: white;
 }
+
 .wind button {
   color: #3d405b;
   border: none;
@@ -43,12 +46,15 @@ body {
   text-align: left;
   margin: 2rem;
 }
+
 .wind a {
   color: #3d405b;
 }
+
 #blue:hover {
   fill: #aa5e31;
 }
+
 .wind button:hover {
   color: #aa5e31;
 }
@@ -61,6 +67,7 @@ body {
   text-align: center;
   color: #3d405b;
 }
+
 .forgot h2 {
   font-size: 1.2rem;
   font-weight: 400;
@@ -75,6 +82,7 @@ body {
   margin-left: 7rem;
   font-family: "Montserrat", serif;
 }
+
 #email {
   width: 432px;
   height: 65px;
@@ -97,11 +105,13 @@ body {
   line-height: 50px;
   margin-bottom: 10rem;
 }
+
 .y {
   color: #3d405b;
   font-size: 1.3rem;
   margin-bottom: 10rem;
 }
+
 a:hover {
   color: #aa5e31;
 }
@@ -119,16 +129,19 @@ a:hover {
   text-align: center;
   font-size: 1.7rem;
 }
+
 ::placeholder {
   color: #b9b9b999;
   opacity: 1;
 }
+
 #email:hover {
   cursor: pointer;
   color: black;
   border: 1px solid rgb(73, 146, 206);
   text-decoration: none;
 }
+
 #pwd:hover {
   cursor: pointer;
   color: white;
@@ -145,6 +158,7 @@ a:hover {
   margin-bottom: 1rem;
   font-weight: 600;
 }
+
 .forgot {
   margin-bottom: 10rem;
 }
@@ -171,6 +185,7 @@ a:hover {
     background-color: white;
     font-family: "Montserrat", serif;
   }
+
   .wind {
     display: flex;
     justify-content: left;
@@ -180,6 +195,7 @@ a:hover {
     height: 1vh;
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -192,12 +208,15 @@ a:hover {
     text-align: left;
     margin: 2rem;
   }
+
   .wind a {
     color: #3d405b;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
@@ -211,6 +230,7 @@ a:hover {
     color: #3d405b;
     margin-top: 1rem;
   }
+
   .forgot h2 {
     font-size: 1.2rem;
     font-weight: 400;
@@ -225,6 +245,7 @@ a:hover {
     margin-left: 17rem;
     font-family: "Montserrat", serif;
   }
+
   #email {
     width: 600px;
     height: 75px;
@@ -247,11 +268,13 @@ a:hover {
     line-height: 50px;
     margin-bottom: 10rem;
   }
+
   .y {
     color: #3d405b;
     font-size: 1.5rem;
     margin-bottom: 10rem;
   }
+
   a:hover {
     color: #aa5e31;
   }
@@ -270,17 +293,20 @@ a:hover {
     font-size: 1.7rem;
     margin-top: 8rem;
   }
+
   ::placeholder {
     color: #12111199;
 
     opacity: 1;
   }
+
   #email:hover {
     cursor: pointer;
     color: black;
     border: 1px solid rgb(73, 146, 206);
     text-decoration: none;
   }
+
   #pwd:hover {
     cursor: pointer;
     color: white;
@@ -297,11 +323,14 @@ a:hover {
     margin-bottom: 1rem;
     font-weight: 500;
   }
+
   .forgot {
     margin-bottom: 20rem;
   }
 }
+
 @media only screen and (max-width: 500px) {
+
   /* For tablet phones: */
   .form {
     display: flex;
@@ -322,6 +351,7 @@ a:hover {
     background-color: white;
     font-family: "Montserrat", serif;
   }
+
   .wind {
     display: flex;
     justify-content: left;
@@ -331,6 +361,7 @@ a:hover {
     height: 1vh;
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -343,12 +374,15 @@ a:hover {
     text-align: left;
     margin: 2rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind a {
     color: #3d405b;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
@@ -363,6 +397,7 @@ a:hover {
     margin-top: 0.1rem;
     margin-left: 4rem;
   }
+
   .forgot h2 {
     font-size: 1.2rem;
     font-weight: 400;
@@ -377,6 +412,7 @@ a:hover {
     margin-left: 4rem;
     font-family: "Montserrat", serif;
   }
+
   #email {
     width: 332px;
     height: 55px;
@@ -399,11 +435,13 @@ a:hover {
     line-height: 50px;
     margin-bottom: 10rem;
   }
+
   .y {
     color: #3d405b;
     font-size: 1.3rem;
     margin-bottom: 10rem;
   }
+
   a:hover {
     color: #aa5e31;
   }
@@ -422,17 +460,20 @@ a:hover {
     font-size: 1.7rem;
     margin-top: 18rem;
   }
+
   ::placeholder {
     color: #12111199;
 
     opacity: 1;
   }
+
   #email:hover {
     cursor: pointer;
     color: black;
     border: 1px solid rgb(73, 146, 206);
     text-decoration: none;
   }
+
   #pwd:hover {
     cursor: pointer;
     color: white;
@@ -449,6 +490,7 @@ a:hover {
     margin-bottom: 1rem;
     font-weight: 500;
   }
+
   .forgot {
     margin-bottom: 10rem;
   }

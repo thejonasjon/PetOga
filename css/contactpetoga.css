@@ -4,6 +4,7 @@ body {
   background-color: black;
   overflow-x: hidden;
 }
+
 .brand {
   display: flex;
   position: relative;
@@ -18,6 +19,7 @@ body {
   font-optical-sizing: auto;
   border-left: 0.1px solid white;
 }
+
 .brand-name {
   max-width: 20.8rem;
   height: 2rem;
@@ -27,14 +29,17 @@ body {
   float: left;
   align-items: center;
 }
+
 .brand-name a {
   color: #ffffff;
   font-size: 2.8rem;
   font-weight: 700;
 }
+
 .brand-name span {
   color: #aa5e31;
 }
+
 .brand-nav {
   max-width: 60%;
   list-style-type: none;
@@ -54,24 +59,29 @@ body {
   list-style-type: none;
   gap: 10;
 }
+
 .brand li {
   list-style-type: none;
   float: left;
   margin: 6rem;
 }
+
 .brand li a:hover {
   text-decoration: none;
   text-decoration-color: #aa5e31;
   border-bottom: 2px solid #aa5e31;
 }
+
 .brand li a:active {
   text-decoration: none;
   color: #aa5e31;
   border-bottom: 2px solid #aa5e31;
 }
+
 .hambugger {
   display: none;
 }
+
 /*new*/
 .rewind {
   display: flex;
@@ -83,6 +93,7 @@ body {
 
   background-color: white;
 }
+
 #wind button {
   color: #3d405b;
   border: none;
@@ -95,15 +106,19 @@ body {
   text-align: left;
   margin: 2rem;
 }
+
 #wind a {
   color: #3d405b;
 }
+
 #blue:hover {
   fill: #aa5e31;
 }
+
 #wind button a:hover {
   color: #aa5e31;
 }
+
 /*new*/
 .intro {
   display: flex;
@@ -113,10 +128,12 @@ body {
   height: 110vh;
   background-color: #ffffff;
 }
+
 .intro1 {
   width: 550px;
   text-align: left;
 }
+
 label {
   font-family: Montserrat;
   font-size: 14px;
@@ -127,10 +144,12 @@ label {
   text-decoration-skip-ink: none;
   color: #101010;
 }
+
 .r {
   font-size: 9px;
   color: #101010;
 }
+
 #username {
   width: 300px;
   height: 50px;
@@ -143,6 +162,7 @@ label {
   color: #ffffff;
   padding: 20px;
 }
+
 #email {
   width: 300px;
   height: 50px;
@@ -155,6 +175,7 @@ label {
   color: #ffffff;
   padding: 20px;
 }
+
 #text-area {
   padding: 16px 0px 0px 0px;
   gap: 7px;
@@ -165,18 +186,23 @@ label {
   color: #ffffff;
   padding: 20px;
 }
+
 p {
   font-size: 5px;
 }
+
 ::placeholder {
   color: #ebebebb2;
 }
+
 .intro h1 {
   font-weight: 600;
 }
+
 .intro h2 {
   margin-bottom: 1rem;
 }
+
 #green {
   width: 90px;
   height: 30px;
@@ -192,6 +218,7 @@ p {
   border: #aa5e31;
   border-radius: 3px;
 }
+
 .intro2 {
   width: 386px;
   height: 307px;
@@ -201,6 +228,7 @@ p {
   opacity: 0px;
   margin-bottom: 220px;
 }
+
 .intro2 img {
   width: 100%;
   height: 100%;
@@ -218,6 +246,7 @@ footer {
   align-self: start;
   padding: 3rem;
 }
+
 .copyright {
   width: 30%;
   background-color: #3d405b;
@@ -227,6 +256,7 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .started button {
   display: block;
   margin: 1rem;
@@ -239,13 +269,16 @@ footer {
   border-radius: 3px;
   color: #3d405b;
 }
+
 .started button a {
   font-size: 1.3rem;
   color: #3d405b;
 }
+
 .start {
   font-size: 1.3rem;
 }
+
 .eleven {
   max-width: 90%;
   height: 2rem;
@@ -256,20 +289,24 @@ footer {
   align-items: center;
   margin-top: 7rem;
 }
+
 .eleven a {
   color: #ffffff;
   font-size: 3.5rem;
   font-weight: 600;
 }
+
 .eleven span {
   color: #aa5e31;
 }
+
 .eleven h1 {
   color: #ffffff;
   font-size: 1.4rem;
   font-weight: 300;
   margin-top: 2rem;
 }
+
 .right {
   width: 70%;
   background-color: #3d405b;
@@ -279,18 +316,23 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .twelve {
   margin-top: 5rem;
 }
+
 .thirteen {
   margin-top: 5rem;
 }
+
 .fourteen {
   margin-top: 5rem;
 }
+
 .fifteen {
   margin-top: 5rem;
 }
+
 footer li {
   list-style-type: none;
   color: #ffffff;
@@ -299,6 +341,7 @@ footer li {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer p {
   list-style-type: none;
   color: #ffffff;
@@ -307,13 +350,16 @@ footer p {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer li:hover {
   color: #aa5e31;
 }
+
 footer button :hover {
   color: white;
   background-color: #aa5e31;
 }
+
 footer button:hover {
   color: white;
   background-color: #aa5e31;

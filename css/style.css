@@ -328,6 +328,10 @@ btn-container-image-block
   position: absolute;
 }
 
+.appointment .image-block .love {
+  left: -5rem;
+}
+
 .appointment .image-block .vet-doctor {
   bottom: 0;
 }

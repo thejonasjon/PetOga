@@ -4,6 +4,7 @@ body {
   background-color: black;
   overflow-x: hidden;
 }
+
 .brand {
   display: flex;
   position: relative;
@@ -18,6 +19,7 @@ body {
   font-optical-sizing: auto;
   border-left: 0.1px solid white;
 }
+
 .brand-name {
   max-width: 20.8rem;
   height: 2rem;
@@ -27,14 +29,17 @@ body {
   float: left;
   align-items: center;
 }
+
 .brand-name a {
   color: #ffffff;
   font-size: 2.8rem;
   font-weight: 700;
 }
+
 .brand-name span {
   color: #aa5e31;
 }
+
 .brand-nav {
   max-width: 80%;
   list-style-type: none;
@@ -54,19 +59,23 @@ body {
   list-style-type: none;
   gap: 10;
 }
+
 .brand li {
   list-style-type: none;
   float: left;
   margin: 5rem;
 }
+
 .brand li a:hover {
   text-decoration: none;
   text-decoration-color: #aa5e31;
   border-bottom: 2px solid #aa5e31;
 }
+
 .hambugger {
   display: none;
 }
+
 /*new*/
 .rewind {
   display: flex;
@@ -78,6 +87,7 @@ body {
 
   background-color: white;
 }
+
 .wind button {
   color: #3d405b;
   border: none;
@@ -90,15 +100,19 @@ body {
   text-align: left;
   margin: 2rem;
 }
+
 .wind a {
   color: #3d405b;
 }
+
 .wind button a:hover {
   color: #aa5e31;
 }
+
 #blue:hover {
   fill: #aa5e31;
 }
+
 /* new section*/
 .hero {
   display: flex;
@@ -110,6 +124,7 @@ body {
   padding: 12rem;
   padding-top: 6rem;
 }
+
 .hero2 {
   width: 39rem;
   height: 40rem;
@@ -117,12 +132,14 @@ body {
   border-radius: 7px;
   opacity: 0px;
 }
+
 .hero2 img {
   width: 100%;
   height: 25rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 }
+
 .hero1 {
   line-height: 30px;
   font-family: Montserrat;
@@ -131,6 +148,7 @@ body {
   letter-spacing: 0.15000000596046448px;
   text-align: left;
 }
+
 .hero1 span {
   font-family: Montserrat;
   font-size: 16px;
@@ -139,6 +157,7 @@ body {
   letter-spacing: 0.15000000596046448px;
   text-align: left;
 }
+
 /* new section*/
 .intro {
   display: flex;
@@ -150,6 +169,7 @@ body {
   padding: 12rem;
   padding-top: 5rem;
 }
+
 .intro1 h1 {
   font-family: Montserrat;
   font-size: 16px;
@@ -158,6 +178,7 @@ body {
   letter-spacing: 0.15000000596046448px;
   text-align: left;
 }
+
 .intro1 h2 {
   font-family: Montserrat;
   font-size: 16px;
@@ -166,6 +187,7 @@ body {
   letter-spacing: 0.15000000596046448px;
   text-align: left;
 }
+
 .intro1 li {
   font-family: Montserrat;
   font-size: 16px;
@@ -174,6 +196,7 @@ body {
   letter-spacing: 0.15000000596046448px;
   text-align: left;
 }
+
 .intro1 button {
   font-family: "Inter", sans-serif;
   font-size: 1.3rem;
@@ -190,13 +213,16 @@ body {
   float: right;
   margin-left: 2rem;
 }
+
 .intro1 button a {
   font-size: 1.3rem;
   color: #ffffff;
 }
+
 .intro1 button:hover {
   background-color: #3d405b;
 }
+
 /*footer*/
 footer {
   width: 100%;
@@ -209,6 +235,7 @@ footer {
   align-self: start;
   padding: 3rem;
 }
+
 .copyright {
   width: 30%;
   background-color: #3d405b;
@@ -218,6 +245,7 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .started button {
   display: block;
   margin: 1rem;
@@ -230,13 +258,16 @@ footer {
   border-radius: 3px;
   color: #3d405b;
 }
+
 .started button a {
   font-size: 1.3rem;
   color: #3d405b;
 }
+
 .start {
   font-size: 1.3rem;
 }
+
 .eleven {
   max-width: 90%;
   height: 2rem;
@@ -247,20 +278,24 @@ footer {
   align-items: center;
   margin-top: 7rem;
 }
+
 .eleven a {
   color: #ffffff;
   font-size: 3.5rem;
   font-weight: 600;
 }
+
 .eleven span {
   color: #aa5e31;
 }
+
 .eleven h1 {
   color: #ffffff;
   font-size: 1.4rem;
   font-weight: 300;
   margin-top: 2rem;
 }
+
 .right {
   width: 70%;
   background-color: #3d405b;
@@ -270,18 +305,23 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .twelve {
   margin-top: 5rem;
 }
+
 .thirteen {
   margin-top: 5rem;
 }
+
 .fourteen {
   margin-top: 5rem;
 }
+
 .fifteen {
   margin-top: 5rem;
 }
+
 footer li {
   list-style-type: none;
   color: #ffffff;
@@ -290,6 +330,7 @@ footer li {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer p {
   list-style-type: none;
   color: #ffffff;
@@ -298,13 +339,16 @@ footer p {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer li:hover {
   color: #aa5e31;
 }
+
 footer button :hover {
   color: white;
   background-color: #aa5e31;
 }
+
 footer button:hover {
   color: white;
   background-color: #aa5e31;
@@ -313,6 +357,7 @@ footer button:hover {
 .sixteen {
   display: none;
 }
+
 @media only screen and (max-width: 1024px) {
   /* For tablet phones: */
 
@@ -330,6 +375,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20%;
     height: 2rem;
@@ -339,14 +385,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.4rem;
     font-weight: 700;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     width: 80%;
     list-style-type: none;
@@ -367,6 +416,7 @@ footer button:hover {
     list-style-type: none;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
@@ -375,11 +425,13 @@ footer button:hover {
     font-weight: 500;
     margin-right: 2rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
   }
+
   .hambugger {
     display: none;
     max-width: 20%;
@@ -394,9 +446,11 @@ footer button:hover {
     text-align: center;
     justify-self: center;
   }
+
   .hambugger {
     display: none;
   }
+
   /*new*/
   .rewind {
     display: flex;
@@ -408,6 +462,7 @@ footer button:hover {
 
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -420,18 +475,23 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind a {
     color: #3d405b;
   }
+
   .wind button a:hover {
     color: #aa5e31;
   }
+
   /* new section*/
   .hero {
     display: flex;
@@ -443,6 +503,7 @@ footer button:hover {
     padding: 7rem;
     padding-top: 6rem;
   }
+
   .hero2 {
     width: 34rem;
     height: 20rem;
@@ -450,12 +511,14 @@ footer button:hover {
     border-radius: 7px;
     opacity: 0px;
   }
+
   .hero2 img {
     width: 100%;
     height: 20rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
   }
+
   .hero1 {
     line-height: 30px;
     font-family: Montserrat;
@@ -464,6 +527,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .hero1 span {
     font-family: Montserrat;
     font-size: 12px;
@@ -472,6 +536,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   /* new section*/
   .intro {
     display: flex;
@@ -483,6 +548,7 @@ footer button:hover {
     padding: 7rem;
     padding-top: 5rem;
   }
+
   .intro1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -491,6 +557,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 h2 {
     font-family: Montserrat;
     font-size: 13px;
@@ -499,6 +566,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 li {
     font-family: Montserrat;
     font-size: 13px;
@@ -507,6 +575,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 button {
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
@@ -523,13 +592,16 @@ footer button:hover {
     float: right;
     margin-left: 2rem;
   }
+
   .intro1 button a {
     font-size: 1.2rem;
     color: #ffffff;
   }
+
   .intro1 button:hover {
     background-color: #3d405b;
   }
+
   /*footer*/
   /*footer*/
   footer {
@@ -543,6 +615,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 30%;
     background-color: #3d405b;
@@ -552,6 +625,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -564,10 +638,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: block;
     font-size: 12px;
@@ -583,20 +659,24 @@ footer button:hover {
     align-items: center;
     margin-top: 7rem;
   }
+
   .eleven a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .eleven span {
     color: #aa5e31;
   }
+
   .eleven h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 70%;
     background-color: #3d405b;
@@ -606,18 +686,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .twelve {
     margin-top: 3rem;
   }
+
   .thirteen {
     margin-top: 3rem;
   }
+
   .fourteen {
     margin-top: 3rem;
   }
+
   .fifteen {
     margin-top: 3rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -626,6 +711,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -634,23 +720,28 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
   }
+
   footer button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   .sixteen {
     display: none;
   }
 }
 
 @media only screen and (max-width: 500px) {
+
   /* For tablet phones: */
   .brand {
     display: flex;
@@ -666,6 +757,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20%;
     height: 2rem;
@@ -675,14 +767,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.4rem;
     font-weight: 700;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     display: none;
     width: 80%;
@@ -701,6 +796,7 @@ footer button:hover {
     position: absolute;
     left: 100px;
   }
+
   .hambugger {
     display: flex;
     max-width: 50%;
@@ -715,6 +811,7 @@ footer button:hover {
     text-align: center;
     justify-self: center;
   }
+
   .brand nav ul li a {
     color: #ffffff;
     float: left;
@@ -722,6 +819,7 @@ footer button:hover {
     list-style-type: none;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
@@ -729,6 +827,7 @@ footer button:hover {
     font-size: 1rem;
     margin-right: 4rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
@@ -746,6 +845,7 @@ footer button:hover {
 
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -758,18 +858,23 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind a {
     color: #3d405b;
   }
+
   .wind button a:hover {
     color: #aa5e31;
   }
+
   /* new section*/
   .hero {
     display: flex;
@@ -782,6 +887,7 @@ footer button:hover {
     padding: 7rem;
     padding-top: 6rem;
   }
+
   .hero2 {
     width: 34rem;
     height: 25vh;
@@ -789,12 +895,14 @@ footer button:hover {
     border-radius: 7px;
     opacity: 0px;
   }
+
   .hero2 img {
     width: 100%;
     height: 25vh;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
   }
+
   .hero1 {
     margin-top: 1rem;
     height: auto;
@@ -806,6 +914,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .hero1 span {
     font-family: Montserrat;
     font-size: 12px;
@@ -814,6 +923,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   /* new section*/
   .intro {
     display: flex;
@@ -825,6 +935,7 @@ footer button:hover {
     padding: 5rem;
     padding-top: 0.1rem;
   }
+
   .intro1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -833,6 +944,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 h2 {
     font-family: Montserrat;
     font-size: 13px;
@@ -841,6 +953,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 li {
     font-family: Montserrat;
     font-size: 13px;
@@ -849,6 +962,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 button {
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
@@ -865,13 +979,16 @@ footer button:hover {
     float: right;
     margin-left: 2rem;
   }
+
   .intro1 button a {
     font-size: 1.2rem;
     color: #ffffff;
   }
+
   .intro1 button:hover {
     background-color: #3d405b;
   }
+
   /*footer*/
   footer {
     width: 100%;
@@ -885,6 +1002,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 90%;
     background-color: #3d405b;
@@ -894,6 +1012,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -906,10 +1025,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: none;
     font-size: 12px;
@@ -925,20 +1046,24 @@ footer button:hover {
     align-items: center;
     margin-top: 2rem;
   }
+
   .eleven a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .eleven span {
     color: #aa5e31;
   }
+
   .eleven h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 90%;
 
@@ -950,18 +1075,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .twelve {
     margin-top: 0.1rem;
   }
+
   .thirteen {
     margin-top: 0.1rem;
   }
+
   .fourteen {
     margin-top: 0.1rem;
   }
+
   .fifteen {
     margin-top: 0.1rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -970,6 +1100,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.3rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -978,17 +1109,21 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
   }
+
   footer button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   .sixteen {
     height: auto;
     background-color: #3d405b;
@@ -1001,6 +1136,7 @@ footer button:hover {
 }
 
 @media only screen and (max-width: 390px) {
+
   /* For mobile phones: */
   .brand {
     display: flex;
@@ -1016,6 +1152,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20%;
     height: 2rem;
@@ -1025,14 +1162,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.4rem;
     font-weight: 700;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     display: none;
     width: 80%;
@@ -1051,6 +1191,7 @@ footer button:hover {
     position: absolute;
     left: 100px;
   }
+
   .hambugger {
     display: flex;
     max-width: 50%;
@@ -1065,6 +1206,7 @@ footer button:hover {
     text-align: center;
     justify-self: center;
   }
+
   .brand nav ul li a {
     color: #ffffff;
     float: left;
@@ -1072,6 +1214,7 @@ footer button:hover {
     list-style-type: none;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
@@ -1079,6 +1222,7 @@ footer button:hover {
     font-size: 1rem;
     margin-right: 4rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
@@ -1096,6 +1240,7 @@ footer button:hover {
 
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -1108,19 +1253,24 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind a {
     color: #3d405b;
   }
+
   .wind button a:hover {
     color: #aa5e31;
     border-bottom: 1px solid #aa5e31;
   }
+
   /* new section*/
   .hero {
     display: flex;
@@ -1133,6 +1283,7 @@ footer button:hover {
     padding: 4rem;
     padding-top: 6rem;
   }
+
   .hero2 {
     width: 30rem;
     height: 20rem;
@@ -1140,12 +1291,14 @@ footer button:hover {
     border-radius: 7px;
     opacity: 0px;
   }
+
   .hero2 img {
     width: 100%;
     height: 20rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
   }
+
   .hero1 {
     margin-top: 1rem;
     line-height: 30px;
@@ -1155,6 +1308,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .hero1 span {
     font-family: Montserrat;
     font-size: 12px;
@@ -1163,6 +1317,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   /* new section*/
   .intro {
     display: flex;
@@ -1174,6 +1329,7 @@ footer button:hover {
     padding: 5rem;
     padding-top: 0.1rem;
   }
+
   .intro1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -1182,6 +1338,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 h2 {
     font-family: Montserrat;
     font-size: 13px;
@@ -1190,6 +1347,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 li {
     font-family: Montserrat;
     font-size: 13px;
@@ -1198,6 +1356,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .intro1 button {
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
@@ -1214,13 +1373,16 @@ footer button:hover {
     float: right;
     margin-left: 2rem;
   }
+
   .intro1 button a {
     font-size: 1.2rem;
     color: #ffffff;
   }
+
   .intro1 button:hover {
     background-color: #3d405b;
   }
+
   /*footer*/
   /*footer*/
   footer {
@@ -1235,6 +1397,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 100%;
     background-color: #3d405b;
@@ -1244,6 +1407,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -1256,10 +1420,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: block;
     font-size: 12px;
@@ -1275,20 +1441,24 @@ footer button:hover {
     align-items: center;
     margin-top: 2rem;
   }
+
   .eleven a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .eleven span {
     color: #aa5e31;
   }
+
   .eleven h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 100%;
 
@@ -1300,18 +1470,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .twelve {
     margin-top: 0.1rem;
   }
+
   .thirteen {
     margin-top: 0.1rem;
   }
+
   .fourteen {
     margin-top: 0.1rem;
   }
+
   .fifteen {
     margin-top: 0.1rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -1320,6 +1495,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.3rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -1328,17 +1504,21 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
   }
+
   footer button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   .sixteen {
     height: auto;
     background-color: #3d405b;
