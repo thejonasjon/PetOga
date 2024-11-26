@@ -362,8 +362,9 @@ p {
 }
 
 .explore-service:hover{
-  background-color: var(--cl-primary-400);
-  color: var(--cl-white-400);
+  background-color: transparent;
+  color: var(--cl-primary-400);
+  border: 1px solid var(--cl-primary-400);
 }
 
 /* Header */

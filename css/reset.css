@@ -1,7 +1,6 @@
 /* Fonts */
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 
-
 /* CSS Resets */
 /* Box sizing rules */
 *,
@@ -12,8 +11,8 @@
 
 /* Remove default margin & padding */
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -56,9 +55,9 @@ select {
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-    html:focus-within {
-        scroll-behavior: auto;
-    }
+  html:focus-within {
+    scroll-behavior: auto;
+  }
 
   *,
   *::before,
@@ -72,12 +71,17 @@ select {
 
 /* General Styling */
 html {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 400;
 }
 
