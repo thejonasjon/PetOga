@@ -294,3 +294,551 @@ footer button:hover {
 .sixteen {
   display: none;
 }
+
+@media only screen and (max-width: 1024px) {
+  /* For tablet phones: */
+  .brand {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 9vh;
+    color: #ffffff;
+    background-color: #3d405b;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    border-left: 0.1px solid white;
+  }
+  .brand-name {
+    max-width: 20%;
+    height: 2rem;
+    line-height: 33.18px;
+    left: 120px;
+    padding-left: 7rem;
+    float: left;
+    align-items: center;
+  }
+  .brand-name a {
+    color: #ffffff;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  .brand-name span {
+    color: #aa5e31;
+  }
+  .brand-nav {
+    width: 60%;
+    list-style-type: none;
+    font-size: 1.5rem;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 250px;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .brand nav ul li a {
+    color: #ffffff;
+    float: left;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+    gap: 10;
+  }
+  .brand li {
+    list-style-type: none;
+    float: left;
+    margin: 3rem;
+  }
+  .brand li a:hover {
+    text-decoration: none;
+    text-decoration-color: #aa5e31;
+    border-bottom: 2px solid #aa5e31;
+  }
+  .hambugger {
+    display: none;
+    max-width: 20%;
+    list-style-type: none;
+    font-size: 1.5rem;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 450px;
+    margin-left: 25rem;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+  }
+  /*new*/
+  /* new*/
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    top: 132px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("../components/images/faq.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+  .mage h1 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin-bottom: 20rem;
+  }
+  /*new*/
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: Fixed (1, 141px) px;
+    height: Hug (553px) px;
+
+    opacity: 0px;
+    background-color: #ffffff;
+    color: black;
+  }
+  #black {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    background-color: inherit;
+    border: none;
+  }
+  svg {
+    fill: #ffffff;
+  }
+  svg:hover {
+    fill: #aa5e31;
+  }
+  #black a:hover {
+    color: #aa5e31;
+  }
+  .intro1 {
+    margin: 80px;
+  }
+  .intro1 h1 {
+    font-weight: 600;
+  }
+  .intro1 h2 {
+    margin-bottom: 20px;
+  }
+
+  .intro2 {
+    margin: 60px;
+  }
+  .intro2 h1 {
+    font-weight: 600;
+  }
+  .intro2 h2 {
+    margin-bottom: 20px;
+  }
+  footer {
+    width: 100%;
+    margin: auto;
+    background-color: #3d405b;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Montserrat", serif;
+    align-self: start;
+    padding: 3rem;
+  }
+  .copyright {
+    width: 30%;
+    background-color: #3d405b;
+    height: 56vh;
+    display: flex;
+    justify-content: left;
+    font-family: "Montserrat", serif;
+    align-self: start;
+  }
+  .started button {
+    display: block;
+    margin: 1rem;
+    margin-left: 0px;
+    width: 120px;
+    height: 4vh;
+    font-weight: 500;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    color: #3d405b;
+  }
+  .started button a {
+    font-size: 1.3rem;
+    color: #3d405b;
+  }
+  .start {
+    display: block;
+    font-size: 12px;
+  }
+
+  .eleven {
+    max-width: 90%;
+    height: 2rem;
+    line-height: 23.18px;
+    left: 150px;
+    padding-left: 5rem;
+    float: left;
+    align-items: center;
+    margin-top: 7rem;
+  }
+  .eleven a {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+  .eleven span {
+    color: #aa5e31;
+  }
+  .eleven h1 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 2rem;
+  }
+  .right {
+    width: 70%;
+    background-color: #3d405b;
+    height: 56vh;
+    display: flex;
+    justify-content: left;
+    font-family: "Montserrat", serif;
+    align-self: start;
+  }
+  .twelve {
+    margin-top: 3rem;
+  }
+  .thirteen {
+    margin-top: 3rem;
+  }
+  .fourteen {
+    margin-top: 3rem;
+  }
+  .fifteen {
+    margin-top: 3rem;
+  }
+  footer li {
+    list-style-type: none;
+    color: #ffffff;
+    padding: 1rem;
+    margin-left: 2rem;
+    font-weight: 300;
+    font-size: 1.1rem;
+  }
+  footer p {
+    list-style-type: none;
+    color: #ffffff;
+    padding: 1rem;
+    margin-left: 2rem;
+    font-weight: 300;
+    font-size: 1.1rem;
+  }
+  footer li:hover {
+    color: #aa5e31;
+  }
+  footer button :hover {
+    color: white;
+    background-color: #aa5e31;
+  }
+  footer button:hover {
+    color: white;
+    background-color: #aa5e31;
+  }
+  .sixteen {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .brand {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 8.5vh;
+    color: #ffffff;
+    background-color: #3d405b;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: none;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    border-left: 0.1px solid white;
+  }
+  .brand-name {
+    max-width: 20.8rem;
+    height: 2rem;
+    line-height: 33.18px;
+    left: 50px;
+    padding-left: 3rem;
+    float: left;
+    align-items: center;
+  }
+  .brand-name a {
+    color: #ffffff;
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+  .brand-name span {
+    color: #aa5e31;
+  }
+  .brand-nav {
+    display: none;
+    max-width: 60%;
+    list-style-type: none;
+    font-size: 1.5rem;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 190px;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .brand nav ul li a {
+    color: #ffffff;
+    float: left;
+    list-style-type: none;
+    font-size: 14px;
+    gap: 10;
+  }
+  .brand li {
+    list-style-type: none;
+    float: left;
+    margin: 2rem;
+  }
+  .brand li a:hover {
+    text-decoration: none;
+    text-decoration-color: #aa5e31;
+    border-bottom: 2px solid #aa5e31;
+  }
+  .hambugger {
+    display: flex;
+    max-width: 20%;
+    list-style-type: none;
+    font-size: 1.5rem;
+    line-height: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 350px;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+  }
+
+  /* new*/
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    top: 132px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url("../components/images/faq.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+  .mage h1 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin-bottom: 10rem;
+  }
+  /*new*/
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: Fixed (1, 141px) px;
+    height: Hug (553px) px;
+    flex-direction: column;
+    opacity: 0px;
+    background-color: #ffffff;
+    color: black;
+  }
+  #black {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    background-color: inherit;
+    border: none;
+  }
+  svg {
+    fill: #ffffff;
+  }
+  svg:hover {
+    fill: #aa5e31;
+  }
+  #black a:hover {
+    color: #aa5e31;
+  }
+  .intro1 {
+    margin: 30px;
+  }
+  .intro1 h1 {
+    font-weight: 600;
+  }
+  .intro1 h2 {
+    margin-bottom: 20px;
+  }
+
+  .intro2 {
+    margin: 50px;
+  }
+  .intro2 h1 {
+    font-weight: 600;
+  }
+  .intro2 h2 {
+    margin-bottom: 20px;
+  }
+  /*footer*/
+  footer {
+    width: 100%;
+    margin: auto;
+    background-color: #3d405b;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Montserrat", serif;
+    align-self: start;
+    padding: 3rem;
+  }
+  .copyright {
+    width: 90%;
+    background-color: #3d405b;
+    height: 36vh;
+    display: flex;
+    justify-content: left;
+    font-family: "Montserrat", serif;
+    align-self: start;
+  }
+  .started button {
+    display: block;
+    margin: 1rem;
+    margin-left: 0px;
+    width: 120px;
+    height: 4vh;
+    font-weight: 500;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    color: #3d405b;
+  }
+  .started button a {
+    font-size: 1.3rem;
+    color: #3d405b;
+  }
+  .start {
+    display: none;
+    font-size: 12px;
+  }
+
+  .eleven {
+    max-width: 90%;
+    height: 2rem;
+    line-height: 23.18px;
+    left: 150px;
+    padding-left: 2rem;
+    float: left;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .eleven a {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+  .eleven span {
+    color: #aa5e31;
+  }
+  .eleven h1 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 2rem;
+  }
+  .right {
+    width: 90%;
+
+    background-color: #3d405b;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: left;
+    font-family: "Montserrat", serif;
+    align-self: start;
+  }
+  .twelve {
+    margin-top: 0.1rem;
+  }
+  .thirteen {
+    margin-top: 0.1rem;
+  }
+  .fourteen {
+    margin-top: 0.1rem;
+  }
+  .fifteen {
+    margin-top: 0.1rem;
+  }
+  footer li {
+    list-style-type: none;
+    color: #ffffff;
+    padding: 1rem;
+    margin-left: 3rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+  }
+  footer p {
+    list-style-type: none;
+    color: #ffffff;
+    padding: 1rem;
+    margin-left: 3rem;
+    font-weight: 300;
+    font-size: 1.1rem;
+  }
+  footer li:hover {
+    color: #aa5e31;
+  }
+  footer button :hover {
+    color: white;
+    background-color: #aa5e31;
+  }
+
+  .sixteen {
+    height: auto;
+    background-color: #3d405b;
+    display: flex;
+    font-size: 0.5rem;
+    color: #ffffff;
+    justify-content: left;
+    padding-left: 3rem;
+  }
+}
