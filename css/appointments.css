@@ -5,3 +5,218 @@
   padding: var(--size-40) var(--size-40);
   overflow: auto;
 }
+
+.sub-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--size-20);
+  margin-top: var(--size-30);
+  background-color: var(--cl-white-400);
+  border-radius: var(--size-08);
+  padding: var(--size-40);
+}
+
+.body-nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: var(--size-20);
+}
+
+
+.body-nav ul li a {
+  text-decoration: none;
+  font-size: var(--size-16);
+  color: var(--cl-secondary-400);
+  cursor: pointer;
+}
+
+.body-nav ul li:hover a {
+  border-bottom: 1px solid var(--cl-primary-400);
+}
+
+.body-nav ul li.active a {
+  border-bottom: 1px solid var(--cl-primary-400);
+}
+
+.check-appointment h3,
+.past-appointment h3 {
+  font-size: var(--size-20);
+  line-height: var(--size-24);
+  color: var(--cl-secondary-400);
+  margin-bottom: var(--size-20);
+}
+
+.doctor-calender {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-15);
+  border: 0.6px solid var(--cl-primary-400);
+  padding: var(--size-50);
+  border-radius: var(--size-08);
+}
+
+.docker-list {
+  display: flex;
+  gap: var(--size-12);
+}
+
+.docker-list .docker-profile {
+  width: var(--size-70);
+  height: var(--size-70);
+  border-radius: 50%;
+  border: 1px solid var(--cl-grey-300);
+  padding: var(--size-3);
+}
+
+.docker-list .docker-profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.appointment-card {
+  background-color: var(--cl-white-200);
+  border-radius: var(--size-08);
+  padding: var(--size-20);
+
+}
+
+.appointment-card p {
+  font-size: var(--size-14);
+  line-height: var(--size-24);
+  color: var(--cl-secondary-400);
+  margin-bottom: var(--size-5);
+}
+
+.appointment-card p span {
+  font-weight: 450;
+  color: var(--cl-black-400);
+}
+
+.appointment-card p.icon {
+  display: flex;
+  align-items: center;
+  gap: var(--size-5);
+}
+
+.calendar {
+  border: 0.6px solid var(--cl-primary-400);
+  border-radius: var(--size-08);
+  padding: var(--size-10) var(--size-30);
+}
+
+.appointment-calendar {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar-header span {
+  font-size: var(--size-20);
+  color: var(--cl-black-200);
+}
+
+.calendar-header button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.calendar-header button svg {
+  fill: var(--cl-secondary-400);
+  width: var(--size-25);
+  height: var(--size-25);
+  cursor: pointer;
+}
+
+.calendar-header button:hover svg {
+  fill: var(--cl-primary-400);
+}
+
+.calendar-header button {
+  font-size: var(--size-30);
+  color: var(--cl-black-200);
+}
+
+.calendar-grid {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.calendar-grid th,
+.calendar-grid td {
+  padding: 10px;
+  border: none;
+}
+
+.calendar-grid thead tr th {
+  font-size: var(--size-10);
+  color: var(--cl-secondary-300);
+}
+
+.calendar-grid tbody tr td:hover {
+  background: var(--cl-secondary-400);
+  color: var(--cl-white-400);
+  border-radius: var(--size-5);
+  cursor: pointer;
+}
+
+.calendar-grid td.highlight {
+  background: var(--cl-secondary-400);
+  color: var(--cl-white-400);
+  border-radius: var(--size-5);
+}
+
+.time-slots {
+  display: flex;
+  gap: var(--size-10);
+
+}
+
+.time-slots button {
+  display: flex;
+  gap: var(--size-5);
+  align-items: center;
+  outline: none;
+  border: 0.01px solid #dbdbdb;
+  font-size: var(--size-12);
+  line-height: var(--size-24);
+  color: var(--cl-secondary-400);
+  padding: var(--size-3) var(--size-3);
+  border-radius: var(--size-5);
+  background-color: var(--cl-white-400);
+  cursor: pointer;
+  box-shadow: 6px 10px 15px -9px rgba(194, 194, 194, 0.29);
+  -webkit-box-shadow: 6px 10px 15px -9px rgba(194, 194, 194, 0.29);
+  -moz-box-shadow: 6px 10px 15px -9px rgba(194, 194, 194, 0.29);
+}
+
+.time-slots button svg {
+  stroke: var(--cl-black-400);
+}
+
+.time-slots button:hover svg {
+  stroke: var(--cl-white-400);
+  background-color: var(--cl-secondary-400);
+  color: var(--cl-white-400);
+}
+
+.time-slots button:hover {
+  background-color: var(--cl-secondary-400);
+  color: var(--cl-white-400);
+}
+
+.time-slots button.active {
+  background-color: var(--cl-secondary-400);
+  color: var(--cl-white-400);
+}
+
+.time-slots button.active svg {
+  stroke: var(--cl-white-400);
+}

@@ -100,7 +100,7 @@
     background-color: var(--cl-white-400);
 }
 
-.svg--90dg {
+.svg--180dg {
     transform: rotate(180deg);
 }
 
