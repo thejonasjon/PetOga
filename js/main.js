@@ -1,32 +1,40 @@
 'use strict'
 // Index
-const hamburgerMenu = document.querySelector(".hamburger-menu");
+const hamburgerMenu = document.querySelector(".hamburger-menu #hamburgerOpen");
 const mobileMenu = document.querySelector(".hamburger-menu .mobile-menu");
-const hamburgerClose = document.querySelector(".mobile-close");
+const hamburgerClose = document.querySelector(".mobile-close #hamburgerClose");
 
 const featuresDropdown = document.querySelector(".featuresDropdown");
+const featuresDropdownMobile = document.querySelector(".featuresDropdownMobile");
 const dropdown = document.querySelector(".featuresDropdown .dropdown");
+const dropdownMobile = document.querySelector(".featuresDropdownMobile .dropdown");
 const dropdownSvg = document.querySelector(".featuresDropdown svg");
+const dropdownSvgMobile = document.querySelector(".featuresDropdownMobile svg");
+
 
 dropdown.style.display = "none";
+dropdownMobile.style.display = "none";
 
-// Features Dropdown Event
+// Desktop Features Dropdown Event
 featuresDropdown.addEventListener("mouseover", (e) => {
     dropdown.style.display = "block";
-    dropdownSvg.classList.add("svg--90dg");
+    dropdownSvg.style.transform = 'rotate(180deg)';
 });
 
-featuresDropdown.addEventListener("mouseleave", () => {
+featuresDropdown.addEventListener("mouseleave", (e) => {
     dropdown.style.display = "none";
-    dropdownSvg.classList.remove("svg--90dg");
+    dropdownSvg.style.transform = 'rotate(0deg)';
 });
 
-dropdown.addEventListener("mouseover", () => {
-    dropdown.style.display = "block";
-});
-
-dropdown.addEventListener("mouseleave", () => {
-    dropdown.style.display = "none";
+// Mobile
+featuresDropdownMobile.addEventListener("click", (e) => {
+    if (dropdownMobile.style.display === "block"){
+        dropdownMobile.style.display = "none";
+        dropdownSvgMobile.style.transform = 'rotate(0deg)';
+    } else {
+        dropdownMobile.style.display = "block";
+        dropdownSvgMobile.style.transform = 'rotate(180deg)';
+    }
 });
 
 const linksInDropdown = dropdown.querySelectorAll("a");
@@ -34,12 +42,6 @@ linksInDropdown.forEach(link => {
     link.addEventListener("click", (e) => {
         window.location.href = link.href;
     });
-});
-
-// Close dropdown when clicking outside
-document.addEventListener("click", (e) => {
-    dropdown.classList.remove("show");
-    dropdownSvg.classList.remove("svg--90dg");
 });
 
 // Hamburger Menu Event
@@ -82,5 +84,4 @@ faqItems.forEach(item => {
     icon.style.transform = 'rotate(0deg)';
   });
 });
-
 

@@ -1,5 +1,5 @@
 # Project Name
-PetOga: https://pet-oga-dev.vercel.app/
+PetOga: https://petoga.netlify.app/
 
 ## Overview
 This project, built using HTML, CSS, and JavaScript, is designed
@@ -32,7 +32,7 @@ To run this project locally, follow these steps:
    cd PetOga
    open index.html with Live Server extension
 
-2. Create a new branch for your feature
+2. Create a new branch for your feature {updates}
 
 3. Make your changes and commit them
 
