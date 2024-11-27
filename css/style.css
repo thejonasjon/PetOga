@@ -108,10 +108,7 @@
 }
 
 .landing .hero-bg {
-  background-image: url("/assets/images/landing_page/solid-color-image.png");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  background-color: var(--cl-secondary-400);
 }
 
 .landing header {
@@ -125,7 +122,9 @@
   display: grid;
 }
 
-.hero {
+btn-container-image-block
+
+.hero-image {
   position: absolute;
   justify-self: center;
   bottom: 0;
@@ -135,27 +134,34 @@
   text-align: center;
 }
 
-.hero .adjust--top {
-  margin-bottom: max(var(--size-60));
-}
-
 .hero .btn-container {
-  margin-top: max(-2rem);
-  margin-bottom: max(var(--size-60));
+  margin-top: max(var(--size-10));
+  margin-bottom: max(var(--size-0));
 }
 
-.btn-container-image-block {
+.hero-image {
   position: relative;
   display: grid;
+  margin-bottom: -3.4%;
 }
 
-.hero .btn-container {
-  position: absolute;
+.hero-image .image-block {
   justify-self: center;
 }
 
-.hero .image-block {
-  justify-self: center;
+.small {
+  width: var(--size-50);
+  height: var(--size-50);
+  border-radius: 50%;
+  background-color: var(--cl-secondary-400);
+  border: 1px solid var(--cl-primary-400);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .main-nav a {
@@ -214,6 +220,7 @@
 .desktop a svg {
   stroke: var(--cl-white-400);
   width: var(--size-30);
+  fill: transparent;
 }
 
 .mobile-menu, .hamburger-menu {
@@ -319,6 +326,10 @@
 .appointment .image-block img {
   width: 100%;
   position: absolute;
+}
+
+.appointment .image-block .love {
+  left: -5rem;
 }
 
 .appointment .image-block .vet-doctor {

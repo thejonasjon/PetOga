@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Montserrat;
   background: #f5f5f5;
   margin-bottom: 5rem;
 }
+
 aside {
   padding: 1rem;
   width: 297px;
@@ -28,6 +30,7 @@ aside {
   overflow-x: hidden;
   padding-top: 20px;
 }
+
 .profile-photo {
   width: 52px;
   height: 52px;
@@ -38,6 +41,7 @@ aside {
   height: 38px;
   border-radius: 50%;
 }
+
 .navbar--brand a {
   color: #ffffff;
   text-decoration: none;
@@ -49,6 +53,7 @@ aside {
   text-decoration-skip-ink: none;
   font-family: Montserrat;
 }
+
 .navbar--brand span {
   color: #aa5e31;
   font-family: Montserrat;
@@ -59,14 +64,17 @@ aside {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
 /* welcome block */
 .welcome-block {
   display: flex;
   padding-top: 2rem;
 }
+
 .profile-text {
   color: #ffffff;
 }
+
 .profile-text h6 {
   font-family: Montserrat;
   font-size: 9px;
@@ -79,6 +87,7 @@ aside {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
 .profile-text p {
   font-family: Montserrat;
   font-size: 10px;
@@ -95,15 +104,18 @@ aside {
   text-decoration: none;
   color: #ffffff;
 }
+
 li {
   list-style-type: none;
   margin-bottom: 1rem;
   padding: 0.2rem;
   font-size: 12px;
 }
+
 .material-symbols-outlined {
   font-size: 18px;
 }
+
 .active {
   width: Fill (223px) px;
   height: Hug (44px) px;
@@ -114,13 +126,16 @@ li {
   color: #ffffff;
   font-size: 12px;
 }
+
 li span {
   padding-right: 1rem;
 }
+
 /* side-nav */
 .side1 {
   margin-top: 14rem;
 }
+
 /* new*/
 .top-horizontal-nav {
   background-color: #ffffff;
@@ -130,9 +145,11 @@ li span {
 
   height: 8vh;
 }
+
 .top-one {
   margin-left: 15rem;
 }
+
 .top-one a {
   text-decoration: none;
   padding: 0.1rem;
@@ -140,6 +157,7 @@ li span {
   color: black;
   margin-right: 1rem;
 }
+
 .top-two a {
   text-decoration: none;
   padding: 0.1rem;
@@ -147,13 +165,16 @@ li span {
   font-size: 0.8rem;
   margin-right: 1rem;
 }
+
 .top-horizontal-nav a:hover {
   color: #3d405b;
   border-bottom: 1px solid #3d405b;
 }
+
 .hambugger {
   display: none;
 }
+
 /*div*/
 .app {
   background: #f5f5f5;
@@ -164,6 +185,7 @@ li span {
   padding-top: 1rem;
   padding-right: 2rem;
 }
+
 .heed {
   margin-left: 15rem;
   font-family: Montserrat;
@@ -175,6 +197,7 @@ li span {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
 /*    */
 .chart {
   background: #f5f5f5;
@@ -183,6 +206,7 @@ li span {
   height: 10vh;
   padding-right: 5rem;
 }
+
 .barchart {
   display: flex;
   position: relative;
@@ -192,10 +216,12 @@ li span {
   margin-left: 14rem;
   margin-top: 2rem;
 }
+
 .bar-1 {
   border-left: 10px solid #d9d9d9;
   height: 5vh;
 }
+
 .bar-2 {
   border-left: 10px solid #d9d9d9;
   height: 3vh;
@@ -212,6 +238,7 @@ li span {
   border-left: 10px solid #aa5e31;
   height: 5vh;
 }
+
 .bar-5 {
   position: absolute;
   color: #3d405b;
@@ -220,6 +247,7 @@ li span {
   width: 130px;
   font-size: 12px;
 }
+
 .bar-6 {
   position: absolute;
   color: #3d405b;
@@ -229,6 +257,7 @@ li span {
   width: 100px;
   font-size: 20x;
 }
+
 .bar-6 span {
   font-size: 10px;
   font-weight: 400;
@@ -245,17 +274,20 @@ li span {
   margin-top: 2rem;
   cursor: pointer;
 }
+
 .bar-11 {
   height: 45px;
   width: 45px;
   border: 8px solid #3d405b;
   border-radius: 50%;
 }
+
 .bar-2 {
   border-left: 10px solid #d9d9d9;
   height: 3vh;
   margin-top: 2vh;
 }
+
 .barchart3 {
   display: flex;
   position: relative;
@@ -265,6 +297,7 @@ li span {
   margin-left: 0.1rem;
   margin-top: 2rem;
 }
+
 .bar-12 {
   height: 45px;
   width: 45px;
@@ -289,6 +322,7 @@ li span {
   margin-right: 3rem;
   margin-top: 2rem;
 }
+
 .heed1 {
   margin-left: 1rem;
   font-family: Montserrat;
@@ -301,6 +335,7 @@ li span {
   text-decoration-skip-ink: none;
   color: #3d405b;
 }
+
 /*new*/
 .hero {
   position: relative;
@@ -316,6 +351,7 @@ li span {
   margin-left: 12rem;
   margin-right: 3rem;
 }
+
 .hero1 {
   width: 338px;
   height: 193px;
@@ -325,6 +361,7 @@ li span {
   opacity: 0px;
   border: 1px solid #aa5e31;
 }
+
 .hero1 button {
   margin-left: 16.1rem;
   width: Hug (109px) px;
@@ -337,6 +374,7 @@ li span {
   background-color: #aa5e31;
   border: none;
 }
+
 #btn {
   margin-left: 3rem;
   margin-top: 0.2rem;
@@ -347,6 +385,7 @@ li span {
   border: 1px solid #3d405b;
   border-radius: 4px;
 }
+
 #btn1 {
   margin-left: 1px;
   margin-top: 0.2rem;
@@ -357,6 +396,7 @@ li span {
   border: 1px solid #3d405b;
   border-radius: 4px;
 }
+
 .hero1 img {
   display: inline;
   width: 50px;
@@ -366,6 +406,7 @@ li span {
   margin-left: 2rem;
   border-radius: 50%;
 }
+
 .hero1 h6 {
   display: inline;
   position: absolute;
@@ -376,6 +417,7 @@ li span {
   width: 100px;
   font-size: 10px;
 }
+
 .hero1 p {
   position: absolute;
   color: #3d405b;
@@ -385,6 +427,7 @@ li span {
   width: 200px;
   font-size: 10px;
 }
+
 .hero1 h1 {
   font-family: Montserrat;
   font-size: 13px;
@@ -413,10 +456,12 @@ li span {
   top: 110px;
   left: 14rem;
 }
+
 .hero1 span {
   font-size: 10px;
   font-weight: 500;
 }
+
 .hero2 {
   width: 338px;
   height: 193px;
@@ -439,6 +484,7 @@ li span {
   background-color: #aa5e31;
   border: none;
 }
+
 #btn {
   margin-left: 3rem;
   margin-top: 0.2rem;
@@ -450,6 +496,7 @@ li span {
   border: 1px solid #3d405b9d;
   border-radius: 4px;
 }
+
 #btn1 {
   margin-left: 1px;
   margin-top: 0.2rem;
@@ -461,6 +508,7 @@ li span {
   border: 1px solid #3d405b5d;
   border-radius: 4px;
 }
+
 .hero2 img {
   display: inline;
   width: 50px;
@@ -470,6 +518,7 @@ li span {
   margin-left: 2rem;
   border-radius: 50%;
 }
+
 .hero2 h6 {
   display: inline;
   position: absolute;
@@ -480,6 +529,7 @@ li span {
   width: 100px;
   font-size: 10px;
 }
+
 .hero2 p {
   position: absolute;
   color: #3d405b;
@@ -489,6 +539,7 @@ li span {
   width: 200px;
   font-size: 10px;
 }
+
 .hero2 h1 {
   font-family: Montserrat;
   font-size: 13px;
@@ -517,10 +568,12 @@ li span {
   top: 110px;
   left: 36rem;
 }
+
 .hero2 span {
   font-size: 10px;
   font-weight: 500;
 }
+
 .hero3 {
   width: 338px;
   height: 193px;
@@ -543,6 +596,7 @@ li span {
   background-color: #aa5e31;
   border: none;
 }
+
 #btn {
   margin-left: 3rem;
   margin-top: 0.2rem;
@@ -553,6 +607,7 @@ li span {
   border: 1px solid #3d405b;
   border-radius: 4px;
 }
+
 #btn1 {
   margin-left: 1px;
   margin-top: 0.2rem;
@@ -563,6 +618,7 @@ li span {
   border: 1px solid #3d405b;
   border-radius: 4px;
 }
+
 .hero3 img {
   display: inline;
   width: 50px;
@@ -572,6 +628,7 @@ li span {
   margin-left: 2rem;
   border-radius: 50%;
 }
+
 .hero3 h6 {
   display: inline;
   position: absolute;
@@ -582,6 +639,7 @@ li span {
   width: 100px;
   font-size: 10px;
 }
+
 .hero3 p {
   position: absolute;
   color: #3d405b;
@@ -591,6 +649,7 @@ li span {
   width: 200px;
   font-size: 10px;
 }
+
 .hero3 h1 {
   font-family: Montserrat;
   font-size: 13px;
@@ -619,6 +678,7 @@ li span {
   top: 110px;
   left: 60rem;
 }
+
 .hero3 span {
   font-size: 10px;
   font-weight: 500;
@@ -641,6 +701,7 @@ li span {
   margin-right: 3rem;
   margin-top: 2rem;
 }
+
 .heed2 {
   margin-left: 1rem;
   font-family: Montserrat;
@@ -653,6 +714,7 @@ li span {
   text-decoration-skip-ink: none;
   color: #3d405b;
 }
+
 /*new*/
 .heroo {
   position: relative;
@@ -668,6 +730,7 @@ li span {
   margin-left: 12rem;
   margin-right: 3rem;
 }
+
 .heroo1 {
   width: 338px;
   height: 193px;
@@ -677,6 +740,7 @@ li span {
   opacity: 0px;
   border: 1px solid #aa5e31;
 }
+
 .heroo1 button {
   margin-left: 16.1rem;
   width: Hug (109px) px;
@@ -690,6 +754,7 @@ li span {
   border: none;
   font-weight: 400;
 }
+
 #btn {
   margin-left: 3rem;
   margin-top: 0.2rem;
@@ -701,6 +766,7 @@ li span {
   border-radius: 4px;
   font-weight: 400;
 }
+
 #btn1 {
   margin-left: 1px;
   font-weight: 400;
@@ -712,6 +778,7 @@ li span {
   border: 1px solid #3d405b;
   border-radius: 4px;
 }
+
 .heroo1 img {
   display: inline;
   width: 50px;
@@ -721,6 +788,7 @@ li span {
   margin-left: 2rem;
   border-radius: 50%;
 }
+
 .heroo1 h6 {
   display: inline;
   position: absolute;
@@ -731,6 +799,7 @@ li span {
   width: 100px;
   font-size: 10px;
 }
+
 .heroo1 p {
   position: absolute;
   color: #3d405b;
@@ -740,6 +809,7 @@ li span {
   width: 200px;
   font-size: 10px;
 }
+
 .heroo1 h1 {
   font-family: Montserrat;
   font-size: 13px;
@@ -768,10 +838,12 @@ li span {
   top: 110px;
   left: 14rem;
 }
+
 .heroo1 span {
   font-size: 10px;
   font-weight: 500;
 }
+
 .heroo2 {
   width: 338px;
   height: 193px;
@@ -795,6 +867,7 @@ li span {
   background-color: #aa5e31;
   border: none;
 }
+
 #btn {
   font-weight: 400;
   margin-left: 3rem;
@@ -806,6 +879,7 @@ li span {
   border: 1px solid #3d405b;
   border-radius: 4px;
 }
+
 #btn1 {
   font-weight: 400;
   margin-left: 1px;
@@ -817,6 +891,7 @@ li span {
   border: 1px solid #3d405b;
   border-radius: 4px;
 }
+
 .heroo2 img {
   display: inline;
   width: 50px;
@@ -826,6 +901,7 @@ li span {
   margin-left: 2rem;
   border-radius: 50%;
 }
+
 .heroo2 h6 {
   display: inline;
   position: absolute;
@@ -836,6 +912,7 @@ li span {
   width: 100px;
   font-size: 10px;
 }
+
 .heroo2 p {
   position: absolute;
   color: #3d405b;
@@ -845,6 +922,7 @@ li span {
   width: 200px;
   font-size: 10px;
 }
+
 .heroo2 h1 {
   font-family: Montserrat;
   font-size: 13px;
@@ -873,10 +951,12 @@ li span {
   top: 110px;
   left: 36rem;
 }
+
 .heroo2 span {
   font-size: 10px;
   font-weight: 500;
 }
+
 .heroo3 {
   width: 338px;
   height: 193px;
@@ -900,6 +980,7 @@ li span {
   border: none;
   font-weight: 400;
 }
+
 #btn {
   margin-left: 3rem;
   margin-top: 0.2rem;
@@ -911,6 +992,7 @@ li span {
   border: 0.1px solid #3d405b;
   border-radius: 4px;
 }
+
 #btn1 {
   font-weight: 400;
   margin-left: 1px;
@@ -922,6 +1004,7 @@ li span {
   border: 0.1px solid #3d405b;
   border-radius: 4px;
 }
+
 .heroo3 img {
   display: inline;
   width: 50px;
@@ -931,6 +1014,7 @@ li span {
   margin-left: 2rem;
   border-radius: 50%;
 }
+
 .heroo3 h6 {
   display: inline;
   position: absolute;
@@ -941,6 +1025,7 @@ li span {
   width: 100px;
   font-size: 10px;
 }
+
 .heroo3 p {
   position: absolute;
   color: #3d405b;
@@ -950,6 +1035,7 @@ li span {
   width: 200px;
   font-size: 10px;
 }
+
 .heroo3 h1 {
   font-family: Montserrat;
   font-size: 13px;
@@ -978,24 +1064,29 @@ li span {
   top: 110px;
   left: 60rem;
 }
+
 .heroo3 span {
   font-size: 10px;
   font-weight: 500;
 }
+
 button:hover {
   background-color: #3d405b;
   color: #ffffff;
 }
+
 #btn:hover {
   background-color: #3d405b;
   color: #ffffff;
 }
+
 #btn1:hover {
   background-color: #3d405b;
   color: #ffffff;
 }
 
 @media only screen and (max-width: 1024px) {
+
   /* For tablet phones: */
   /* new*/
   body {
@@ -1004,6 +1095,7 @@ button:hover {
     margin-bottom: 5rem;
     overflow-x: scroll;
   }
+
   .top-horizontal-nav {
     background-color: #ffffff;
     display: flex;
@@ -1012,9 +1104,11 @@ button:hover {
 
     height: 5vh;
   }
+
   .top-one {
     margin-left: 11rem;
   }
+
   .top-one a {
     text-decoration: none;
     padding: 0.1rem;
@@ -1022,6 +1116,7 @@ button:hover {
     color: black;
     margin-right: 1rem;
   }
+
   .top-two a {
     text-decoration: none;
     padding: 0.1rem;
@@ -1029,13 +1124,16 @@ button:hover {
     font-size: 0.7rem;
     margin-right: 1rem;
   }
+
   .top-horizontal-nav a:hover {
     color: #3d405b;
     border-bottom: 1px solid #3d405b;
   }
+
   .hambugger {
     display: none;
   }
+
   /*div*/
   .app {
     background: #f5f5f5;
@@ -1046,6 +1144,7 @@ button:hover {
     padding-top: 1rem;
     padding-right: 2rem;
   }
+
   .heed {
     margin-left: 11rem;
     font-family: Montserrat;
@@ -1057,6 +1156,7 @@ button:hover {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
+
   /*    */
   .chart {
     background: #f5f5f5;
@@ -1065,6 +1165,7 @@ button:hover {
     height: 8vh;
     padding-right: 3rem;
   }
+
   .barchart {
     display: flex;
     position: relative;
@@ -1074,10 +1175,12 @@ button:hover {
     margin-left: 11rem;
     margin-top: 2rem;
   }
+
   .bar-1 {
     border-left: 10px solid #d9d9d9;
     height: 5vh;
   }
+
   .bar-2 {
     border-left: 10px solid #d9d9d9;
     height: 3vh;
@@ -1094,6 +1197,7 @@ button:hover {
     border-left: 10px solid #aa5e31;
     height: 5vh;
   }
+
   .bar-5 {
     position: absolute;
     color: #3d405b;
@@ -1102,6 +1206,7 @@ button:hover {
     width: 120px;
     font-size: 10px;
   }
+
   .bar-6 {
     position: absolute;
     color: #3d405b;
@@ -1111,6 +1216,7 @@ button:hover {
     width: 100px;
     font-size: 15px;
   }
+
   .bar-6 span {
     font-size: 10px;
     font-weight: 400;
@@ -1134,11 +1240,13 @@ button:hover {
     border: 8px solid #3d405b;
     border-radius: 50%;
   }
+
   .bar-2 {
     border-left: 10px solid #d9d9d9;
     height: 3vh;
     margin-top: 2vh;
   }
+
   .barchart3 {
     display: flex;
     position: relative;
@@ -1173,6 +1281,7 @@ button:hover {
     margin-right: 3rem;
     margin-top: 2rem;
   }
+
   .heed1 {
     margin-left: 1rem;
     font-family: Montserrat;
@@ -1185,6 +1294,7 @@ button:hover {
     text-decoration-skip-ink: none;
     color: #3d405b;
   }
+
   /*new*/
   .hero {
     position: relative;
@@ -1200,6 +1310,7 @@ button:hover {
     margin-left: 12rem;
     margin-right: 3rem;
   }
+
   .hero1 {
     width: 338px;
     height: 213px;
@@ -1209,6 +1320,7 @@ button:hover {
     opacity: 0px;
     border: 1px solid #aa5e31;
   }
+
   .hero1 button {
     margin-left: 16.1rem;
     width: Hug (109px) px;
@@ -1221,6 +1333,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -1231,6 +1344,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -1241,6 +1355,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .hero1 img {
     display: inline;
     width: 50px;
@@ -1250,6 +1365,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero1 h6 {
     display: inline;
     position: absolute;
@@ -1260,6 +1376,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero1 p {
     position: absolute;
     color: #3d405b;
@@ -1269,6 +1386,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -1297,10 +1415,12 @@ button:hover {
     top: 87px;
     left: 14rem;
   }
+
   .hero1 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .hero2 {
     width: 338px;
     height: 213px;
@@ -1323,6 +1443,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -1334,6 +1455,7 @@ button:hover {
     border: 1px solid #3d405b9d;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -1345,6 +1467,7 @@ button:hover {
     border: 1px solid #3d405b5d;
     border-radius: 4px;
   }
+
   .hero2 img {
     display: inline;
     width: 50px;
@@ -1354,6 +1477,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero2 h6 {
     display: inline;
     position: absolute;
@@ -1364,6 +1488,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero2 p {
     position: absolute;
     color: #3d405b;
@@ -1373,6 +1498,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero2 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -1401,10 +1527,12 @@ button:hover {
     top: 86px;
     left: 36rem;
   }
+
   .hero2 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .hero3 {
     display: none;
     width: 338px;
@@ -1428,6 +1556,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -1438,6 +1567,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -1448,6 +1578,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .hero3 img {
     display: inline;
     width: 50px;
@@ -1457,6 +1588,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero3 h6 {
     display: inline;
     position: absolute;
@@ -1467,6 +1599,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero3 p {
     position: absolute;
     color: #3d405b;
@@ -1476,6 +1609,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero3 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -1504,6 +1638,7 @@ button:hover {
     top: 110px;
     left: 60rem;
   }
+
   .hero3 span {
     font-size: 10px;
     font-weight: 500;
@@ -1526,6 +1661,7 @@ button:hover {
     margin-right: 3rem;
     margin-top: 2rem;
   }
+
   .heed2 {
     margin-left: 1rem;
     font-family: Montserrat;
@@ -1538,6 +1674,7 @@ button:hover {
     text-decoration-skip-ink: none;
     color: #3d405b;
   }
+
   /*new*/
   .heroo {
     position: relative;
@@ -1554,6 +1691,7 @@ button:hover {
     margin-left: 12rem;
     margin-right: 3rem;
   }
+
   .heroo1 {
     margin-left: 2rem;
     width: 338px;
@@ -1564,6 +1702,7 @@ button:hover {
     opacity: 0px;
     border: 1px solid #aa5e31;
   }
+
   .heroo1 button {
     margin-left: 16.1rem;
     width: Hug (109px) px;
@@ -1576,6 +1715,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -1587,6 +1727,7 @@ button:hover {
     border-radius: 4px;
     font-weight: 400;
   }
+
   #btn1 {
     margin-left: 1px;
     font-weight: 400;
@@ -1598,6 +1739,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo1 img {
     display: inline;
     width: 50px;
@@ -1607,6 +1749,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo1 h6 {
     display: inline;
     position: absolute;
@@ -1617,6 +1760,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo1 p {
     position: absolute;
     color: #3d405b;
@@ -1626,6 +1770,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -1654,10 +1799,12 @@ button:hover {
     top: 86px;
     left: 14rem;
   }
+
   .heroo1 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .heroo2 {
     width: 338px;
     height: 213px;
@@ -1681,6 +1828,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     font-weight: 400;
     margin-left: 3rem;
@@ -1692,6 +1840,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     font-weight: 400;
     margin-left: 1px;
@@ -1703,6 +1852,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo2 img {
     display: inline;
     width: 50px;
@@ -1712,6 +1862,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo2 h6 {
     display: inline;
     position: absolute;
@@ -1722,6 +1873,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo2 p {
     position: absolute;
     color: #3d405b;
@@ -1731,6 +1883,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo2 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -1759,10 +1912,12 @@ button:hover {
     top: 90px;
     left: 36rem;
   }
+
   .heroo2 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .heroo3 {
     margin-left: 2rem;
     width: 338px;
@@ -1787,6 +1942,7 @@ button:hover {
     border: none;
     font-weight: 400;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -1798,6 +1954,7 @@ button:hover {
     border: 0.1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     font-weight: 400;
     margin-left: 1px;
@@ -1809,6 +1966,7 @@ button:hover {
     border: 0.1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo3 img {
     display: inline;
     width: 50px;
@@ -1818,6 +1976,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo3 h6 {
     display: inline;
     position: absolute;
@@ -1828,6 +1987,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo3 p {
     position: absolute;
     color: #3d405b;
@@ -1837,6 +1997,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo3 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -1865,18 +2026,22 @@ button:hover {
     top: 340px;
     left: 13rem;
   }
+
   .heroo3 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   button:hover {
     background-color: #3d405b;
     color: #ffffff;
   }
+
   #btn:hover {
     background-color: #3d405b;
     color: #ffffff;
   }
+
   #btn1:hover {
     background-color: #3d405b;
     color: #ffffff;
@@ -1886,6 +2051,7 @@ button:hover {
 /*new styling 820px*/
 
 @media only screen and (max-width: 820px) {
+
   /* For tablet phones: */
   /* new*/
   .top-horizontal-nav {
@@ -1896,9 +2062,11 @@ button:hover {
 
     height: 5vh;
   }
+
   .top-one {
     margin-left: 11rem;
   }
+
   .top-one a {
     text-decoration: none;
     padding: 0.1rem;
@@ -1906,6 +2074,7 @@ button:hover {
     color: black;
     margin-right: 1rem;
   }
+
   .top-two a {
     text-decoration: none;
     padding: 0.1rem;
@@ -1913,13 +2082,16 @@ button:hover {
     font-size: 0.7rem;
     margin-right: 1rem;
   }
+
   .top-horizontal-nav a:hover {
     color: #3d405b;
     border-bottom: 1px solid #3d405b;
   }
+
   .hambugger {
     display: none;
   }
+
   /*div*/
   .app {
     background: #f5f5f5;
@@ -1930,6 +2102,7 @@ button:hover {
     padding-top: 1rem;
     padding-right: 2rem;
   }
+
   .heed {
     margin-left: 11rem;
     font-family: Montserrat;
@@ -1941,6 +2114,7 @@ button:hover {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
+
   /*    */
   .chart {
     background: #f5f5f5;
@@ -1949,6 +2123,7 @@ button:hover {
     height: 8vh;
     padding-right: 3rem;
   }
+
   .barchart {
     display: flex;
     position: relative;
@@ -1958,10 +2133,12 @@ button:hover {
     margin-left: 11rem;
     margin-top: 2rem;
   }
+
   .bar-1 {
     border-left: 10px solid #d9d9d9;
     height: 5vh;
   }
+
   .bar-2 {
     border-left: 10px solid #d9d9d9;
     height: 3vh;
@@ -1978,6 +2155,7 @@ button:hover {
     border-left: 10px solid #aa5e31;
     height: 5vh;
   }
+
   .bar-5 {
     position: absolute;
     color: #3d405b;
@@ -1986,6 +2164,7 @@ button:hover {
     width: 120px;
     font-size: 10px;
   }
+
   .bar-6 {
     position: absolute;
     color: #3d405b;
@@ -1995,6 +2174,7 @@ button:hover {
     width: 100px;
     font-size: 15px;
   }
+
   .bar-6 span {
     font-size: 10px;
     font-weight: 400;
@@ -2018,11 +2198,13 @@ button:hover {
     border: 8px solid #3d405b;
     border-radius: 50%;
   }
+
   .bar-2 {
     border-left: 10px solid #d9d9d9;
     height: 3vh;
     margin-top: 2vh;
   }
+
   .barchart3 {
     display: flex;
     position: relative;
@@ -2058,6 +2240,7 @@ button:hover {
     margin-right: 5rem;
     margin-top: 2rem;
   }
+
   .heed1 {
     margin-left: 1rem;
     font-family: Montserrat;
@@ -2070,6 +2253,7 @@ button:hover {
     text-decoration-skip-ink: none;
     color: #3d405b;
   }
+
   /*new*/
   .hero {
     position: relative;
@@ -2086,6 +2270,7 @@ button:hover {
     margin-left: 24%;
     margin-right: 3rem;
   }
+
   .hero1 {
     width: 46%;
     height: 213px;
@@ -2095,6 +2280,7 @@ button:hover {
     opacity: 0px;
     border: 1px solid #aa5e31;
   }
+
   .hero1 button {
     margin-left: 12.7rem;
     width: Hug (109px) px;
@@ -2107,6 +2293,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 0.1rem;
     margin-top: 0.2rem;
@@ -2118,6 +2305,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -2128,6 +2316,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .hero1 img {
     display: inline;
     width: 50px;
@@ -2137,6 +2326,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero1 h6 {
     display: inline;
     position: absolute;
@@ -2147,6 +2337,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero1 p {
     position: absolute;
     color: #3d405b;
@@ -2156,6 +2347,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -2184,10 +2376,12 @@ button:hover {
     top: 87px;
     left: 11rem;
   }
+
   .hero1 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .hero2 {
     width: 46%;
     height: 213px;
@@ -2210,6 +2404,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 0.2rem;
     margin-top: 0.2rem;
@@ -2221,6 +2416,7 @@ button:hover {
     border: 1px solid #3d405b9d;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -2232,6 +2428,7 @@ button:hover {
     border: 1px solid #3d405b5d;
     border-radius: 4px;
   }
+
   .hero2 img {
     display: inline;
     width: 50px;
@@ -2241,6 +2438,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero2 h6 {
     display: inline;
     position: absolute;
@@ -2251,6 +2449,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero2 p {
     position: absolute;
     color: #3d405b;
@@ -2260,6 +2459,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero2 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -2288,10 +2488,12 @@ button:hover {
     top: 86px;
     left: 30rem;
   }
+
   .hero2 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .hero3 {
     display: none;
     width: 338px;
@@ -2315,6 +2517,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -2325,6 +2528,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -2335,6 +2539,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .hero3 img {
     display: inline;
     width: 50px;
@@ -2344,6 +2549,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero3 h6 {
     display: inline;
     position: absolute;
@@ -2354,6 +2560,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero3 p {
     position: absolute;
     color: #3d405b;
@@ -2363,6 +2570,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero3 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -2391,6 +2599,7 @@ button:hover {
     top: 110px;
     left: 60rem;
   }
+
   .hero3 span {
     font-size: 10px;
     font-weight: 500;
@@ -2414,6 +2623,7 @@ button:hover {
     margin-right: 3rem;
     margin-top: 2rem;
   }
+
   .heed2 {
     margin-left: 1rem;
     font-family: Montserrat;
@@ -2426,6 +2636,7 @@ button:hover {
     text-decoration-skip-ink: none;
     color: #3d405b;
   }
+
   /*new*/
   .heroo {
     position: relative;
@@ -2443,6 +2654,7 @@ button:hover {
     margin-left: 24%;
     margin-right: 3rem;
   }
+
   .heroo1 {
     width: 46%;
     height: 213px;
@@ -2452,6 +2664,7 @@ button:hover {
     opacity: 0px;
     border: 1px solid #aa5e31;
   }
+
   .heroo1 button {
     margin-left: 12.7rem;
     width: Hug (109px) px;
@@ -2464,6 +2677,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -2475,6 +2689,7 @@ button:hover {
     border-radius: 4px;
     font-weight: 400;
   }
+
   #btn1 {
     margin-left: 1px;
     font-weight: 400;
@@ -2486,6 +2701,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo1 img {
     display: inline;
     width: 50px;
@@ -2495,6 +2711,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo1 h6 {
     display: inline;
     position: absolute;
@@ -2505,6 +2722,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo1 p {
     position: absolute;
     color: #3d405b;
@@ -2514,6 +2732,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -2542,10 +2761,12 @@ button:hover {
     top: 86px;
     left: 14rem;
   }
+
   .heroo1 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .heroo2 {
     width: 46%;
     height: 213px;
@@ -2569,6 +2790,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     font-weight: 400;
     margin-left: 3rem;
@@ -2580,6 +2802,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     font-weight: 400;
     margin-left: 1px;
@@ -2591,6 +2814,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo2 img {
     display: inline;
     width: 50px;
@@ -2600,6 +2824,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo2 h6 {
     display: inline;
     position: absolute;
@@ -2610,6 +2835,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo2 p {
     position: absolute;
     color: #3d405b;
@@ -2619,6 +2845,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo2 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -2647,10 +2874,12 @@ button:hover {
     top: 90px;
     left: 30rem;
   }
+
   .heroo2 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .heroo3 {
     margin-left: 2rem;
     width: 46%;
@@ -2675,6 +2904,7 @@ button:hover {
     border: none;
     font-weight: 400;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -2686,6 +2916,7 @@ button:hover {
     border: 0.1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     font-weight: 400;
     margin-left: 1px;
@@ -2697,6 +2928,7 @@ button:hover {
     border: 0.1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo3 img {
     display: inline;
     width: 50px;
@@ -2706,6 +2938,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo3 h6 {
     display: inline;
     position: absolute;
@@ -2716,6 +2949,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo3 p {
     position: absolute;
     color: #3d405b;
@@ -2725,6 +2959,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo3 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -2753,18 +2988,22 @@ button:hover {
     top: 320px;
     left: 13rem;
   }
+
   .heroo3 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   button:hover {
     background-color: #3d405b;
     color: #ffffff;
   }
+
   #btn:hover {
     background-color: #3d405b;
     color: #ffffff;
   }
+
   #btn1:hover {
     background-color: #3d405b;
     color: #ffffff;
@@ -2774,6 +3013,7 @@ button:hover {
 /*mobilee*/
 
 @media only screen and (max-width: 500px) {
+
   /* For mobile phones: */
   aside {
     display: none;
@@ -2792,14 +3032,17 @@ button:hover {
 
     height: 10vh;
   }
+
   .top-one {
     display: none;
     margin-left: 11rem;
   }
+
   .top-two {
     display: none;
     margin-left: 11rem;
   }
+
   .top-one a {
     text-decoration: none;
     padding: 0.1rem;
@@ -2807,6 +3050,7 @@ button:hover {
     color: black;
     margin-right: 1rem;
   }
+
   .top-two a {
     text-decoration: none;
     padding: 0.1rem;
@@ -2814,10 +3058,12 @@ button:hover {
     font-size: 0.7rem;
     margin-right: 1rem;
   }
+
   .top-horizontal-nav a:hover {
     color: #3d405b;
     border-bottom: 1px solid #3d405b;
   }
+
   .hambugger {
     display: flex;
     max-width: 20%;
@@ -2844,6 +3090,7 @@ button:hover {
     padding-top: 1rem;
     padding-right: 2rem;
   }
+
   .heed {
     margin-left: 1rem;
     font-family: Montserrat;
@@ -2866,6 +3113,7 @@ button:hover {
     padding-right: 3rem;
     flex-wrap: wrap;
   }
+
   .barchart {
     display: flex;
     position: relative;
@@ -2875,10 +3123,12 @@ button:hover {
     margin-left: 2rem;
     margin-top: 2rem;
   }
+
   .bar-1 {
     border-left: 5px solid #d9d9d9;
     height: 5vh;
   }
+
   .bar-2 {
     border-left: 5px solid #d9d9d9;
     height: 3vh;
@@ -2895,6 +3145,7 @@ button:hover {
     border-left: 5px solid #aa5e31;
     height: 5vh;
   }
+
   .bar-5 {
     position: absolute;
     color: #3d405b;
@@ -2903,6 +3154,7 @@ button:hover {
     width: 100px;
     font-size: 9px;
   }
+
   .bar-6 {
     position: absolute;
     color: #3d405b;
@@ -2912,6 +3164,7 @@ button:hover {
     width: 100px;
     font-size: 15px;
   }
+
   .bar-6 span {
     font-size: 10px;
     font-weight: 400;
@@ -2935,11 +3188,13 @@ button:hover {
     border: 8px solid #3d405b;
     border-radius: 50%;
   }
+
   .bar-2 {
     border-left: 10px solid #d9d9d9;
     height: 3vh;
     margin-top: 2vh;
   }
+
   .barchart3 {
     display: none;
     position: relative;
@@ -2975,6 +3230,7 @@ button:hover {
     margin-right: 1rem;
     margin-top: 2rem;
   }
+
   .heed1 {
     margin-left: 1rem;
     font-family: Montserrat;
@@ -2987,6 +3243,7 @@ button:hover {
     text-decoration-skip-ink: none;
     color: #3d405b;
   }
+
   /*new*/
   .hero {
     position: relative;
@@ -3004,6 +3261,7 @@ button:hover {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
   .hero1 {
     width: 338px;
     height: 213px;
@@ -3013,6 +3271,7 @@ button:hover {
     opacity: 0px;
     border: 1px solid #aa5e31;
   }
+
   .hero1 button {
     margin-left: 16.1rem;
     width: Hug (109px) px;
@@ -3025,6 +3284,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -3035,6 +3295,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -3045,6 +3306,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .hero1 img {
     display: inline;
     width: 50px;
@@ -3054,6 +3316,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero1 h6 {
     display: inline;
     position: absolute;
@@ -3064,6 +3327,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero1 p {
     position: absolute;
     color: #3d405b;
@@ -3073,6 +3337,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -3101,10 +3366,12 @@ button:hover {
     top: 87px;
     left: 14rem;
   }
+
   .hero1 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .hero2 {
     width: 338px;
     height: 213px;
@@ -3127,6 +3394,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -3138,6 +3406,7 @@ button:hover {
     border: 1px solid #3d405b9d;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -3149,6 +3418,7 @@ button:hover {
     border: 1px solid #3d405b5d;
     border-radius: 4px;
   }
+
   .hero2 img {
     display: inline;
     width: 50px;
@@ -3158,6 +3428,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero2 h6 {
     display: inline;
     position: absolute;
@@ -3168,6 +3439,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero2 p {
     position: absolute;
     color: #3d405b;
@@ -3177,6 +3449,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero2 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -3205,10 +3478,12 @@ button:hover {
     top: 326px;
     left: 14rem;
   }
+
   .hero2 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .hero3 {
     display: none;
     width: 338px;
@@ -3232,6 +3507,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -3242,6 +3518,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     margin-left: 1px;
     margin-top: 0.2rem;
@@ -3252,6 +3529,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .hero3 img {
     display: inline;
     width: 50px;
@@ -3261,6 +3539,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .hero3 h6 {
     display: inline;
     position: absolute;
@@ -3271,6 +3550,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .hero3 p {
     position: absolute;
     color: #3d405b;
@@ -3280,6 +3560,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .hero3 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -3308,6 +3589,7 @@ button:hover {
     top: 110px;
     left: 60rem;
   }
+
   .hero3 span {
     font-size: 10px;
     font-weight: 500;
@@ -3331,6 +3613,7 @@ button:hover {
     margin-right: 1rem;
     margin-top: 2rem;
   }
+
   .heed2 {
     margin-left: 1rem;
     font-family: Montserrat;
@@ -3343,6 +3626,7 @@ button:hover {
     text-decoration-skip-ink: none;
     color: #3d405b;
   }
+
   /*new*/
   .heroo {
     position: relative;
@@ -3360,6 +3644,7 @@ button:hover {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
   .heroo1 {
     margin-left: 0.1rem;
     width: 338px;
@@ -3370,6 +3655,7 @@ button:hover {
     opacity: 0px;
     border: 1px solid #aa5e31;
   }
+
   .heroo1 button {
     margin-left: 16.1rem;
     width: Hug (109px) px;
@@ -3382,6 +3668,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -3393,6 +3680,7 @@ button:hover {
     border-radius: 4px;
     font-weight: 400;
   }
+
   #btn1 {
     margin-left: 1px;
     font-weight: 400;
@@ -3404,6 +3692,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo1 img {
     display: inline;
     width: 50px;
@@ -3413,6 +3702,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo1 h6 {
     display: inline;
     position: absolute;
@@ -3423,6 +3713,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo1 p {
     position: absolute;
     color: #3d405b;
@@ -3432,6 +3723,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo1 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -3460,10 +3752,12 @@ button:hover {
     top: 86px;
     left: 14rem;
   }
+
   .heroo1 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .heroo2 {
     margin-left: 0.1rem;
     width: 338px;
@@ -3488,6 +3782,7 @@ button:hover {
     background-color: #aa5e31;
     border: none;
   }
+
   #btn {
     font-weight: 400;
     margin-left: 3rem;
@@ -3499,6 +3794,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     font-weight: 400;
     margin-left: 1px;
@@ -3510,6 +3806,7 @@ button:hover {
     border: 1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo2 img {
     display: inline;
     width: 50px;
@@ -3519,6 +3816,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo2 h6 {
     display: inline;
     position: absolute;
@@ -3529,6 +3827,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo2 p {
     position: absolute;
     color: #3d405b;
@@ -3538,6 +3837,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo2 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -3566,10 +3866,12 @@ button:hover {
     top: 320px;
     left: 15rem;
   }
+
   .heroo2 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   .heroo3 {
     margin-left: 0.1rem;
     width: 338px;
@@ -3594,6 +3896,7 @@ button:hover {
     border: none;
     font-weight: 400;
   }
+
   #btn {
     margin-left: 3rem;
     margin-top: 0.2rem;
@@ -3605,6 +3908,7 @@ button:hover {
     border: 0.1px solid #3d405b;
     border-radius: 4px;
   }
+
   #btn1 {
     font-weight: 400;
     margin-left: 1px;
@@ -3616,6 +3920,7 @@ button:hover {
     border: 0.1px solid #3d405b;
     border-radius: 4px;
   }
+
   .heroo3 img {
     display: inline;
     width: 50px;
@@ -3625,6 +3930,7 @@ button:hover {
     margin-left: 2rem;
     border-radius: 50%;
   }
+
   .heroo3 h6 {
     display: inline;
     position: absolute;
@@ -3635,6 +3941,7 @@ button:hover {
     width: 100px;
     font-size: 10px;
   }
+
   .heroo3 p {
     position: absolute;
     color: #3d405b;
@@ -3644,6 +3951,7 @@ button:hover {
     width: 200px;
     font-size: 10px;
   }
+
   .heroo3 h1 {
     font-family: Montserrat;
     font-size: 13px;
@@ -3672,18 +3980,22 @@ button:hover {
     top: 570px;
     left: 14rem;
   }
+
   .heroo3 span {
     font-size: 10px;
     font-weight: 500;
   }
+
   button:hover {
     background-color: #3d405b;
     color: #ffffff;
   }
+
   #btn:hover {
     background-color: #3d405b;
     color: #ffffff;
   }
+
   #btn1:hover {
     background-color: #3d405b;
     color: #ffffff;

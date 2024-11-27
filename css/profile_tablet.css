@@ -7,7 +7,6 @@ html {
 /* Dashboard */
 .home--grid {
     display: grid;
-    /* grid-template-columns: unset; */
 }
 
 .input-group-cont {

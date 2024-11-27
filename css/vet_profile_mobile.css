@@ -9,7 +9,7 @@ html {
     display: flex;
 }
 
-.home--grid .sidebar{
+.home--grid .sidebar {
     display: none;
 }
 
@@ -22,7 +22,7 @@ html {
 }
 
 .top-horizontal-nav div:first-child,
-.top-horizontal-nav div:nth-child(2){
+.top-horizontal-nav div:nth-child(2) {
     display: none;
 }
 
@@ -36,6 +36,6 @@ html {
     padding-bottom: var(--size-20);
 }
 
-.vet-card-cont > * {
+.vet-card-cont>* {
     min-width: 45rem;
 }

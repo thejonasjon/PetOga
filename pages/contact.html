@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetOga - Contact</title>
+
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <!-- Conatct section -->
+    <section class="header">
+      <div class="container--full-width">
+        <header>
+          <div class="nav-center">
+            <div class="main-nav">
+              <div class="navbar--brand">
+                <a href="/index.html">Pet<span>Oga</span></a>
+              </div>
+              <nav class="main">
+                <ul role="list" class="flex-display gap--4">
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="FAQ.html">FAQ</a></li>
+                  <li><a href="/index.html#testimonials">Testimonies</a></li>
+                  <li><a href="/pages/signup.html">Vet Appointment</a></li>
+                </ul>
+              </nav>
+
+              <div class="hamburger-menu">
+                <span class="material-symbols-outlined">menu</span>
+                <div class="mobile-menu" id="mobile-menu-main">
+                  <div
+                    class="flex-display justify-content--space_between align-items--center margin--bm-30"
+                  >
+                    <div class="navbar--brand">
+                      <a href="#">Pet<span>Oga</span></a>
+                    </div>
+
+                    <div class="mobile-close">
+                      <svg
+                        id="hamburgerClose"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+
+                  <nav>
+                    <ul>
+                      <li class="featuresDropdown">
+                        <a href="#">
+                          <div>
+                            <span>Features</span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="1.5"
+                                d="m7 10l5 5l5-5"
+                              />
+                            </svg>
+                            <div class="dropdown" id="dropdown">
+                              <ul>
+                                <li>
+                                  <a href="/pages/signup.html">Adopt Pet</a>
+                                </li>
+                                <li>
+                                  <a href="/pages/signup.html"
+                                    >Vet Appointment</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li><a href="#testimonials">Testimonies</a></li>
+                      <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </section>
+
+    <!-- Main -->
+    <main>
+      <section class="contact">
+        <div class="container--full-width">
+          <div class="back-btn-cotainer">
+            <a href="/index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 460"
+                width="24px"
+              >
+                <path
+                  d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"
+                />
+              </svg>
+              Back</a
+            >
+          </div>
+          <div class="container">
+            <div class="content">
+              <div class="heading">
+                <div class="heading-text padding--block-25">
+                  <h2 class="heading--h2">Contact PetOga</h2>
+                  <p
+                    class="paragraph--md padding--block-12"
+                    style="text-align: left"
+                  >
+                    Have questions or concerns?<br />
+                    Our Pet experts are here to help!
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-form">
+                <form action="#">
+                  <div class="input-group">
+                    <label for="name">Name (required)*</label>
+                    <input
+                      id="name"
+                      type="text"
+                      required
+                      placeholder="Enter name"
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <label for="email">Email (required)*</label>
+                    <input
+                      id="email"
+                      type="email"
+                      required
+                      placeholder="Enter email"
+                    />
+                  </div>
+
+                  <div class="input-group">
+                    <label for="message"
+                      >Your Comment or Question (Required)*</label
+                    >
+                    <textarea
+                      name="message"
+                      id="message"
+                      placeholder="Enter comment or question"
+                    ></textarea>
+                  </div>
+
+                  <div class="terms">
+                    <p>
+                      We need your explicit consent before we can receive your
+                      information (Required)*
+                    </p>
+                    <div class="input-group">
+                      <input type="checkbox" />
+                      <p>
+                        I consent to my data being stored in line with PetOga’s
+                        Privacy Policy, found
+                        here: https://www.petoga.com/privacy-policy/. We will
+                        NOT publish or share your name or email address. (If you
+                        do not consent to our Privacy Policy, please close out
+                        this page now to cancel.)
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="btn-container">
+                    <button type="submit">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div
+        class="container--full-width bg--secondary-400 padding--inline-100 padding--block-100"
+      >
+        <div class="content">
+          <div class="brief">
+            <div class="navbar--brand">
+              <a href="#">Pet<span>Oga</span></a>
+            </div>
+
+            <div class="mission">
+              <p class="margin--block-20">
+                Our mission is to make Adopting and caring for your perfect pet
+                a seamless and enjoyable experience.
+              </p>
+            </div>
+
+            <div class="btn-container margin--block-20">
+              <a
+                class="button-default button--bg-white"
+                href="/pages/signup.html"
+                >Get Started</a
+              >
+            </div>
+
+            <div class="copyright">
+              <p>&COPY; 2024 PetOga. All rights reserved.</p>
+            </div>
+          </div>
+
+          <div class="footer-nav gap--4">
+            <div class="nav-links">
+              <h5>Socials</h5>
+              <ul role="list">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">Our Blog</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-links">
+              <h5>Services</h5>
+              <ul role="list">
+                <li><a href="/pages/signup.html">Adopt a Pet</a></li>
+                <li><a href="/pages/signup.html">Connect with Vet</a></li>
+                <li><a href="/pages/signup.html">Extra Service</a></li>
+                <li><a href="#overview">Who We Are</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-links">
+              <h5>Meet PetOga</h5>
+              <ul role="list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#overview">Who We Are</a></li>
+                <li><a href="#">How We Help</a></li>
+                <li><a href="#">Meet Our Partners</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="/pages/contacts.html">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-links">
+              <h5>Support</h5>
+              <ul role="list">
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#">Partner WIth Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>

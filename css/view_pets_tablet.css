@@ -27,7 +27,7 @@ html {
     flex-wrap: wrap;
 }
 
-.pets-image-cont > * {
+.pets-image-cont>* {
     flex: 1 1 40%;
 }
 
@@ -37,7 +37,7 @@ html {
     gap: var(--size-20);
 }
 
-.sub-image-cont > * {
+.sub-image-cont>* {
     flex: 1 1 30%;
 }
 

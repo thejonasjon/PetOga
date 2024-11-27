@@ -4,6 +4,7 @@ body {
   background-color: black;
   overflow-x: hidden;
 }
+
 .brand {
   display: flex;
   position: relative;
@@ -18,6 +19,7 @@ body {
   font-optical-sizing: auto;
   border-left: 0.1px solid white;
 }
+
 .brand-name {
   max-width: 20.8rem;
   height: 2rem;
@@ -27,14 +29,17 @@ body {
   float: left;
   align-items: center;
 }
+
 .brand-name a {
   color: #ffffff;
   font-size: 2.8rem;
   font-weight: 700;
 }
+
 .brand-name span {
   color: #aa5e31;
 }
+
 .brand-nav {
   max-width: 60%;
   list-style-type: none;
@@ -54,24 +59,29 @@ body {
   list-style-type: none;
   gap: 10;
 }
+
 .brand li {
   list-style-type: none;
   float: left;
   margin: 6rem;
 }
+
 .brand li a:hover {
   text-decoration: none;
   text-decoration-color: #aa5e31;
   border-bottom: 2px solid #aa5e31;
 }
+
 .brand li a:active {
   text-decoration: none;
   color: #aa5e31;
   border-bottom: 2px solid #aa5e31;
 }
+
 .hambugger {
   display: none;
 }
+
 /*new*/
 .rewind {
   display: flex;
@@ -83,6 +93,7 @@ body {
 
   background-color: white;
 }
+
 #wind button {
   color: #3d405b;
   border: none;
@@ -95,15 +106,19 @@ body {
   text-align: left;
   margin: 2rem;
 }
+
 #wind a {
   color: #3d405b;
 }
+
 #blue:hover {
   fill: #aa5e31;
 }
+
 #wind button a:hover {
   color: #aa5e31;
 }
+
 /*new*/
 .real {
   display: flex;
@@ -117,6 +132,7 @@ body {
   padding-top: 5rem;
   background-color: white;
 }
+
 .real1 h1 {
   font-family: Montserrat;
   font-size: 20px;
@@ -124,6 +140,7 @@ body {
   line-height: 24px;
   text-align: center;
 }
+
 /* new*/
 .main {
   display: flex;
@@ -135,10 +152,12 @@ body {
   background-color: white;
   padding: 12rem;
 }
+
 #whislist:hover {
   background-color: #3d405b;
   color: #ffffff;
 }
+
 /* #whislist {
   color: black;
   background-color: #ffffff;
@@ -154,6 +173,7 @@ body {
   padding: 2rem;
   line-height: 28px;
 }
+
 .two {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -164,6 +184,7 @@ body {
   line-height: 28px;
   padding: 2rem;
 }
+
 .three {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -173,24 +194,28 @@ body {
   border-radius: 8px;
   padding: 2rem;
 }
+
 .one img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 .two img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 .three img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 #mybutton {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
@@ -204,6 +229,7 @@ body {
   border-radius: 5px;
   font-weight: 600;
 }
+
 #Whislist {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
@@ -218,14 +244,17 @@ body {
   font-weight: 600;
   margin-left: 5px;
 }
+
 #mybutton:hover {
   background-color: #3d405b;
   color: #ffffff;
 }
+
 #Whislist:hover {
   color: #000000;
   border: 1px solid #3d405b;
 }
+
 .one a {
   font-size: 1rem;
   margin-left: 1.2rem;
@@ -243,6 +272,7 @@ body {
   background-color: white;
   padding: 12rem;
 }
+
 .seven {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -253,6 +283,7 @@ body {
   padding: 2rem;
   line-height: 28px;
 }
+
 .eight {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -263,6 +294,7 @@ body {
   line-height: 28px;
   padding: 2rem;
 }
+
 .nine {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -272,24 +304,28 @@ body {
   border-radius: 8px;
   padding: 2rem;
 }
+
 .seven img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 .eight img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 .nine img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 .main2 button {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
@@ -303,6 +339,7 @@ body {
   border-radius: 5px;
   font-weight: 600;
 }
+
 .main2 button:hover {
   background-color: #3d405b;
   color: #ffffff;
@@ -319,6 +356,7 @@ body {
   background-color: white;
   padding: 12rem;
 }
+
 .four {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -329,6 +367,7 @@ body {
   padding: 2rem;
   line-height: 28px;
 }
+
 .five {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -339,6 +378,7 @@ body {
   line-height: 28px;
   padding: 2rem;
 }
+
 .six {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -348,24 +388,28 @@ body {
   border-radius: 8px;
   padding: 2rem;
 }
+
 .four img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 .five img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 .six img {
   width: 100%;
   margin: auto;
   height: 30vh;
   border-radius: 5px;
 }
+
 .main3 button {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
@@ -379,19 +423,23 @@ body {
   border-radius: 5px;
   font-weight: 600;
 }
+
 .main3 button:hover {
   background-color: #3d405b;
   color: #ffffff;
 }
+
 #whislist button:hover {
   background-color: #3d405b;
   color: #ffffff;
 }
+
 #whislist {
   color: black;
   background-color: #ffffff;
   border: 1px solid #aa5e31;
 }
+
 /*next*/
 .next {
   display: flex;
@@ -406,6 +454,7 @@ body {
   background-color: white;
   padding-bottom: 4rem;
 }
+
 .next1 h1 {
   color: #aa5e31;
   font-family: Montserrat;
@@ -416,6 +465,7 @@ body {
   text-align: left;
   margin-left: 1rem;
 }
+
 .next2 {
   font-family: Montserrat;
   font-size: 14px;
@@ -425,6 +475,7 @@ body {
   letter-spacing: 0.15000000596046448px;
   text-align: left;
 }
+
 .next3 h1 {
   color: #aa5e31;
   font-family: Montserrat;
@@ -435,12 +486,15 @@ body {
   text-align: left;
   margin-right: 11rem;
 }
+
 .next h1:hover {
   color: #3d405b;
 }
+
 #bel:hover {
   fill: #3d405b;
 }
+
 /*footer*/
 footer {
   width: 100%;
@@ -453,6 +507,7 @@ footer {
   align-self: start;
   padding: 3rem;
 }
+
 .copyright {
   width: 30%;
   background-color: #3d405b;
@@ -462,6 +517,7 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .started button {
   display: block;
   margin: 1rem;
@@ -474,13 +530,16 @@ footer {
   border-radius: 3px;
   color: #3d405b;
 }
+
 .started button a {
   font-size: 1.3rem;
   color: #3d405b;
 }
+
 .start {
   font-size: 1.3rem;
 }
+
 .eleven {
   max-width: 90%;
   height: 2rem;
@@ -491,20 +550,24 @@ footer {
   align-items: center;
   margin-top: 7rem;
 }
+
 .eleven a {
   color: #ffffff;
   font-size: 3.5rem;
   font-weight: 600;
 }
+
 .eleven span {
   color: #aa5e31;
 }
+
 .eleven h1 {
   color: #ffffff;
   font-size: 1.4rem;
   font-weight: 300;
   margin-top: 2rem;
 }
+
 .right {
   width: 70%;
   background-color: #3d405b;
@@ -514,18 +577,23 @@ footer {
   font-family: "Montserrat", serif;
   align-self: start;
 }
+
 .twelve {
   margin-top: 5rem;
 }
+
 .thirteen {
   margin-top: 5rem;
 }
+
 .fourteen {
   margin-top: 5rem;
 }
+
 .fifteen {
   margin-top: 5rem;
 }
+
 footer li {
   list-style-type: none;
   color: #ffffff;
@@ -534,6 +602,7 @@ footer li {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer p {
   list-style-type: none;
   color: #ffffff;
@@ -542,13 +611,16 @@ footer p {
   font-weight: 300;
   font-size: 1.3rem;
 }
+
 footer li:hover {
   color: #aa5e31;
 }
+
 footer button :hover {
   color: white;
   background-color: #aa5e31;
 }
+
 footer button:hover {
   color: white;
   background-color: #aa5e31;
@@ -559,6 +631,7 @@ footer button:hover {
 }
 
 @media only screen and (max-width: 1024px) {
+
   /* For tablet phones: */
   .brand {
     display: flex;
@@ -574,6 +647,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20%;
     height: 2rem;
@@ -583,14 +657,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.4rem;
     font-weight: 700;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     width: 60%;
     list-style-type: none;
@@ -612,16 +689,19 @@ footer button:hover {
     font-size: 1.3rem;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
     margin: 3rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
   }
+
   .hambugger {
     display: none;
     max-width: 20%;
@@ -636,6 +716,7 @@ footer button:hover {
     text-align: center;
     justify-self: center;
   }
+
   /*new*/
   .rewind {
     display: flex;
@@ -647,6 +728,7 @@ footer button:hover {
 
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -659,16 +741,20 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   .wind a {
     color: #3d405b;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind button a:hover {
     color: #aa5e31;
     border-bottom: 1px solid #aa5e31;
   }
+
   /*new*/
   .real {
     display: flex;
@@ -682,6 +768,7 @@ footer button:hover {
     padding-top: 5rem;
     background-color: white;
   }
+
   .real1 h1 {
     font-family: Montserrat;
     font-size: 17px;
@@ -689,6 +776,7 @@ footer button:hover {
     line-height: 24px;
     text-align: center;
   }
+
   /* new*/
   .main {
     display: flex;
@@ -701,6 +789,7 @@ footer button:hover {
     background-color: white;
     padding: 6rem;
   }
+
   .one {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -711,6 +800,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .two {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -721,6 +811,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .three {
     display: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
@@ -731,24 +822,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .one img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .two img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .three img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -762,6 +857,7 @@ footer button:hover {
     border-radius: 5px;
     font-weight: 600;
   }
+
   .one a {
     font-size: 1rem;
     margin-left: 1.2rem;
@@ -780,6 +876,7 @@ footer button:hover {
     background-color: white;
     padding: 6rem;
   }
+
   .seven {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -790,6 +887,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .eight {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -800,6 +898,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .nine {
     display: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
@@ -810,24 +909,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .seven img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .eight img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .nine img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main2 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -854,6 +957,7 @@ footer button:hover {
     background-color: white;
     padding: 6rem;
   }
+
   .four {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -864,6 +968,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .five {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -874,6 +979,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .six {
     display: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
@@ -884,24 +990,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .four img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .five img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .five img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main3 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -915,6 +1025,7 @@ footer button:hover {
     border-radius: 5px;
     font-weight: 600;
   }
+
   /*next*/
   .next {
     display: flex;
@@ -930,6 +1041,7 @@ footer button:hover {
     background-color: white;
     padding-bottom: 2rem;
   }
+
   .next1 h1 {
     color: #aa5e31;
     font-family: Montserrat;
@@ -940,6 +1052,7 @@ footer button:hover {
     text-align: left;
     margin-left: 1rem;
   }
+
   .next2 {
     font-family: Montserrat;
     font-size: 10px;
@@ -949,6 +1062,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .next3 h1 {
     color: #aa5e31;
     font-family: Montserrat;
@@ -959,12 +1073,15 @@ footer button:hover {
     text-align: left;
     margin-right: 4rem;
   }
+
   .next h1:hover {
     color: #3d405b;
   }
+
   #bel:hover {
     fill: #3d405b;
   }
+
   footer {
     width: 100%;
     margin: auto;
@@ -976,6 +1093,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 30%;
     background-color: #3d405b;
@@ -985,6 +1103,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -997,10 +1116,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: block;
     font-size: 12px;
@@ -1016,20 +1137,24 @@ footer button:hover {
     align-items: center;
     margin-top: 7rem;
   }
+
   .eleven a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .eleven span {
     color: #aa5e31;
   }
+
   .eleven h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 70%;
     background-color: #3d405b;
@@ -1039,18 +1164,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .twelve {
     margin-top: 3rem;
   }
+
   .thirteen {
     margin-top: 3rem;
   }
+
   .fourteen {
     margin-top: 3rem;
   }
+
   .fifteen {
     margin-top: 3rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -1059,6 +1189,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -1067,17 +1198,21 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
   }
+
   footer button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   .sixteen {
     display: none;
   }
@@ -1101,6 +1236,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20.8rem;
     height: 2rem;
@@ -1110,14 +1246,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.8rem;
     font-weight: 600;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     display: none;
     max-width: 60%;
@@ -1139,16 +1278,19 @@ footer button:hover {
     font-size: 14px;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
     margin: 2rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
   }
+
   .hambugger {
     display: flex;
     max-width: 20%;
@@ -1175,6 +1317,7 @@ footer button:hover {
     border: none;
     background-color: white;
   }
+
   #wind button {
     color: #3d405b;
     border: none;
@@ -1187,12 +1330,15 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
+
   /*new*/
   .real {
     display: flex;
@@ -1206,6 +1352,7 @@ footer button:hover {
     padding-top: 5rem;
     background-color: white;
   }
+
   .real1 h1 {
     font-family: Montserrat;
     font-size: 15px;
@@ -1213,6 +1360,7 @@ footer button:hover {
     line-height: 24px;
     text-align: center;
   }
+
   /* new*/
   .main {
     display: flex;
@@ -1225,6 +1373,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .one {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -1235,6 +1384,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .two {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -1245,6 +1395,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .three {
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
@@ -1255,24 +1406,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .one img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .two img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .three img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -1286,6 +1441,7 @@ footer button:hover {
     border-radius: 5px;
     font-weight: 600;
   }
+
   .one a {
     font-size: 1rem;
     margin-left: 1.2rem;
@@ -1304,6 +1460,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .seven {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -1314,6 +1471,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .eight {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -1324,6 +1482,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .nine {
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
@@ -1334,24 +1493,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .seven img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .eight img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .nine img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main2 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -1378,6 +1541,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .four {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -1388,6 +1552,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .five {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -1398,6 +1563,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .six {
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
@@ -1408,24 +1574,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .four img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .five img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .five img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main3 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -1439,6 +1609,7 @@ footer button:hover {
     border-radius: 5px;
     font-weight: 600;
   }
+
   /*next*/
   .next {
     display: flex;
@@ -1453,6 +1624,7 @@ footer button:hover {
     background-color: white;
     padding-bottom: 2rem;
   }
+
   .next1 h1 {
     color: #aa5e31;
     font-family: Montserrat;
@@ -1463,6 +1635,7 @@ footer button:hover {
     text-align: left;
     margin-left: 1rem;
   }
+
   .next2 {
     font-family: Montserrat;
     font-size: 10px;
@@ -1472,6 +1645,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .next3 h1 {
     color: #aa5e31;
     font-family: Montserrat;
@@ -1482,15 +1656,19 @@ footer button:hover {
     text-align: left;
     margin-right: 5rem;
   }
+
   .next h1:hover {
     color: #3d405b;
   }
+
   #bel:hover {
     fill: #3d405b;
   }
+
   #bel {
     fill: #ffffff;
   }
+
   /*footer*/
   footer {
     width: 100%;
@@ -1504,6 +1682,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 90%;
     background-color: #3d405b;
@@ -1513,6 +1692,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -1525,10 +1705,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: none;
     font-size: 12px;
@@ -1544,20 +1726,24 @@ footer button:hover {
     align-items: center;
     margin-top: 2rem;
   }
+
   .eleven a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .eleven span {
     color: #aa5e31;
   }
+
   .eleven h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 90%;
 
@@ -1569,18 +1755,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .twelve {
     margin-top: 0.1rem;
   }
+
   .thirteen {
     margin-top: 0.1rem;
   }
+
   .fourteen {
     margin-top: 0.1rem;
   }
+
   .fifteen {
     margin-top: 0.1rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -1589,6 +1780,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.3rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -1597,9 +1789,11 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
@@ -1615,6 +1809,7 @@ footer button:hover {
     padding-left: 3rem;
   }
 }
+
 /* new*/
 
 @media only screen and (max-width: 430px) {
@@ -1635,6 +1830,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20.8rem;
     height: 2rem;
@@ -1644,14 +1840,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.8rem;
     font-weight: 600;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     display: none;
     max-width: 60%;
@@ -1673,16 +1872,19 @@ footer button:hover {
     font-size: 14px;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
     margin: 2rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
   }
+
   .hambugger {
     display: flex;
     max-width: 20%;
@@ -1709,6 +1911,7 @@ footer button:hover {
     border: none;
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -1721,12 +1924,15 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
+
   /*new*/
   .real {
     display: flex;
@@ -1740,6 +1946,7 @@ footer button:hover {
     padding-top: 5rem;
     background-color: white;
   }
+
   .real1 h1 {
     font-family: Montserrat;
     font-size: 15px;
@@ -1747,6 +1954,7 @@ footer button:hover {
     line-height: 24px;
     text-align: center;
   }
+
   /* new*/
   .main {
     display: flex;
@@ -1759,6 +1967,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .one {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -1769,6 +1978,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .two {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -1779,6 +1989,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .three {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -1788,24 +1999,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .one img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .two img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .three img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -1819,6 +2034,7 @@ footer button:hover {
     border-radius: 5px;
     font-weight: 600;
   }
+
   .one a {
     font-size: 1rem;
     margin-left: 1.2rem;
@@ -1837,6 +2053,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .seven {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -1847,6 +2064,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .eight {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -1857,6 +2075,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .nine {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -1866,24 +2085,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .seven img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .eight img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .nine img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main2 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -1910,6 +2133,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .four {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -1920,6 +2144,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .five {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -1930,6 +2155,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .six {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -1939,24 +2165,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .four img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .five img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .five img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main3 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -1970,6 +2200,7 @@ footer button:hover {
     border-radius: 5px;
     font-weight: 600;
   }
+
   /*next*/
   .next {
     display: flex;
@@ -1984,6 +2215,7 @@ footer button:hover {
     background-color: white;
     padding-bottom: 2rem;
   }
+
   .next1 h1 {
     color: #aa5e31;
     font-family: Montserrat;
@@ -1994,6 +2226,7 @@ footer button:hover {
     text-align: left;
     margin-left: 1rem;
   }
+
   .next2 {
     font-family: Montserrat;
     font-size: 10px;
@@ -2003,6 +2236,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .next3 h1 {
     color: #aa5e31;
     font-family: Montserrat;
@@ -2013,15 +2247,19 @@ footer button:hover {
     text-align: left;
     margin-right: 5rem;
   }
+
   .next h1:hover {
     color: #3d405b;
   }
+
   #bel:hover {
     fill: #3d405b;
   }
+
   #bel {
     fill: #ffffff;
   }
+
   /*footer*/
   footer {
     width: 100%;
@@ -2035,6 +2273,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 90%;
     background-color: #3d405b;
@@ -2044,6 +2283,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -2056,10 +2296,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: block;
     font-size: 12px;
@@ -2075,20 +2317,24 @@ footer button:hover {
     align-items: center;
     margin-top: 2rem;
   }
+
   .eleven a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .eleven span {
     color: #aa5e31;
   }
+
   .eleven h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 90%;
 
@@ -2100,18 +2346,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .twelve {
     margin-top: 0.1rem;
   }
+
   .thirteen {
     margin-top: 0.1rem;
   }
+
   .fourteen {
     margin-top: 0.1rem;
   }
+
   .fifteen {
     margin-top: 0.1rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -2120,6 +2371,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.3rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -2128,17 +2380,21 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
   }
+
   footer button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   .sixteen {
     height: auto;
     background-color: #3d405b;
@@ -2149,6 +2405,7 @@ footer button:hover {
     padding-left: 3rem;
   }
 }
+
 @media only screen and (max-width: 390px) {
   /* For mobile phones: */
 
@@ -2167,6 +2424,7 @@ footer button:hover {
     font-optical-sizing: auto;
     border-left: 0.1px solid white;
   }
+
   .brand-name {
     max-width: 20.8rem;
     height: 2vh;
@@ -2176,14 +2434,17 @@ footer button:hover {
     float: left;
     align-items: center;
   }
+
   .brand-name a {
     color: #ffffff;
     font-size: 2.8rem;
     font-weight: 600;
   }
+
   .brand-name span {
     color: #aa5e31;
   }
+
   .brand-nav {
     display: none;
     height: 5vh;
@@ -2206,16 +2467,19 @@ footer button:hover {
     font-size: 14px;
     gap: 10;
   }
+
   .brand li {
     list-style-type: none;
     float: left;
     margin: 2rem;
   }
+
   .brand li a:hover {
     text-decoration: none;
     text-decoration-color: #aa5e31;
     border-bottom: 2px solid #aa5e31;
   }
+
   .hambugger {
     display: flex;
     max-width: 20%;
@@ -2242,6 +2506,7 @@ footer button:hover {
     border: none;
     background-color: white;
   }
+
   .wind button {
     color: #3d405b;
     border: none;
@@ -2254,12 +2519,15 @@ footer button:hover {
     text-align: left;
     margin: 2rem;
   }
+
   #blue:hover {
     fill: #aa5e31;
   }
+
   .wind button:hover {
     color: #aa5e31;
   }
+
   /*new*/
   .real {
     display: flex;
@@ -2273,6 +2541,7 @@ footer button:hover {
     padding-top: 5rem;
     background-color: white;
   }
+
   .real1 h1 {
     font-family: Montserrat;
     font-size: 15px;
@@ -2280,6 +2549,7 @@ footer button:hover {
     line-height: 24px;
     text-align: center;
   }
+
   /* new*/
   .main {
     display: flex;
@@ -2292,6 +2562,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .one {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -2302,6 +2573,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .two {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -2312,6 +2584,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .three {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -2321,24 +2594,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .one img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .two img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .three img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -2352,6 +2629,7 @@ footer button:hover {
     border-radius: 5px;
     font-weight: 600;
   }
+
   .one a {
     font-size: 1rem;
     margin-left: 1.2rem;
@@ -2370,6 +2648,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .seven {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -2380,6 +2659,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .eight {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -2390,6 +2670,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .nine {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -2399,24 +2680,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .seven img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .eight img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .nine img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main2 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -2443,6 +2728,7 @@ footer button:hover {
     background-color: white;
     padding: 2rem;
   }
+
   .four {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -2453,6 +2739,7 @@ footer button:hover {
     padding: 2rem;
     line-height: 28px;
   }
+
   .five {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
@@ -2463,6 +2750,7 @@ footer button:hover {
     line-height: 28px;
     padding: 2rem;
   }
+
   .six {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -2472,24 +2760,28 @@ footer button:hover {
     border-radius: 8px;
     padding: 2rem;
   }
+
   .four img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .five img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .six img {
     width: 100%;
     margin: auto;
     height: 30vh;
     border-radius: 5px;
   }
+
   .main3 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
@@ -2503,6 +2795,7 @@ footer button:hover {
     border-radius: 5px;
     font-weight: 600;
   }
+
   /*next*/
   .next {
     display: flex;
@@ -2517,6 +2810,7 @@ footer button:hover {
     background-color: white;
     padding-bottom: 2rem;
   }
+
   .next1 h1 {
     color: #aa5e31;
     font-family: Montserrat;
@@ -2527,6 +2821,7 @@ footer button:hover {
     text-align: left;
     margin-left: 1rem;
   }
+
   .next2 {
     font-family: Montserrat;
     font-size: 10px;
@@ -2536,6 +2831,7 @@ footer button:hover {
     letter-spacing: 0.15000000596046448px;
     text-align: left;
   }
+
   .next3 h1 {
     color: #aa5e31;
     font-family: Montserrat;
@@ -2546,15 +2842,19 @@ footer button:hover {
     text-align: left;
     margin-right: 5rem;
   }
+
   .next h1:hover {
     color: #3d405b;
   }
+
   #bel:hover {
     fill: #3d405b;
   }
+
   #bel {
     fill: #ffffff;
   }
+
   /*footer*/
   footer {
     width: 100%;
@@ -2568,6 +2868,7 @@ footer button:hover {
     align-self: start;
     padding: 3rem;
   }
+
   .copyright {
     width: 90%;
     background-color: #3d405b;
@@ -2577,6 +2878,7 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .started button {
     display: block;
     margin: 1rem;
@@ -2589,10 +2891,12 @@ footer button:hover {
     border-radius: 3px;
     color: #3d405b;
   }
+
   .started button a {
     font-size: 1.3rem;
     color: #3d405b;
   }
+
   .start {
     display: block;
     font-size: 12px;
@@ -2608,20 +2912,24 @@ footer button:hover {
     align-items: center;
     margin-top: 2rem;
   }
+
   .eleven a {
     color: #ffffff;
     font-size: 3.5rem;
     font-weight: 600;
   }
+
   .eleven span {
     color: #aa5e31;
   }
+
   .eleven h1 {
     color: #ffffff;
     font-size: 1.3rem;
     font-weight: 300;
     margin-top: 2rem;
   }
+
   .right {
     width: 90%;
 
@@ -2633,18 +2941,23 @@ footer button:hover {
     font-family: "Montserrat", serif;
     align-self: start;
   }
+
   .twelve {
     margin-top: 0.1rem;
   }
+
   .thirteen {
     margin-top: 0.1rem;
   }
+
   .fourteen {
     margin-top: 0.1rem;
   }
+
   .fifteen {
     margin-top: 0.1rem;
   }
+
   footer li {
     list-style-type: none;
     color: #ffffff;
@@ -2653,6 +2966,7 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.3rem;
   }
+
   footer p {
     list-style-type: none;
     color: #ffffff;
@@ -2661,17 +2975,21 @@ footer button:hover {
     font-weight: 300;
     font-size: 1.1rem;
   }
+
   footer li:hover {
     color: #aa5e31;
   }
+
   footer button :hover {
     color: white;
     background-color: #aa5e31;
   }
+
   footer button:hover {
     color: white;
     background-color: #aa5e31;
   }
+
   .sixteen {
     height: auto;
     background-color: #3d405b;

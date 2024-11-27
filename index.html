@@ -1,669 +1,1005 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PetOga - Home</title>
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/style_tablet.css" media="(max-width:1024px)" />
-    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width:600px)" />
-
-</head>
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="/css/style_tablet.css"
+      media="(max-width:1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style_mobile.css"
+      media="(max-width:600px)"
+    />
+  </head>
+  <body>
     <!-- Landing section -->
     <section class="landing">
-        <div class="container--full-width hero-bg">
-            <div class="header-hero">
-                <header class="padding--top-25">
-                    <div class="main-nav padding--inline-100 flex-display justify-content--space_between align-items--center" style="justify-content: space-between;">
-                        <div class="navbar--brand">
-                            <a href="#">Pet<span>Oga</span></a>
+      <div class="container--full-width hero-bg">
+        <div class="header-hero">
+          <header class="padding--top-25">
+            <div
+              class="main-nav padding--inline-100 flex-display justify-content--space_between align-items--center"
+              style="justify-content: space-between"
+            >
+              <div class="navbar--brand">
+                <a href="#">Pet<span>Oga</span></a>
+              </div>
+              <nav class="main">
+                <ul role="list" class="flex-display gap--4">
+                  <li class="featuresDropdown desktop">
+                    <a href="#">
+                      <div class="drop-relative">
+                        <span>Features</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1.5"
+                            d="m7 10l5 5l5-5"
+                          />
+                        </svg>
+                        <div class="dropdown" id="dropdown">
+                          <ul>
+                            <li class="dropdown-hover">
+                              <a href="/pages/signup.html">Adopt Pet</a>
+                            </li>
+                            <li class="dropdown-hover--none">
+                              <a href="pages/signup.html">Vet Appointment</a>
+                            </li>
+                          </ul>
                         </div>
-                        <nav class="main">
-                            <ul role='list' class="flex-display  gap--4">
-                                <!-- <li><a class="flex-display justify-content--space_between align-items--center gap--05" href="#"> <span>Features</span><span class="material-symbols-outlined nav--dropdown-icon">keyboard_arrow_down</span></a></li> -->
-                                <li class="featuresDropdown desktop">
-                                    <a href="#">
-                                    <div class="drop-relative">
-                                        <span>Features</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m7 10l5 5l5-5"/></svg>
-                                        <div class="dropdown" id="dropdown">
-                                            <ul>
-                                                <li class="dropdown-hover"><a href="/pages/signup.html">Adopt Pet</a></li>
-                                                <li class="dropdown-hover--none"><a href="pages/signup.html">Vet Appointment</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    </a>
+                      </div>
+                    </a>
+                  </li>
+                  <li><a href="#testimonials">Testimonials</a></li>
+                  <li><a href="#faq">FAQ</a></li>
+                </ul>
+              </nav>
+
+              <div class="btn-container main flex-display gap--1">
+                <a
+                  class="button-default button-round--3 border--primary"
+                  href="/pages/login.html"
+                  >Log in</a
+                >
+                <a
+                  class="button-default button-round--3 button--bg-primary"
+                  href="/pages/signup.html"
+                  >Sign up</a
+                >
+              </div>
+
+              <div class="hamburger-menu">
+                <span class="material-symbols-outlined">menu</span>
+                <div class="mobile-menu" id="mobile-menu-main">
+                  <div
+                    class="flex-display justify-content--space_between align-items--center margin--bm-30"
+                  >
+                    <div class="navbar--brand">
+                      <a href="#">Pet<span>Oga</span></a>
+                    </div>
+
+                    <div class="mobile-close">
+                      <svg
+                        id="hamburgerClose"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+
+                  <nav>
+                    <ul>
+                      <li class="featuresDropdown">
+                        <a href="#">
+                          <div>
+                            <span>Features</span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="1.5"
+                                d="m7 10l5 5l5-5"
+                              />
+                            </svg>
+                            <div class="dropdown" id="dropdown">
+                              <ul>
+                                <li>
+                                  <a href="/pages/signup.html">Adopt Pet</a>
                                 </li>
-                                <li><a href="#testimonials">Testimonials</a></li>
-                                <li><a href="#faq">FAQ</a></li>
-                            </ul>
-                        </nav>
-
-                        <div class="btn-container main flex-display gap--1">
-                            <a class="button-default button-round--3 border--primary" href="/pages/login.html">Log in</a>
-                            <a class="button-default button-round--3 button--bg-primary" href="/pages/signup.html">Sign up</a>
-                        </div>
-
-                        <div class="hamburger-menu">
-                            <span class="material-symbols-outlined">menu</span>
-                            <div class="mobile-menu" id="mobile-menu-main">
-                                <div class="flex-display justify-content--space_between align-items--center margin--bm-30">
-                                    <div class="navbar--brand">
-                                        <a href="#">Pet<span>Oga</span></a>
-                                    </div>
-
-                                    <div class="mobile-close">
-                                        <svg id="hamburgerClose" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"/></svg>
-                                    </div>
-                                </div>
-
-                                <nav>
-                                    <ul>
-                                        <li class="featuresDropdown"><a href="#">
-                                            <div>
-                                                <span>Features</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m7 10l5 5l5-5"/></svg>
-                                                <div class="dropdown" id="dropdown">
-                                                    <ul>
-                                                        <li><a href="/pages/signup.html">Adopt Pet</a></li>
-                                                        <li><a href="/pages/signup.html">Vet Appointment</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </a></li>
-                                        <li><a href="#testimonials">Testimonies</a></li>
-                                        <li><a href="#faq">FAQ</a></li>
-                                    </ul>
-                                </nav>
-                                <div class="btn-container flex-display gap--1 margin--top-100">
-                                    <a class="button-default button-round--3 border--primary" href="/pages/login.html">Log in</a>
-                                    <a class="button-default button-round--3 button--bg-primary" href="/pages/signup.html">Sign up</a>
-                                </div>
+                                <li>
+                                  <a href="/pages/signup.html"
+                                    >Vet Appointment</a
+                                  >
+                                </li>
+                              </ul>
                             </div>
-                        </div>
-                    </div>
-                </header>
-
-                <div class="hero">
-                    <div class="text-block adjust--top color--white-400">
-                        <h1 class="heading--h1">Find your perfect pet and manage <br>their wellbeing with ease</h1>
-                        <p class="paragraph--sm padding--block-25">Explore a variety of pets, easily book services, and manage your pet's needs <br> —all in one convenient platform!</p>
-                    </div>
-
-                    <div class="btn-container-image-block">
-                        <div class="btn-container margin--top-10">
-                            <a class="button-default explore-service" href="/pages/signup.html">Explore Services</a>
-                        </div>
-
-                        <div class="image-block">
-                            <img src="/assets/images/landing_page/hero-cat-dog 1.png" alt="Hero Cat and Dog Image">
-                        </div>
-                    </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li><a href="#testimonials">Testimonies</a></li>
+                      <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                  </nav>
+                  <div
+                    class="btn-container flex-display gap--1 margin--top-100"
+                  >
+                    <a
+                      class="button-default button-round--3 border--primary"
+                      href="/pages/login.html"
+                      >Log in</a
+                    >
+                    <a
+                      class="button-default button-round--3 button--bg-primary"
+                      href="/pages/signup.html"
+                      >Sign up</a
+                    >
+                  </div>
                 </div>
+              </div>
+            </div>
+          </header>
+
+          <div class="hero">
+            <div class="hero-text">
+              <div class="text-block margin--top-10 color--white-400">
+                <h1 class="heading--h1">
+                  Find your perfect pet and manage <br />their wellbeing with
+                  ease
+                </h1>
+                <p class="paragraph--sm padding--block-25">
+                  Explore a variety of pets, easily book services, and manage
+                  your pet's needs <br />
+                  —all in one convenient platform!
+                </p>
+              </div>
+
+              <div class="btn-container flex-display margin--top-10">
+                <a
+                  class="button-default explore-service"
+                  href="/pages/signup.html"
+                  >Explore Services</a
+                >
+              </div>
             </div>
 
-            <div class="statistics bg--white-400">
-                <div class="content flex-display justify-content--space_between">
-                    <div class="content-block text-align--center">
-                        <h3 class="heading--h3">10K+</h3>
-                        <p>Adopted pets</p>
-                    </div>
-
-                    <div class="content-block text-align--center">
-                        <h3 class="heading--h3">200M+</h3>
-                        <p>Pet Posts</p>
-                    </div>
-
-                    <div class="content-block text-align--center">
-                        <h3 class="heading--h3 ">10K+</h3>
-                        <p>Registered seasoned Vet</p>
-                    </div>
-                </div>
+            <div class="hero-image">
+              <div class="image-block">
+                <img
+                  src="/assets/images/landing_page/hero-cat-dog 1.png"
+                  alt="Hero Cat and Dog Image"
+                />
+              </div>
+              <div class="small">
+                <img
+                  src="/assets/images/landing_page/cute-pet-collage-1.png"
+                  alt="Hero Cat Small"
+                />
+              </div>
             </div>
+          </div>
         </div>
+
+        <div class="statistics bg--white-400">
+          <div class="content flex-display justify-content--space_between">
+            <div class="content-block text-align--center">
+              <h3 class="heading--h3">10K+</h3>
+              <p>Adopted pets</p>
+            </div>
+
+            <div class="content-block text-align--center">
+              <h3 class="heading--h3">200M+</h3>
+              <p>Pet Posts</p>
+            </div>
+
+            <div class="content-block text-align--center">
+              <h3 class="heading--h3">10K+</h3>
+              <p>Registered seasoned Vet</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Main -->
     <main>
-        <!-- Service Overview -->
-        <section id="overview" class="service margin--top-95">
-            <div class="container">
-                <div class="content">
-                    <div class="heading">
-                        <div class="heading-text text-align--center padding--block-25">
-                            <h2 class="heading--h2">Service Overview</h2>
-                            <p class="paragraph--md padding--block-12">A closer look at expert PetOga services</p>
-                        </div>
-                    </div>
-
-                    <div class="grid-2-column gap--4 margin--top-40">
-                        <div class="text-block">
-                            <h4 class="heading--h4">Get access to variety of authentic pet</h4>
-                            <p class="margin--block-20">Explore a diverse selection of pets to find the perfect companion that matches your lifestyle. From popular breeds to unique choices, discover pets suited to your preferences—all in one place.</p>
-                            <div class="btn-container margin--top-10">
-                                <a class="button-default button--bg-primary" href="/pages/signup.html">Get Started</a>
-                            </div>
-                        </div>
-
-                        <div class="image-block">
-                            <div class="item large">
-                                <img src="/assets/images/landing_page/overview-1.png" alt="Service Image 1">
-                            </div>
-
-                            <div class="item small">
-                                <img src="/assets/images/landing_page/overview-2.png" alt="Service Image 1">
-                            </div>
-
-                            <div class="item small">
-                                <img src="/assets/images/landing_page/overview-3.png" alt="Service Image 1">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- Service Overview -->
+      <section id="overview" class="service margin--top-95">
+        <div class="container">
+          <div class="content">
+            <div class="heading">
+              <div class="heading-text text-align--center padding--block-25">
+                <h2 class="heading--h2">Service Overview</h2>
+                <p class="paragraph--md padding--block-12">
+                  A closer look at expert PetOga services
+                </p>
+              </div>
             </div>
-        </section>
 
-        <!-- Vet Appointment -->
-        <section class="appointment margin--top-95" id="Appointment">
-            <div class="container--full-width bg--secondary-400 color--white-400 padding--inline-120 padding--top-52">
-                <div class="content grid-2-column gap--6 align-items--center">
-                    <div class="image-block">
-                        <img class="love" src="/assets/images/landing_page/love-img.png" alt="Image Love">
-                        <img class="vet-doctor" src="/assets/images/landing_page/vet-appointment.png" alt="Image Vet Doctor">
-                    </div>
-
-                    <div class="text-block">
-                        <h4 class="heading--h4">Vet Appointment Made Easy</h4>
-                        <p class="margin--block-20">Booking a vet appointment has never been easier. Schedule check-ups, vaccinations, and more with trusted vets, all in just a few clicks!</p>
-                        <div class="btn-container margin--top-10">
-                            <a class="button-default button--bg-primary" href="/pages/signup.html">Book Now</a>
-                        </div>
-                    </div>
+            <div class="grid-2-column gap--4 margin--top-40">
+              <div class="text-block">
+                <h4 class="heading--h4">
+                  Get access to variety of authentic pet
+                </h4>
+                <p class="margin--block-20">
+                  Explore a diverse selection of pets to find the perfect
+                  companion that matches your lifestyle. From popular breeds to
+                  unique choices, discover pets suited to your preferences—all
+                  in one place.
+                </p>
+                <div class="btn-container margin--top-10">
+                  <a
+                    class="button-default button--bg-primary"
+                    href="/pages/signup.html"
+                    >Get Started</a
+                  >
                 </div>
-            </div>
-        </section>
+              </div>
 
-        <!-- Connect Pet Vendors -->
-        <section class="connect margin--top-95">
-            <div class="container">
-                <div class="content">
-                    <div class="heading">
-                        <div class="heading-text text-align--center">
-                            <h2 class="heading--h2">Easily Connect With Pet Vendors</h2>
-                        </div>
-                    </div>
-
-                    <div class="grid-2-column align-items--center gap--4 margin--top-60">
-                        <div class="text-block">
-                            <div>
-                                <p class="text-align--center">Effortlessly connect with trusted pet vendors for all your pet needs. From supplies to services, find reliable vendors just a tap away!</p>
-                                <div class="profile flex-display gap--2 align-items--center margin--block-20">
-                                    <div class="profile-photo">
-                                        <img height="auto" src="/assets/images/landing_page/vendor-profile.png" alt="Profile Photo">
-                                    </div>
-                                    <div class="details">
-                                        <span>Jonas Williams</span>
-                                        <p>Pet Seller</p>
-
-                                        <div class="btn-container margin--top-10">
-                                            <a class="button-default button--bg-primary" href="/pages/signup.html">Connect Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="text-side-image">
-                                <div>
-                                    <img src="/assets/images/landing_page/paw.png" alt="Paws">
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="image-block">
-                            <div class="top-block">
-                                <div>
-                                    <img src="/assets/images/landing_page/vendor-1.png" alt="Dog Image 1">
-                                </div>
-
-                                <div>
-                                    <img src="/assets/images/landing_page/paw.png" alt="Paws">
-                                </div>
-                            </div>
-
-                            <div class="middle-block">
-                                <div>
-                                    <img src="/assets/images/landing_page/vendor-2.png" alt="Dog Image 2">
-                                </div>
-
-                                <div>
-                                    <img src="/assets/images/landing_page/paw.png" alt="Paws">
-                                </div>
-
-                                <div>
-                                    <img src="/assets/images/landing_page/vendor-4.png" alt="Dog Image 4">
-                                </div>
-                            </div>
-
-                            <div class="last-block">
-                                <div>
-                                    <img src="/assets/images/landing_page/paw.png" alt="Paws">
-                                </div>
-
-                                <div>
-                                    <img src="/assets/images/landing_page/vendor-3.png" alt="Cat Image 3">
-                                </div>
-
-                                <div>
-                                    <img src="/assets/images/landing_page/paw.png" alt="Paws">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <div class="image-block">
+                <div class="item large">
+                  <img
+                    src="/assets/images/landing_page/overview-1.png"
+                    alt="Service Image 1"
+                  />
                 </div>
-            </div>
-        </section>
 
-        <!-- Secure Transaction -->
-        <section class="transaction margin--top-95">
-            <div class="container">
-                <div class="content grid-2-column align-items--center gap--200">
-                    <div class="image-block">
-                        <img src="/assets/images/landing_page/trusted.png" alt="Transaction Image">
-                    </div>
-
-                    <div class="text-block">
-                        <h4 class="heading--h4">Trusted and Secure Transactions</h4>
-                        <p class="margin--block-20">Experience peace of mind with trusted, secure transactions for every pet purchase and service booking. Your safety and satisfaction come first!</p>
-                        <div class="sub-block">
-                            <div class="flex-display gap--1 margin--bm-1 align-items--center">
-                                <span><img width="22px" src="/assets/images/landing_page/check.png" alt="Check"></span><p>Get in touch directly with the Seller.</p>
-                            </div>
-                            <div class="flex-display gap--1 align-items--center">
-                                <span><img width="22px" src="/assets/images/landing_page/check.png" alt="Check"></span><p>Get seamless transaction with Vet </p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="item small">
+                  <img
+                    src="/assets/images/landing_page/overview-2.png"
+                    alt="Service Image 1"
+                  />
                 </div>
-            </div>
-        </section>
 
-        <!-- How it Works -->
-        <section class="how-it-work padding--block-100 margin--top-95">
-            <div class="overlay-container"></div>
-            <div class="container--full-width">
-                <div class="content">
-                    <div class="heading">
-                        <div class="heading-text text-align--center">
-                            <h2 class="heading--h2">How does PetOga work?</h2>
-                            <p class="paragraph--md margin--block-20">PetOga works in 4 easy steps.</p>
-                        </div>
-                    </div>
-
-                    <div class="content-block flex-display gap--2 padding--inline-120 margin--top-100">
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/hw-signup.png" alt="Sign up Image">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Sign up</h4>
-                                <p>Create an account to start your journey as a pet owner, seller, or vendor.</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/hw-browse-pet.png" alt="Browse Pet Image">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Browse Pet</h4>
-                                <p>Explore our diverse range of pets waiting for a loving home.</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/hw-adopt.png" alt="Adopt Image">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Adopt</h4>
-                                <p>Adopt your new best friend and manage their care with ease on pet dog.</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/hw-manage.png" alt="Manage Image">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Manage</h4>
-                                <p>Track vaccinations, appointments and receive expert advice for a happy healthy pet.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="btn-container margin--top-10">
-                        <a class="button-default button--bg-primary" href="/pages/signup.html"> Get Started</a>
-                    </div>
+                <div class="item small">
+                  <img
+                    src="/assets/images/landing_page/overview-3.png"
+                    alt="Service Image 1"
+                  />
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- Blog Resources -->
-        <section class="blog padding--block-100">
-            <div class="container--full-width">
-                <div class="content">
-                    <div class="heading">
-                        <div class="heading-text text-align--center">
-                            <h2 class="heading--h2">Blog Resources</h2>
-                            <p class="paragraph--md margin--block-20">Read our professional articles and resources for pet care.</p>
-                        </div>
+      <!-- Vet Appointment -->
+      <section class="appointment margin--top-95" id="Appointment">
+        <div
+          class="container--full-width bg--secondary-400 color--white-400 padding--inline-120 padding--top-52"
+        >
+          <div class="content grid-2-column gap--6 align-items--center">
+            <div class="image-block">
+              <img
+                class="love"
+                src="/assets/images/landing_page/love-img.png"
+                alt="Image Love"
+              />
+              <img
+                class="vet-doctor"
+                src="/assets/images/landing_page/vet-appointment.png"
+                alt="Image Vet Doctor"
+              />
+            </div>
+
+            <div class="text-block">
+              <h4 class="heading--h4">Vet Appointment Made Easy</h4>
+              <p class="margin--block-20">
+                Booking a vet appointment has never been easier. Schedule
+                check-ups, vaccinations, and more with trusted vets, all in just
+                a few clicks!
+              </p>
+              <div class="btn-container margin--top-10">
+                <a
+                  class="button-default button--bg-primary"
+                  href="/pages/signup.html"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Connect Pet Vendors -->
+      <section class="connect margin--top-95">
+        <div class="container">
+          <div class="content">
+            <div class="heading">
+              <div class="heading-text text-align--center">
+                <h2 class="heading--h2">Easily Connect With Pet Vendors</h2>
+              </div>
+            </div>
+
+            <div
+              class="grid-2-column align-items--center gap--4 margin--top-60"
+            >
+              <div class="text-block">
+                <div>
+                  <p class="text-align--center">
+                    Effortlessly connect with trusted pet vendors for all your
+                    pet needs. From supplies to services, find reliable vendors
+                    just a tap away!
+                  </p>
+                  <div
+                    class="profile flex-display gap--2 align-items--center margin--block-20"
+                  >
+                    <div class="profile-photo">
+                      <img
+                        height="auto"
+                        src="/assets/images/landing_page/vendor-profile.png"
+                        alt="Profile Photo"
+                      />
                     </div>
+                    <div class="details">
+                      <span>Jonas Williams</span>
+                      <p>Pet Seller</p>
 
-                    <div class="content-block flex-display flex-wrap gap--2 padding--inline-120 margin--top-100">
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/blog-img-1.png" alt="Image 1">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Dog leash training</h4>
-                                <p>Dogs are known to be fond of taking walks....</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/blog-img-2.png" alt="Image 2">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Pet Care</h4>
-                                <p>A simple pet care for new owners. From Fundamental to advance level.</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/blog-img-3.png" alt="Image 3">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>5 Essential Tips</h4>
-                                <p>Bringing a new pet into your home is exciting, but it can also feel overwhelming...</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/blog-img-4.png" alt="Image 4">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Choosing Perfect Pet</h4>
-                                <p>Selecting the right pet is an important decision that can bring..</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/blog-img-5.png" alt="Image 5">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Pets Nutrition Basics</h4>
-                                <p>Feeding your pet the right food is key to their health, happiness......</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="card-image-block">
-                                <img src="/assets/images/landing_page/blog-img-6.png" alt="Image 6">
-                            </div>
-                            <div class="card-text-block">
-                                <h4>Homemade vs. Store-Bought:</h4>
-                                <p>Choosing between homemade meals and store-bought pet food....</p>
-                            </div>
-                        </div>
+                      <div class="btn-container margin--top-10">
+                        <a
+                          class="button-default button--bg-primary"
+                          href="/pages/signup.html"
+                          >Connect Now</a
+                        >
+                      </div>
                     </div>
-
-                    <div class="btn-container margin--top-10">
-                        <a class="button-default button--bg-primary" href="/pages/signup.html"> Get Started</a>
-                    </div>
+                  </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Testimonials -->
-        <section id="testimonials" class="testimonial margin--top-95">
-            <div class="container">
-                <div class="content">
-                    <div class="heading">
-                        <div class="heading-text text-align--center">
-                            <h2 class="heading--h2">Testimonials</h2>
-                            <p class="paragraph--md margin--block-20">Feedback from Amazing Clients.</p>
-                        </div>
-
-                        <div class="content-block grid-2-column align-items--center">
-                            <div class="previous">
-                                <span class="material-symbols-outlined">chevron_left</span>
-                            </div>
-                            <div class="image-block">
-                                <div class="previous-mobile">
-                                    <span class="material-symbols-outlined">chevron_left</span>
-                                </div>
-                                <img src="/assets/images/landing_page/testimonial-img.png" alt="Testimonials">
-                                <div class="next-mobile">
-                                    <span class="material-symbols-outlined">chevron_right</span>
-                                </div>
-                            </div>
-
-                            <div class="text-block">
-                                <div class="quote">
-                                    <div><img width="20px" src="/assets/images/landing_page/open-quote.png" alt=""></div>
-                                    <p>
-                                    As a new pet owner, I used to worry about how to manage everything on my own. Thankfully, I discovered PetOga that provided me with the guidance and support I needed.
-                                    </p>
-                                    <div><img width="20px" src="/assets/images/landing_page/close-quote.png" alt=""></div>
-                                </div>
-
-                                <div class="profile flex-display gap--2 align-items--center margin--block-20">
-                                    <img src="/assets/images/landing_page/testimonial-photo.png" alt="Profile photo">
-                                    <span>
-                                        <p>Brenda Junior</p>
-                                        <p>Virtual Assistant</p>
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="next">
-                                <span class="material-symbols-outlined">chevron_right</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="text-side-image">
+                  <div>
+                    <img src="/assets/images/landing_page/paw.png" alt="Paws" />
+                  </div>
                 </div>
-            </div>
-        </section>
+              </div>
 
-        <!-- FAQ -->
-        <section id="faq" class="faq margin--top-95">
-            <div class="container">
-                <div class="content grid-2-column">
-                    <div class="heading">
-                        <div class="heading-text">
-                            <h2 class="heading--h2">FAQs</h2>
-                            <p class="paragraph--sm margin--block-20">Find Answer to PetOga Frequently Asked Questions.</p>
-                        </div>
-                    </div>
+              <div class="image-block">
+                <div class="top-block">
+                  <div>
+                    <img
+                      src="/assets/images/landing_page/vendor-1.png"
+                      alt="Dog Image 1"
+                    />
+                  </div>
 
-                    <div class="content-block">
-                        <div class="block-card">
-                            <div class="question">
-                                <p>How does PetOga work?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
-                            </div>
-                            <div class="answer">
-                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="question">
-                                <p>Can I sell/rehome my pet on PetOga?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
-                            </div>
-                            <div class="answer">
-                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="question">
-                                <p>How does PetOga work?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
-                            </div>
-                            <div class="answer">
-                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="question">
-                                <p>Are the pet listed here verified?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
-                            </div>
-                            <div class="answer">
-                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="question">
-                                <p>How do i contact seller?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
-                            </div>
-                            <div class="answer">
-                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="question">
-                                <p>Can i re-sell my pet on PetOga?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
-                            </div>
-                            <div class="answer">
-                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
-                            </div>
-                        </div>
-
-                        <div class="block-card">
-                            <div class="question">
-                                <p>Is PetOga available as a mobile App?</p><span class="material-symbols-outlined">keyboard_arrow_down</span>
-                            </div>
-                            <div class="answer">
-                                <p>PetOga conects with you verified sellers and vet care online in a seamless and intuitive way</p>
-                            </div>
-                        </div>
-                    </div>
+                  <div>
+                    <img src="/assets/images/landing_page/paw.png" alt="Paws" />
+                  </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Get Started -->
-        <section class="get-started">
-            <div class="container--full-width padding--block-100 margin--top-95">
-                <div class="content">
-                    <div class="heading color--white-200">
-                        <div class="heading-text text-align--center">
-                            <h2 class="heading--h2">Start Caring for Your Pet Today!</h2>
-                        </div>
-                    </div>
+                <div class="middle-block">
+                  <div>
+                    <img
+                      src="/assets/images/landing_page/vendor-2.png"
+                      alt="Dog Image 2"
+                    />
+                  </div>
 
-                    <div class="btn-container margin--top-60">
-                        <a class="button-default button--bg-primary" href="/pages/signup.html">Get Started</a>
-                    </div>
+                  <div>
+                    <img src="/assets/images/landing_page/paw.png" alt="Paws" />
+                  </div>
+
+                  <div>
+                    <img
+                      src="/assets/images/landing_page/vendor-4.png"
+                      alt="Dog Image 4"
+                    />
+                  </div>
                 </div>
+
+                <div class="last-block">
+                  <div>
+                    <img src="/assets/images/landing_page/paw.png" alt="Paws" />
+                  </div>
+
+                  <div>
+                    <img
+                      src="/assets/images/landing_page/vendor-3.png"
+                      alt="Cat Image 3"
+                    />
+                  </div>
+
+                  <div>
+                    <img src="/assets/images/landing_page/paw.png" alt="Paws" />
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <!-- Secure Transaction -->
+      <section class="transaction margin--top-95">
+        <div class="container">
+          <div class="content grid-2-column align-items--center gap--200">
+            <div class="image-block">
+              <img
+                src="/assets/images/landing_page/trusted.png"
+                alt="Transaction Image"
+              />
+            </div>
+
+            <div class="text-block">
+              <h4 class="heading--h4">Trusted and Secure Transactions</h4>
+              <p class="margin--block-20">
+                Experience peace of mind with trusted, secure transactions for
+                every pet purchase and service booking. Your safety and
+                satisfaction come first!
+              </p>
+              <div class="sub-block">
+                <div
+                  class="flex-display gap--1 margin--bm-1 align-items--center"
+                >
+                  <span
+                    ><img
+                      width="22px"
+                      src="/assets/images/landing_page/check.png"
+                      alt="Check"
+                  /></span>
+                  <p>Get in touch directly with the Seller.</p>
+                </div>
+                <div class="flex-display gap--1 align-items--center">
+                  <span
+                    ><img
+                      width="22px"
+                      src="/assets/images/landing_page/check.png"
+                      alt="Check"
+                  /></span>
+                  <p>Get seamless transaction with Vet</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it Works -->
+      <section class="how-it-work padding--block-100 margin--top-95">
+        <div class="overlay-container"></div>
+        <div class="container--full-width">
+          <div class="content">
+            <div class="heading">
+              <div class="heading-text text-align--center">
+                <h2 class="heading--h2">How does PetOga work?</h2>
+                <p class="paragraph--md margin--block-20">
+                  PetOga works in 4 easy steps.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="content-block flex-display gap--2 padding--inline-120 margin--top-100"
+            >
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/hw-signup.png"
+                    alt="Sign up Image"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Sign up</h4>
+                  <p>
+                    Create an account to start your journey as a pet owner,
+                    seller, or vendor.
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/hw-browse-pet.png"
+                    alt="Browse Pet Image"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Browse Pet</h4>
+                  <p>
+                    Explore our diverse range of pets waiting for a loving home.
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/hw-adopt.png"
+                    alt="Adopt Image"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Adopt</h4>
+                  <p>
+                    Adopt your new best friend and manage their care with ease
+                    on pet dog.
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/hw-manage.png"
+                    alt="Manage Image"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Manage</h4>
+                  <p>
+                    Track vaccinations, appointments and receive expert advice
+                    for a happy healthy pet.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-container margin--top-10">
+              <a
+                class="button-default button--bg-primary"
+                href="/pages/signup.html"
+              >
+                Get Started</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Resources -->
+      <section class="blog padding--block-100">
+        <div class="container--full-width">
+          <div class="content">
+            <div class="heading">
+              <div class="heading-text text-align--center">
+                <h2 class="heading--h2">Blog Resources</h2>
+                <p class="paragraph--md margin--block-20">
+                  Read our professional articles and resources for pet care.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="content-block flex-display flex-wrap gap--2 padding--inline-120 margin--top-100"
+            >
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/blog-img-1.png"
+                    alt="Image 1"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Dog leash training</h4>
+                  <p>Dogs are known to be fond of taking walks....</p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/blog-img-2.png"
+                    alt="Image 2"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Pet Care</h4>
+                  <p>
+                    A simple pet care for new owners. From Fundamental to
+                    advance level.
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/blog-img-3.png"
+                    alt="Image 3"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>5 Essential Tips</h4>
+                  <p>
+                    Bringing a new pet into your home is exciting, but it can
+                    also feel overwhelming...
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/blog-img-4.png"
+                    alt="Image 4"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Choosing Perfect Pet</h4>
+                  <p>
+                    Selecting the right pet is an important decision that can
+                    bring..
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/blog-img-5.png"
+                    alt="Image 5"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Pets Nutrition Basics</h4>
+                  <p>
+                    Feeding your pet the right food is key to their health,
+                    happiness......
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="card-image-block">
+                  <img
+                    src="/assets/images/landing_page/blog-img-6.png"
+                    alt="Image 6"
+                  />
+                </div>
+                <div class="card-text-block">
+                  <h4>Homemade vs. Store-Bought:</h4>
+                  <p>
+                    Choosing between homemade meals and store-bought pet
+                    food....
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-container margin--top-10">
+              <a
+                class="button-default button--bg-primary"
+                href="/pages/signup.html"
+              >
+                Get Started</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials" class="testimonial margin--top-95">
+        <div class="container">
+          <div class="content">
+            <div class="heading">
+              <div class="heading-text text-align--center">
+                <h2 class="heading--h2">Testimonials</h2>
+                <p class="paragraph--md margin--block-20">
+                  Feedback from Amazing Clients.
+                </p>
+              </div>
+
+              <div class="content-block grid-2-column align-items--center">
+                <div class="previous">
+                  <span class="material-symbols-outlined">chevron_left</span>
+                </div>
+                <div class="image-block">
+                  <div class="previous-mobile">
+                    <span class="material-symbols-outlined">chevron_left</span>
+                  </div>
+                  <img
+                    src="/assets/images/landing_page/testimonial-img.png"
+                    alt="Testimonials"
+                  />
+                  <div class="next-mobile">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </div>
+                </div>
+
+                <div class="text-block">
+                  <div class="quote">
+                    <div>
+                      <img
+                        width="20px"
+                        src="/assets/images/landing_page/open-quote.png"
+                        alt=""
+                      />
+                    </div>
+                    <p>
+                      As a new pet owner, I used to worry about how to manage
+                      everything on my own. Thankfully, I discovered PetOga that
+                      provided me with the guidance and support I needed.
+                    </p>
+                    <div>
+                      <img
+                        width="20px"
+                        src="/assets/images/landing_page/close-quote.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+
+                  <div
+                    class="profile flex-display gap--2 align-items--center margin--block-20"
+                  >
+                    <img
+                      src="/assets/images/landing_page/testimonial-photo.png"
+                      alt="Profile photo"
+                    />
+                    <span>
+                      <p>Brenda Junior</p>
+                      <p>Virtual Assistant</p>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="next">
+                  <span class="material-symbols-outlined">chevron_right</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="faq margin--top-95">
+        <div class="container">
+          <div class="content grid-2-column">
+            <div class="heading">
+              <div class="heading-text">
+                <h2 class="heading--h2">FAQs</h2>
+                <p class="paragraph--sm margin--block-20">
+                  Find Answer to PetOga Frequently Asked Questions.
+                </p>
+              </div>
+            </div>
+
+            <div class="content-block">
+              <div class="block-card">
+                <div class="question">
+                  <p>How does PetOga work?</p>
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_down</span
+                  >
+                </div>
+                <div class="answer">
+                  <p>
+                    PetOga conects with you verified sellers and vet care online
+                    in a seamless and intuitive way
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="question">
+                  <p>Can I sell/rehome my pet on PetOga?</p>
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_down</span
+                  >
+                </div>
+                <div class="answer">
+                  <p>
+                    PetOga conects with you verified sellers and vet care online
+                    in a seamless and intuitive way
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="question">
+                  <p>How does PetOga work?</p>
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_down</span
+                  >
+                </div>
+                <div class="answer">
+                  <p>
+                    PetOga conects with you verified sellers and vet care online
+                    in a seamless and intuitive way
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="question">
+                  <p>Are the pet listed here verified?</p>
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_down</span
+                  >
+                </div>
+                <div class="answer">
+                  <p>
+                    PetOga conects with you verified sellers and vet care online
+                    in a seamless and intuitive way
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="question">
+                  <p>How do i contact seller?</p>
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_down</span
+                  >
+                </div>
+                <div class="answer">
+                  <p>
+                    PetOga conects with you verified sellers and vet care online
+                    in a seamless and intuitive way
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="question">
+                  <p>Can i re-sell my pet on PetOga?</p>
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_down</span
+                  >
+                </div>
+                <div class="answer">
+                  <p>
+                    PetOga conects with you verified sellers and vet care online
+                    in a seamless and intuitive way
+                  </p>
+                </div>
+              </div>
+
+              <div class="block-card">
+                <div class="question">
+                  <p>Is PetOga available as a mobile App?</p>
+                  <span class="material-symbols-outlined"
+                    >keyboard_arrow_down</span
+                  >
+                </div>
+                <div class="answer">
+                  <p>
+                    PetOga conects with you verified sellers and vet care online
+                    in a seamless and intuitive way
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Get Started -->
+      <section class="get-started">
+        <div class="container--full-width padding--block-100 margin--top-95">
+          <div class="content">
+            <div class="heading color--white-200">
+              <div class="heading-text text-align--center">
+                <h2 class="heading--h2">Start Caring for Your Pet Today!</h2>
+              </div>
+            </div>
+
+            <div class="btn-container margin--top-60">
+              <a
+                class="button-default button--bg-primary"
+                href="/pages/signup.html"
+                >Get Started</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container--full-width bg--secondary-400 padding--inline-100 padding--block-100 ">
-            <div class="content">
-                <div class="brief">
-                    <div class="navbar--brand">
-                        <a href="#">Pet<span>Oga</span></a>
-                    </div>
-
-                    <div class="mission">
-                        <p class="margin--block-20">Our mission is to make Adopting and caring for your perfect pet a seamless and enjoyable experience.</p>
-                    </div>
-
-                    <div class="btn-container margin--block-20">
-                        <a class="button-default button--bg-white" href="/pages/signup.html">Get Started</a>
-                    </div>
-
-                    <div class="copyright">
-                        <p>&COPY; 2024 PetOga. All rights reserved.</p>
-                    </div>
-                </div>
-
-                <div class="footer-nav gap--4">
-                    <div class="nav-links">
-                        <h5>Socials</h5>
-                        <ul role="list">
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">Pinterest</a></li>
-                            <li><a href="#">Our Blog</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="nav-links">
-                        <h5>Services</h5>
-                        <ul role="list">
-                            <li><a href="/pages/signup.html">Adopt a Pet</a></li>
-                            <li><a href="/pages/signup.html">Connect with Vet</a></li>
-                            <li><a href="/pages/signup.html">Extra Service</a></li>
-                            <li><a href="#overview">Who We Are</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="nav-links">
-                        <h5>Meet PetOga</h5>
-                        <ul role="list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#overview">Who We Are</a></li>
-                            <li><a href="#">How We Help</a></li>
-                            <li><a href="#">Meet Our Partners</a></li>
-                            <li><a href="#">Pinterest</a></li>
-                            <li><a href="/pages/contacts.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="nav-links">
-                        <h5>Support</h5>
-                        <ul role="list">
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="#">Partner WIth Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Cookie Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                </div>
+      <div
+        class="container--full-width bg--secondary-400 padding--inline-100 padding--block-100"
+      >
+        <div class="content">
+          <div class="brief">
+            <div class="navbar--brand">
+              <a href="#">Pet<span>Oga</span></a>
             </div>
+
+            <div class="mission">
+              <p class="margin--block-20">
+                Our mission is to make Adopting and caring for your perfect pet
+                a seamless and enjoyable experience.
+              </p>
+            </div>
+
+            <div class="btn-container margin--block-20">
+              <a
+                class="button-default button--bg-white"
+                href="/pages/signup.html"
+                >Get Started</a
+              >
+            </div>
+
+            <div class="copyright">
+              <p>&COPY; 2024 PetOga. All rights reserved.</p>
+            </div>
+          </div>
+
+          <div class="footer-nav gap--4">
+            <div class="nav-links">
+              <h5>Socials</h5>
+              <ul role="list">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">Our Blog</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-links">
+              <h5>Services</h5>
+              <ul role="list">
+                <li><a href="/pages/signup.html">Adopt a Pet</a></li>
+                <li><a href="/pages/signup.html">Connect with Vet</a></li>
+                <li><a href="/pages/signup.html">Extra Service</a></li>
+                <li><a href="#overview">Who We Are</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-links">
+              <h5>Meet PetOga</h5>
+              <ul role="list">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#overview">Who We Are</a></li>
+                <li><a href="#">How We Help</a></li>
+                <li><a href="#">Meet Our Partners</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="/pages/contacts.html">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-links">
+              <h5>Support</h5>
+              <ul role="list">
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#">Partner WIth Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 
-    <script src="/js/main.js">
-
-    </script>
-</body>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
